@@ -1,0 +1,1 @@
+<img src="{{asset('images/LOGOEG.png')}}" alt="LOGO" srcset="" width=150>

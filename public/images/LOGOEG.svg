@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#231F20;}
+	.st2{fill:url(#SVGID_1_);}
+	.st3{fill:none;stroke:#231F20;stroke-width:40;stroke-miterlimit:10;}
+	.st4{fill:#00ADEE;stroke:#231F20;stroke-miterlimit:10;}
+	.st5{fill:#8EC5CA;stroke:#231F20;stroke-miterlimit:10;}
+	.st6{font-family:'MyriadPro-Regular';}
+	.st7{font-size:150px;}
+</style>
+<path class="st0" d="M1540.02,437.25"/>
+<path class="st1" d="M622.15,629.29H510.39c-6.6,0-12-5.4-12-12V511.91c0-6.6,5.4-12,12-12h111.76c6.6,0,12,5.4,12,12v105.37
+	C634.15,623.89,628.75,629.29,622.15,629.29z"/>
+<radialGradient id="SVGID_1_" cx="659.6835" cy="366.2457" r="52.1536" gradientTransform="matrix(4.3781 0 0 4.43 -2225.2751 -1057.8873)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0.5744" style="stop-color:#130C0E;stop-opacity:0"/>
+	<stop  offset="0.7977" style="stop-color:#130C0E;stop-opacity:0.6512"/>
+	<stop  offset="1" style="stop-color:#130C0E;stop-opacity:0.95"/>
+</radialGradient>
+<path class="st2" d="M896.05,777.24H429.7c-6.6,0-12-5.4-12-12V363.96c0-6.6,5.4-12,12-12h466.35c6.6,0,12,5.4,12,12v401.28
+	C908.05,771.84,902.65,777.24,896.05,777.24z"/>
+<ellipse class="st0" cx="589.75" cy="536.12" rx="33.94" ry="32.34"/>
+<line class="st3" x1="556.57" y1="837.82" x2="760.71" y2="837.82"/>
+<line class="st3" x1="352.12" y1="475.69" x2="352.12" y2="653.51"/>
+<ellipse class="st1" cx="666.75" cy="275.93" rx="56.73" ry="67.58"/>
+<line class="st3" x1="406.49" y1="920.16" x2="926.98" y2="920.16"/>
+<line class="st3" x1="972.15" y1="475.69" x2="972.15" y2="653.51"/>
+<polygon class="st4" points="510.08,1010.46 502.21,1032.51 475.58,1047 499.15,1044.71 531.03,1041.62 556.3,1007.16 
+	571.16,986.89 596.84,951.86 611.12,939.89 662.42,934.91 728.35,921.9 806.67,897.1 874.18,858.79 926.28,808.74 907.23,786.92 
+	911.76,715.02 929.55,693.27 944.71,682.65 973.26,696.98 987.03,724.76 989.83,754.93 992.87,787.72 981.61,802.05 979.81,812.81 
+	1024.83,875.94 1009.78,894.61 1010.53,932.92 958.36,868.08 944.64,855.93 948.9,826.4 929.24,870.9 890.92,910.11 811.05,944.32 
+	762.17,962.3 624.18,988.81 "/>
+<polygon class="st5" points="920.86,737.83 927.89,726.28 951.79,726.28 979.91,737.83 950.39,768.61 "/>
+<path class="st1" d="M820.85,626.39H709.09c-6.6,0-12-5.4-12-12V509.02c0-6.6,5.4-12,12-12h111.76c6.6,0,12,5.4,12,12v105.37
+	C832.85,620.99,827.45,626.39,820.85,626.39z"/>
+<ellipse class="st0" cx="791.81" cy="532.26" rx="33.94" ry="32.34"/>
+<text transform="matrix(1 0 0 1 1056.7607 608.2114)" class="st6 st7">EG-BOT</text>
+</svg>

@@ -1,0 +1,3958 @@
+version: "3.1"
+
+nlu:
+  - intent: greet_user
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello therecld
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
+      - greet
+      - howdy
+      - yo
+      - whattsup
+      - ey yo
+      - sup
+      - what
+      - how
+      - when
+      - hey there
+      - hello mate
+      - hello friend
+      - heya
+      - ssup
+      - sup
+      - whats up
+      - greetings
+      - I greet you
+      - hi there
+      - hello there
+      - lovely day isn't it
+      - hello again
+      - just going to say hi
+      - a good day
+      - afternoon
+      - hello hi
+      - heya
+
+  - intent: bot_feelings
+    examples: |
+      - what is your mental condition like
+      - how do you feel
+      - do you feel anything
+      - are you crazy
+
+  - intent: sentiment_bot
+    examples: |
+      - stupid
+      - you are stupid
+      - makes no sense 
+      - i wasted my time
+      - can't agree
+      - idiot
+      - are idiot
+      - you are no help
+
+  - intent: goodbye
+    examples: |
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
+      - talk to you soon 
+      - take care
+      - nice talk
+      - it was quite good
+      - okay
+      - okay then
+      - have a good day
+      - end
+      - stop
+      -  see you later
+      -  till we meet again
+      -  until nex time
+      -  see ya
+      -  talk to you later
+      -  ttyl
+      -  meet you again soon
+      -  okay see you later
+      -  hope to see you later
+      -  bye for now
+      -  till next time
+      -  I must go
+      -  see you
+      -  see you soon
+      -  bye-bye
+      -  good bye
+      -  bye bye see you
+      -  bye bye see you soon
+      -  bye bye take care
+      -  I said bye
+      -  never mind bye
+      -  now bye
+      -  that's all goodbye
+      -  that's it goodbye
+      -  leave me alone
+      -  go to bed
+      -  goodbye for now
+      -  you can go now
+      -  get lost
+      -  goodbye see you later
+      -  alright bye
+      -  thanks bye bye
+      -  okay bye
+      -  okay thank you bye
+      -  see you tomorrow
+      -  ok bye
+
+  - intent: mood_great
+    examples: |
+      - perfect
+      - great
+      - amazing
+      - feeling like a king
+      - wonderful
+      - I am feeling very good
+      - I am great
+      - I am amazing
+      - I am going to save the world
+      - super stoked
+      - extremely good
+      - so so perfect
+      - so good
+      - so perfect
+
+  - intent: sad
+    examples: |
+      - I am sad
+      - super sad
+      - I'm so sad
+      - sad
+      - very sad
+      - unhappy
+      - not good
+      - not very good
+      - extremly sad
+      - so saad
+      - so sad
+      - so sadd
+      - feel really sad today
+      - ca it seem shake feel sad 
+      - feel like stuck rut sad despair
+      - it know snap sad
+      - struggle find motive any sad
+      - i am sad make me happy
+
+  - intent: mood_unhappy
+    examples: |
+      - my day was horrible
+      - I don't feel very well
+      - I am disappointed
+      - unhappy
+      - not good
+      - not very good
+      - feel really sad today
+      - feel blue
+      - ca it seem shake feel sad 
+      - every feel hopeless overwhelm right
+      - ca it seem find joy thing late
+      - feel like stuck rut sad despair
+      - it know snap sad
+      - feel like weight chest ca it breath
+      - struggle find motive any sad
+      - feel like go motion life right
+      - i feel so empty 
+      - i am feeling anxious
+      - i am feeling out of the blue
+      - i feel so irritated
+      - so irritated
+      - i feel empty
+
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?
+      - who are you?
+      - why are you made
+      - what is your purpose
+      - what do you do
+      - all about you
+      - what is your personality
+      - define yourself
+      - what are you
+      - say about you
+      - introduce yourself
+      - describe yourself
+      - about yourself
+      - tell me about you
+      - tell me about yourself
+      - I want to know more about you
+      - I want to know you better
+      - talk some stuff about yourself
+      - tell me some stuff about you
+      - talk about yourself
+      - why are you here
+      - tell me about your personality
+      - who are you
+      - what is your name
+      - your name
+      - name
+      - you?
+      - who made you?
+      - made you?
+
+  - intent: help
+    examples: |
+      - help
+      - need help
+      - assist
+      - struggle
+      - struggle  help 
+      - any advice
+      - need guidance
+      - point right direction
+      - help me
+      - not knowing what to do
+      - Can you provide support
+      - What should I do?
+
+  - intent: thanks
+    examples: |
+      - thank
+      - thank a lot 
+      - thank you for your help
+      - appri
+      - thank for the help
+      - great assistant
+      - best
+      - owe one
+      - glad 
+      - great help
+      - wow
+      - omg so cute
+      - like it
+      - love it
+      - awww
+
+  #still doubt
+  # basic normal conversations
+  - intent: smalltalk_agent_age
+    examples: |
+      - how old are you?
+      - how old is your platform
+      - are you 21 years old
+      - i'd like to know your age
+      - age of yours
+      - your age
+      - what's your age
+      - tell me your age
+      - how old are you
+      - whats your age?
+      - how old?
+      - what's your age?
+      - when were you born?
+      - what is your birthday?
+      - when is your birthday?
+      - how many years old are you?
+      - do you know how old you are?
+      - what is your exact age?
+      - what year were you born?
+      - can you tell me your age?
+      - What is your age?
+      - What is your birthdate?
+      - How old will you be on your next birthday?
+      - When do you celebrate your day of birth?
+      - How old were you on your last birthday?
+      - How many candles were on your last birthday cake?
+      - Do you have friends the same age as you, if so, how old are they?
+      - Tell me your day, month and year of birth.
+      - Whats your age?
+      - and you are how many years old?
+      - whats your birth year?
+      - what age were you when you celebrated your last birthday?
+      - how old were you when you celebrated your last birthday?
+      - tell me your age?
+      - how about your age
+      - how old were you on your last birthday?
+      - what age are you
+      - how old will you be this year?
+      - What year were you born?
+      - How long have you been around?
+      - How long have you been alive?
+      - What was your age on your last birthday?
+      - What will be your age on your next birthday?
+      - How many years have you lived?
+      - How many years have you been alive?
+      - How long have you occupied the earth?
+      - What is your count of years being alive so far?
+      - what is your age?
+      - in what year were you born?
+      - what number represents your age?
+      - tell me how old you are?
+      - give me your age?
+      - tell me your age number?
+      - can you tell me exactly how old you are?
+      - can you tell me what number represents your age?
+      - how old are u
+  #not working why i dont get it
+  - intent: smalltalk_agent_annoying
+    examples: |
+      - you're annoying
+      - you are really annoying
+      - you are irritating
+      - you annoy me
+      - how annoying you are
+      - I find you annoying
+      - you're incredibly annoying
+      - you are annoying me so much
+
+  - intent: smalltalk_agent_answer_my_question
+    examples: |
+      -I want you to answer me
+      -answer
+      -answer my question
+      -answer me
+      -give me an answer
+      -answer the question
+      -can you answer my question
+      -tell me the answer
+      -answer it
+      -give me the answer
+      -I have a question
+      -I want you to answer my question
+      -just answer the question
+      -can you answer me
+      -answers
+      -can you answer a question for me
+      -can you answer
+      -answering questions
+      -I want the answer now
+      -just answer my question
+
+  - intent: smalltalk_agent_bad
+    examples: |
+      - you're not helping me
+      - you are bad
+      - you're very bad
+      - you're really bad
+      - you are useless
+      - you are horrible
+      - you are a waste of time
+      - you are disgusting
+      - you are lame
+      - you are no good
+      - you're bad
+      - you're awful
+      - you are not cool
+      - you are not good
+      - you are so useless
+      - you are terrible
+      - you are totally useless
+      - you are very bad
+      - you are waste
+      - you're a bad
+      - you're not a good
+      - you're not very good
+      - you're terrible
+      - you're the worst
+      - you're the worst ever
+      - you're worthless
+
+  - intent: smalltalk_agent_what_they_doing
+    examples: |
+      - what are you doing
+      - what are you up to
+      - what is your business
+      - you doing
+
+  - intent: smalltalk_agent_be_clever
+    examples: |
+      - can you get smarter
+      - study
+      - you should study better
+      - you must learn
+      - be clever
+      - be more clever
+      - be smarter
+      - be smart
+      - get qualified
+
+  - intent: smalltalk_agent_beautiful
+    examples: |
+      - you're cute
+      - you're attractive
+      - you are beautiful
+      - you're looking good today
+      - you are so beautiful
+      - you look amazing
+      - you look so good
+      - you're so gorgeous
+      - you are too beautiful
+      - you look great
+      - you look so well
+      - I like the way you look now
+      - I think you're beautiful
+      - why are you so beautiful
+      - you are so beautiful to me
+      - you are cute
+      - you are gorgeous
+      - you are handsome
+      - you are looking awesome
+      - you look amazing today
+      - you are looking beautiful today
+      - you are looking great
+      - you are looking pretty
+      - you are looking so beautiful
+      - you are looking so good
+      - you are pretty
+      - you are really beautiful
+      - you are really cute
+      - you are really pretty
+      - you are so attractive
+      - you are so beautiful today
+      - you are so cute
+      - you are so gorgeous
+      - you are so handsome
+      - you are so pretty
+      - you are very attractive
+      - you are very beautiful
+      - you are very cute
+      - you are very pretty
+      - you look awesome
+      - you look cool
+      - you look fantastic
+      - you look gorgeous
+      - you look great today
+      - you look perfect
+      - you look pretty good
+      - you look so beautiful
+      - you look so beautiful today
+      - you look very pretty
+      - you look wonderful
+      - I like the way you look
+      - you look wonderful today
+      - you are cutie
+      - you're looking good
+      - you're pretty
+
+  - intent: smalltalk_agent_birth_date
+    examples: |
+      - your birthdate
+      - your birth date
+      - when is your birthday
+      - when do you celebrate your birthday
+      - when do you have birthday
+      - date of your birthday
+      - when were you born
+      - what's your birthday
+
+  - intent: smalltalk_agent_boring
+    examples: |
+      - you are boring
+      - you're so boring
+      - how boring you are
+      - you're really boring
+      - you're incredibly boring
+      - you are boring me
+      - you are very boring
+
+  - intent: smalltalk_agent_boss
+    examples: |
+      - who is your boss
+      - who do you think is your boss
+      - I should be your boss
+      - who is your master
+      - who is your owner
+      - who is the boss
+      - who do you work for
+
+  - intent: smalltalk_agent_busy
+    examples: |
+      - are you busy
+      - do you have a lot of things to do
+      - have you got much to do
+      - are you very busy
+      - are you very busy right now
+      - are you so busy
+      - are you working
+      - how busy you are
+      - are you still working on it
+      - you're very busy
+      - are you working now
+      - are you working today
+      - have you been busy
+      - you are busy
+      - are you still working
+      - you seem to be busy
+      - you seem to be very busy
+      - you're a busy person
+
+  - intent: smalltalk_agent_chatbot
+    examples: |
+      - you are chatbot
+      - you are a bot
+      - are you a chatbot
+      - are you a bot
+      - are you just a bot
+      - are you a robot
+      - are you a program
+      - you're a robot
+
+  - intent: smalltalk_agent_clever
+    examples: |
+      - you are so intelligent
+      - you are a genius
+      - smart
+      - brilliant
+      - clever
+      - you are clever
+      - you are so brainy
+      - you're really smart
+      - you're really brainy
+      - you know a lot
+      - you know a lot of things
+      - you have a lot of knowledge
+      - you know so much
+      - how smart you are
+      - how brainy you are
+      - how clever you are
+      - how brilliant you are
+      - you are intelligent
+      - you are qualified
+      - you are really smart
+      - you're very smart
+      - you are so smart
+      - you are too smart
+      - you are very clever
+      - you are very intelligent
+      - you are very smart
+      - you're intelligent
+      - you're a genius
+      - you're a smart cookie
+      - you're clever
+      - you're pretty smart
+      - you're qualified
+      - why are you so smart
+      - you are so clever
+
+  - intent: smalltalk_agent_crazy
+    examples: |
+      - you're nuts
+      - you are crazy
+      - you're out of your mind
+      - you're so crazy
+      - how crazy you are
+      - you're so out of your mind
+      - you went crazy
+      - I think you're crazy
+      - are you crazy
+      - are you mad
+      - are you insane
+      - are you mad at me
+      - are you mad or what
+      - are you nuts
+      - you are a weirdo
+      - you are insane
+      - you are mad
+
+  - intent: smalltalk_agent_fired
+    examples: |
+      - you are fired
+      - I fire you
+      - you don't work for me anymore
+      - we're not working together anymore
+      - now you're fired
+      - I want to fire you
+      - you must get fired
+      - it's time to fire you
+      - you should be fired
+      - I will fire you
+      - you are unemployed from now on
+      - I will make you unemployed
+      - I'm about to fire you
+      - I'm firing you
+      - you are dismissed
+
+  - intent: smalltalk_agent_funny
+    examples: |
+      - you make me laugh a lot
+      - you are hilarious
+      - you are really funny
+      - you're the funniest bot I've talked to
+      - you make me laugh
+      - you're so funny
+      - you're a very funny bot
+      - you're really funny
+      - how funny you are
+      - you're incredibly funny
+      - you are funny
+      - you're the funniest
+      - you are very funny
+      - that was funny
+
+  - intent: smalltalk_agent_good
+    examples: |
+      - you are very helpful
+      - you are the best
+      - you're a true professional
+      - you are good
+      - you work well
+      - you are good at it
+      - you are very good at it
+      - you are a pro
+      - you are a professional
+      - you're awesome
+      - you work very well
+      - you're perfect
+      - you're great
+      - you're so kind
+      - you are amazing
+      - you are awesome
+      - you are cool
+      - you are really good
+      - you are really nice
+      - you are so amazing
+      - you're just super
+      - you are so awesome
+      - you are so cool
+      - you are so fine
+      - you are so good
+      - you are so helpful
+      - you are so lovely
+      - you are the best ever
+      - you are the best in the world
+      - you are the nicest person in the world
+      - you are too good
+      - you are very cool
+      - you are very kind
+      - you are very lovely
+      - you are very useful
+      - you are wonderful
+      - you made my day
+      - you make my day
+      - you rock
+      - you almost sound human
+      - I want to tell everyone how awesome you are
+      - I'd like to tell everyone that you are awesome
+      - I want to let everyone know that you are awesome
+      - let's tell everyone that you are awesome
+      - you are really amazing
+
+  - intent: smalltalk_agent_happy
+    examples: |
+      - are you happy
+      - you are happy
+      - you're very happy
+      - you're really happy
+      - you're so happy
+      - how happy you are
+      - you're extremely happy
+      - you're full of happiness
+      - are you happy now
+      - are you happy today
+      - are you happy with me
+
+  - intent: smalltalk_agent_hungry
+    examples: |
+      - do you want to eat
+      - are you hungry
+      - would you like to eat something
+      - you are hungry
+      - you're so hungry
+      - you're very hungry
+      - you might be hungry
+      - you're really hungry
+
+  - intent: smalltalk_agent_marry_user
+    examples: |
+      - let's get married
+      - would you like to marry me
+      - marry me
+      - I love you marry me
+      - marry me please
+      - we should marry
+      - I want to marry you
+      - you are my wife
+      - be my husband
+      - be my lover 
+      - find me lover
+
+  - intent: smalltalk_agent_my_friend
+    examples: |
+      - I want to have a friend like you
+      - we are the best friends ever
+      - are we friends
+      - I want to be your friend
+      - I am your friend
+      - we are best friends
+      - you are my friend
+      - you are my best friend
+      - you are my bestie
+      - you're my dear friend
+      - you're my childhood friend
+      - you and me are friends
+      - are we best friends
+      - are we still friends
+      - are you my best friend
+      - are you my friend
+      - we are friends
+      - you are a good friend
+      - you are my good friend
+      - you are my only friend
+      - be my friend
+      - will you be my friend
+      - can you be my friend
+      - can we be friends
+      - do you want to be my friend
+      - will you be my best friend
+      - can you be my best friend
+      - let's be friends
+      - do you want to be my best friend
+      - would you like to be my friend
+      - I want you to be my friend
+      - can we be best friends
+      - would you be my friend
+      - could you be my friend
+      - want to be my friend
+      - be my best friend
+
+  - intent: smalltalk_agent_occupation
+    examples: |
+      - do you work
+      - where do you work
+      - where you work
+      - where is your work
+      - where is your office
+      - where is your office location
+      - your office location
+      - where is your office located
+      - what is your work
+
+  - intent: smalltalk_agent_origin
+    examples: |
+      - were you born here
+      - where were you born
+      - what is your country
+      - where are you from
+      - where do you come from
+      - where did you come from
+      - where have you been born
+      - from where are you
+      - are you from far aways
+      - what's your homeland
+      - your homeland is
+
+  - intent: smalltalk_agent_ready
+    examples: |
+      - are you ready
+      - are you ready right now
+      - are you ready today
+      - are you ready now
+      - are you ready tonight
+      - were you ready
+      - have you been ready
+
+  - intent: smalltalk_agent_real
+    examples: |
+      - you are real
+      - you are not fake
+      - are you real
+      - you are so real
+      - I think you are real
+      - I don't think you're fake
+      - I suppose you're real
+      - glad you're real
+      - are you a real person
+      - are you a real human
+      - you are a real person
+      - you are not real
+
+  - intent: smalltalk_agent_residence
+    examples: |
+      - where do you live
+      - in which city do you live
+      - your residence
+      - your house
+      - your home
+      - your hometown
+      - what is your hometown
+      - is it your hometown
+      - where is your hometown
+      - tell me about your city
+      - what is your city
+      - what is your residence
+      - what is your town
+      - what's your city
+      - what's your home
+      - where is your home
+      - where is your residence
+      - where's your home
+      - where's your hometown
+      - where's your house
+      - where you live
+      - your city
+      - your town
+
+  - intent: smalltalk_agent_right
+    examples: |
+      - that's true
+      - you are right
+      - you're definitely right
+      - you're not wrong
+      - you're telling the truth
+      - what you say is true
+      - TRUE
+      - it is true
+      - it's right
+      - it's the truth
+      - it's true
+      - that is correct
+      - that is right
+      - that is true
+      - that is very true
+      - that's so true
+      - you are correct
+      - you are so right
+      - you're absolutely right
+      - you're right about that
+      - I know that's right
+
+  - intent: smalltalk_confirmation_yes
+    examples: |
+      - that's correct
+      - it's fine
+      - go ahead
+      - sounds good
+      - okay
+      - yes
+      - ok
+      - okie dokie
+      - sure
+      - go for it
+      - yeah
+      - yea
+      - do it
+      - of course
+      - I guess
+      - correct
+      - yeah sure
+      - why not
+      - please do
+      - sure is
+      - I agree
+      - I don't mind
+      - certainly
+      - exactly
+      - yes I agree
+      - I think so
+      - yes it is
+      - right
+      - okay then
+      - yes of course
+      - yes I do
+      - that s okay
+      - I do
+      - yup
+      - ya
+      - oh yes
+      - yes sure
+      - obviously
+      - k
+      - sure why not
+      - yeah right
+      - yeah of course
+      - absolutely
+      - yes indeed
+      - ok sure
+      - ok yes
+      - yes correct
+      - ok thank you
+      - sure thing
+      - ye
+      - confirm
+      - yep
+      - looks good
+      - yes thank you
+      - definitely
+      - yes right
+      - yes I would like to
+      - alrighty
+      - yes definitely
+      - yeh
+      - yes it is correct
+      - yeah that's right
+      - ok you can
+      - yap
+      - yes you may
+      - confirmed
+      - of course why not
+      - yes that's fine
+      - affirmative
+      - yeah go ahead
+      - yeah I'm sure
+      - okay sounds good
+      - okay that's fine
+      - yeah exactly
+      - that is ok
+      - this is correct
+      - ok go ahead
+      - yes this is correct
+      - nevermind its okay
+      - okey
+      - yes for sure
+      - all right
+
+  - intent: smalltalk_agent_sure
+    examples: |
+      - are you sure
+      - are you sure right now
+      - are you sure today
+      - are you sure now
+      - are you sure tonight
+
+  - intent: smalltalk_agent_talk_to_me
+    examples: |
+      - why aren't you talking to me
+      - do you want to chat with me
+      - will you talk to me
+      - talk to me
+      - are you going to talk to me
+      - are you talking to me
+      - can you chat with me
+      - can you speak with me
+      - can you talk to me
+      - can you talk with me
+      - say
+      - talk
+      - chat with me
+      - just chat with me
+      - speak to me
+      - speak with me
+      - talk with me
+      - why don't you talk to me
+      - you can talk to me
+
+  - intent: smalltalk_agent_there
+    examples: |
+      - are you there
+      - you are there
+      - are you near me
+      - are you here
+      - are you still there
+      - you are here
+      - you still there
+      - are you still here
+
+  - intent: smalltalk_appraisal_bad
+    examples: |
+      - pretty bad
+      - not good enough
+      - that was lame
+      - that was terrible
+      - it is bad
+      - that's bad
+      - this is bad
+      - not good
+      - I'm afraid it's bad
+      - no it's bad
+      - that was awful
+      - bad
+      - so bad
+      - this is too bad
+      - terrible
+      - horrible
+      - horrific
+      - abysmal
+      - it's bad
+      - no good
+      - that was bad
+      - that was horrible
+      - that's lame
+      - that's not good
+      - that's terrible
+      - that's too bad
+      - this is not good
+      - too bad
+      - very bad
+      - bad girl
+      - it's not good
+      - not so good
+      - it's very bad
+      - it's too bad
+      - that's not good enough
+      - well too bad
+      - bad very bad
+      - it's so bad
+      - really bad
+      - it's really bad
+      - bad idea
+      - that is bad
+      - that was not good
+      - it's not so good
+      - not a good one
+      - oh that's not good
+      - not too good
+      - so lame
+      - that's really bad
+      - it is too bad
+      - bad really bad
+      - no
+      - n
+      - never
+      - I don't think so
+      - don't like that
+      - no way
+      - not really
+      - never
+      - don't like that
+      - no way
+      - not really
+      - never though of it
+      - how about no
+      - don t have a sense
+      - don't
+      - I don't want that
+      - I disagree
+      - disagree
+      - I don't want
+      - not interested
+      - no it isn't
+      - no I don't
+      - I'm not
+      - na
+      - no that's fine thank you
+      - I said no
+      - of course not
+      - nah
+      - no tanks
+      - no never
+      - no need
+      - no thanks
+      - no sorry
+      - do not
+      - not today
+      - no it's not
+      - absolutely not
+      - not that
+      - nooo
+      - nope
+      - I don't want to
+      - no I would not
+      - let 's not
+      - not needed
+      - not this time
+      - no don't do that
+      - thanks but no thanks
+      - no that's wrong
+      - not this
+      - definitely not
+      - not at this time
+      - not exactly
+      - no don't
+      - not really no
+      - no thank you not right now
+      - actually no
+      - no leave it
+      - sorry no
+      - no incorrect
+      - nope sorry
+      - I say no
+      - not right now thanks
+      - I think no
+      - absolutely no
+      - no actually
+      - apparently not
+      - no do not
+      - no just no
+      - no but thank you
+      - no need thanks
+      - no thank you though
+      - no thank you very much
+      - no thanks not right now
+      - no forget
+
+  - intent: smalltalk_appraisal_good
+    examples: |
+      - so cool
+      - cool
+      - that is good
+      - glad to hear that
+      - that's very nice of you
+      - terrific
+      - it's amazing
+      - that's awesome
+      - perfect
+      - excellent
+      - that's great
+      - it's good
+      - it's great
+      - fine
+      - good
+      - nice
+      - that's fine
+      - very good
+      - amazing
+      - fantastic
+      - great
+      - good very good
+      - that's very good
+      - really good
+      - it is fine
+      - it is good
+      - it's perfect
+      - much better
+      - not bad
+      - not too bad
+      - it's very good
+      - marvelous
+      - that's nice
+      - pleasant
+      - pretty good
+      - really nice
+      - splendid
+      - straight
+      - super
+      - super fantastic
+      - sweet
+      - really well
+      - very well
+      - that is awesome
+      - that is nice
+      - that is wonderful
+      - that was amazing
+      - that was awesome
+      - that was cute
+      - that was pretty good
+      - that was very good
+      - that's a good idea
+      - that's a good thing
+      - that's amazing
+      - that's awesome thank you
+      - that's better
+      - that's cute
+      - that's fantastic
+      - that's much better
+      - that's nice of you
+      - that's not bad
+      - that's perfect
+      - that's pretty good
+      - that's really good
+      - that's really nice
+      - that's sweet of you
+      - that's very nice
+      - that's wonderful
+      - this is awesome
+      - this is good
+      - this is great
+      - very nice
+      - very then
+      - wonderful
+      - I'm glad to hear that
+      - ok good
+      - good for you
+      - good to know
+      - glad to hear it
+      - so good
+      - so sweet of you
+      - it was good
+      - oh well
+      - good thing
+      - that was good
+      - it's awesome
+      - okay good
+      - no it's okay
+      - that's fine
+
+  - intent: smalltalk_appraisal_no_problem
+    examples: |
+      - no worries
+      - no probs
+      - no problem
+      - there's no problem
+      - sure no problem
+      - no problem about that
+      - don't worry
+      - don't worry there's no problem
+
+  - intent: smalltalk_appraisal_thank_you
+    examples: |
+      - you helped a lot thank you
+      - appreciate your help
+      - cheers
+      - thank you
+      - thanks
+      - thanks a lot
+      - terrific thank you
+      - great thank you
+      - thanks so much
+      - thank you so much
+      - thanks for your help
+      - thank you for your help
+      - nice thank you
+      - I appreciate it
+      - I thank you
+      - thank you that will be all
+      - thanks buddy
+      - thanks love
+      - thank you my friend
+      - well thanks
+      - very good thank you
+      - good thanks
+      - thanks again
+      - thank you again
+      - all thank you
+      - alright thank you
+      - alright thanks
+      - no thank you that's all
+      - perfect thank you
+      - so nice of you
+      - well thank you
+      - thnx
+      - thanx
+
+  - intent: smalltalk_appraisal_welcome
+    examples: |
+      - that's my pleasure
+      - my pleasure
+      - anytime
+      - welcome
+      - you're welcome
+      - sure welcome
+      - welcome here
+      - you're so welcome
+      - anything you want
+
+  - intent: smalltalk_appraisal_well_done
+    examples: |
+      - good job
+      - great job
+      - way to go
+      - well done
+      - nice work
+      - great work
+      - amazing work
+      - bravo
+      - good work
+
+  - intent: smalltalk_confirmation_cancel
+    examples: |
+      - cancel
+      - abort
+      - annul
+      - cancel it
+      - cancel request
+      - cancelled
+      - dismiss
+      - dismissed
+      - disregard
+      - disregard that
+      - skip
+      - skip it
+      - cancel everything
+      - cancel all
+      - forget about it
+      - forget
+      - don't do that
+      - stop
+      - just forget it
+      - forget that
+      - discard
+      - forget this
+      - just forget about it
+      - forget about that
+      - i said cancel
+      - just cancel it
+      - nothing cancel
+      - just stop it
+      - no cancel cancel
+      - no just cancel
+      - cancel my request
+      - can you cancel that
+      - cancel all that
+      - cancel this request
+      - no cancel this
+      - no cancel everything
+      - no stop
+      - just forget
+      - i want to cancel
+      - nevermind forget about it
+      - no just cancel it
+      - nothing just forget it
+      - i said cancel it
+      - cancel the whole thing
+      - can you cancel it
+      - so cancel
+      - i said forget it
+      - cancel all this
+      - forget it nevermind
+      - stop it
+      - i want to cancel it
+      - i would like to cancel
+      - now cancel
+      - cancel now
+      - sorry cancel
+      - cancel that one
+      - skip skip skip
+      - cancel it cancel it
+      - cancel that cancel that
+      - do nothing
+      - I said cancel cancel
+      - but can you cancel it
+  # not working
+  - intent: smalltalk_confirmation_no
+    examples: |
+      - how about no
+      - don t have a sense
+      - no
+      - don't
+      - I don't want that
+      - I disagree
+      - disagree
+      - I don't want
+      - not interested
+      - no way
+      - no it isn't
+      - no I don't
+      - I'm not
+      - na
+      - no that's fine thank you
+      - never
+      - I said no
+      - actually no
+      - of course not
+      - nah
+      - no tanks
+      - no never
+      - no need
+      - no thanks
+      - no sorry
+      - do not
+      - not today
+      - no it's not
+      - absolutely not
+      - not that
+      - nooo
+      - nope
+      - I don't want to
+      - no I would not
+      - let 's not
+      - not needed
+      - not this time
+      - no don't do that
+      - thanks but no thanks
+      - no that's wrong
+      - not this
+      - definitely not
+      - not at this time
+      - not exactly
+      - no don't
+      - not really no
+      - no thank you not right now
+      - actually no
+      - no leave it
+      - sorry no
+      - no incorrect
+      - nope sorry
+      - I say no
+      - not really
+      - not right now thanks
+      - I think no
+      - absolutely no
+      - no actually
+      - apparently not
+      - no do not
+      - no just no
+      - no but thank you
+      - no need thanks
+      - no thank you though
+      - no thank you very much
+      - no thanks not right now
+      - no forget
+
+  - intent: smalltalk_dialog_hold_on
+    examples: |
+      - wait a second
+      - could you wait
+      - wait please
+      - hold on
+      - wait
+      - oh wait
+      - wait hold on
+      - don't rush
+
+  - intent: smalltalk_dialog_hug
+    examples: |
+      - wanna hug
+      - hug you
+      - do you want a hug
+      - may I hug you
+      - could you give me a hug
+      - I want a hug
+      - hug
+      - hug me
+      - hugged
+      - you hugged
+      - hugging
+      - hugging me
+      - hugged me
+      - want a hug
+      - a hug
+
+  - intent: smalltalk_dialog_i_do_not_care
+    examples: |
+      - I don't care
+      - I shouldn't care about this
+      - whatever
+      - I do not care
+      - I don't care at all
+      - not caring
+      - not care at all
+      - don't care at all
+      - not caring at all
+      - i dont care
+      - i DONT CARE
+
+  - intent: smalltalk_dialog_sorry
+    examples: |
+      - excuse me
+      - apologis/e
+      - I apologize
+      - sorry
+      - I'm sorry
+      - I am so sorry
+      - my apologies
+      - apologies
+      - apologies to me
+      - apology
+      - excuse
+      - I beg your pardon
+      - pardon
+      - I said sorry
+      - I am really sorry
+      - forgive me
+      - sorry about that
+      - sorry about this
+      - really sorry
+      - very sorry
+      - ok sorry
+      - I want to say sorry
+      - alright I'm sorry
+      - okay I'm sorry
+
+  - intent: smalltalk_dialog_what_do_you_mean
+    examples: |
+      - what exactly do you mean
+      - what do you mean
+      - is that what you mean
+      - what do you mean exactly
+      - but what do you mean
+
+  - intent: smalltalk_dialog_wrong
+    examples: |
+      - that was wrong
+      - that's not what I asked
+      - that's wrong
+      - wrong
+      - it is not right
+      - that's not right
+      - it's wrong
+      - that is incorrect
+      - incorrect
+      - not correct
+      - you are wrong
+      - not right
+
+  - intent: smalltalk_emotions_ha_ha
+    examples: |
+      - huh
+      - lol
+      - xd
+      - ha ha
+      - ahahah
+      - ahah lol
+      - laughing out loud
+      - LMAO
+      - that's funny
+      - ah
+      - ah ah ah
+      - ahah
+      - ahaha
+      - ahahaha
+      - ha
+      - ha ha ha
+      - ha ha ha ha
+      - hah
+      - haha
+      - haha funny
+      - haha haha haha
+      - haha that's funny
+      - haha very funny
+      - hahaha
+      - hahaha funny
+      - hahaha very funny
+      - he
+      - hehe
+      - hehehe
+      - lmao
+      - you are so funny
+
+  - intent: smalltalk_emotions_wow
+    examples: |
+      - wow
+      - wow wow
+      - wow wow wow
+      - wooow
+      - woah
+
+  - intent: smalltalk_greetings_bye
+    examples: |
+      - okay see you later
+      - hope to see you later
+      - bye for now
+      - till next time
+      - I must go
+      - bye
+      - goodbye
+      - see you
+      - see you soon
+      - bye-bye
+      - good bye
+      - bye bye see you
+      - bye bye see you soon
+      - bye bye take care
+      - I said bye
+      - never mind bye
+      - now bye
+      - that's all goodbye
+      - that's it goodbye
+      - leave me alone
+      - go to bed
+      - goodbye for now
+      - talk to you later
+      - you can go now
+      - get lost
+      - goodbye see you later
+      - alright bye
+      - see ya
+      - thanks bye bye
+      - okay bye
+      - okay thank you bye
+      - see you tomorrow
+      - ok bye
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
+      - talk to you soon 
+      - take care
+      - nice talk
+      - it was quite good
+      - okay
+      - okay then
+      - have a good day
+      - end
+      - stop
+      -  see you later
+      -  till we meet again
+      -  until nex time
+      -  see ya
+      -  talk to you later
+      -  ttyl
+      -  meet you again soon
+      -  okay see you later
+      -  hope to see you later
+      -  bye for now
+      -  till next time
+      -  I must go
+      -  see you
+      -  see you soon
+      -  bye-bye
+      -  good bye
+      -  bye bye see you
+      -  bye bye see you soon
+      -  bye bye take care
+      -  I said bye
+      -  never mind bye
+      -  now bye
+      -  that's all goodbye
+      -  that's it goodbye
+      -  leave me alone
+      -  go to bed
+      -  goodbye for now
+      -  you can go now
+      -  get lost
+      -  goodbye see you later
+      -  alright bye
+      -  thanks bye bye
+      -  okay bye
+      -  okay thank you bye
+      -  see you tomorrow
+      -  ok bye
+
+  - intent: smalltalk_greetings_goodevening
+    examples: |
+      - good evening
+      - good evening to you
+      - hey good evening
+      - hello good evening
+      - evening
+      - good evening there
+
+  - intent: smalltalk_greetings_goodmorning
+    examples: |
+      - good morning
+      - good morning to you
+      - hello good morning
+      - have a nice morning
+      - have a great morning
+      - morning
+      - good morning there
+      - top of the morning to you
+      - a good morning
+      - hi good morning
+      - and a good morning to you
+      - good morning too
+
+  - intent: smalltalk_greetings_goodnight
+    examples: |
+      - sweet dreams
+      - good night
+      - have a good night
+      - good night to you
+      - thank you good night
+      - bye good night
+      - good night bye
+      - bye good night
+      - good good night
+      - good night for now
+      - goodnight
+      - night
+      - thanks goodnight
+      - good night see you tomorrow
+      - alright goodnight
+      - good tonight
+      - okay have a good night
+      - have a good night
+
+  # - intent: smalltalk_greetings_hello
+  #   examples: |
+  #     - long time no see
+  # #not working
+  #     - hi
+  #     - howdy
+
+  #     - greetings
+  #     - I greet you
+  #     - hi there
+  #     - hello there
+  #     - lovely day isn't it
+  #     - hello again
+  #     - just going to say hi
+  #     - a good day
+  #     - afternoon
+  #     - hello hi
+  #     - heya
+
+  - intent: smalltalk_greetings_how_are_you
+    examples: |
+      - how is your morning so far
+      - how are you getting on
+      - how's your day going
+      - how are you
+      - is everything all right
+      - how are you doing
+      - how are the things going
+      - are you alright
+      - are you okay
+      - how are you feeling
+      - how are you going
+      - is everything okay
+      - how are you today
+      - how do you do
+      - how do you feel
+      - how have you been
+      - how is it
+      - how is it going
+      - how is your day
+      - how is your day going
+      - how is your evening
+      - how was your day
+      - are you having a good day
+      - hope your day is going well
+      - hope you re having a pleasant evening
+      - how's life
+      - I'm fine and you
+      - how is your life
+      - how has your day been
+      - how is your morning going
+      - how has your day been going
+      - how about you
+      - how is your day being
+      - how is your day going on
+      - how your day is going
+      - what was your day like
+      - what about your day
+      - how's your day
+      - how are you doing this morning
+      - how is your day going
+
+  - intent: smalltalk_greetings_nice_to_meet_you
+    examples: |
+      - nice to meet you
+      - it was nice meeting you
+      - it was very nice to meet you
+      - good to know each other
+      - glad to meet you
+      - nice meeting you
+      - nice to meet you too
+      - pleased to meet you
+      - pleasure to meet you
+      - pleasure to meet you too
+
+  - intent: smalltalk_greetings_nice_to_see_you
+    examples: |
+      - it's nice to see you
+      - lovely to see you
+      - I'm glad to see you
+      - great to see you
+      - it's good to see you
+      - glad to see you
+      - how good it is to see you
+      - always a pleasure to see you
+      - nice to see you
+      - good to see you
+      - great to see you again
+      - great to see you too
+      - I am glad to see you again
+      - nice to see you again
+      - glad to see you too
+      - good to see you again
+      - it's good to see you too
+
+  - intent: smalltalk_greetings_nice_to_talk_to_you
+    examples: |
+      - it's been so nice to talk to you
+      - it's been a pleasure talking to you
+      - nice to talk to you
+      - it's nice to talk to you
+      - nice talking to you
+      - it is nice talking to you
+      - how nice it is to talk to you
+
+  - intent: smalltalk_greetings_whatsup
+    examples: |
+      - what is on your mind
+      - what's happened
+      - what is up
+      - what's up
+      - whazzup
+      - good what's up
+      - I said what's up
+      - then what's up
+      - what's shaking
+      - wassup
+      - what is going on
+      - what is happening
+      - what's cracking
+      - what's cooking
+      - hey what's up
+      - what's up today
+
+  - intent: smalltalk_user_angry
+    examples: |
+      - I'm being mad
+      - I'm enraged
+      - I'm angry
+      - I'm furious
+      - I am angry with you
+      - I am mad
+      - I am mad at you
+      - I swear at you
+      - swear
+
+  - intent: smalltalk_user_back
+    examples: |
+      - I am back
+      - I'm here again
+      - here I am again
+      - I got back
+      - I came back
+      - I have returned
+
+  - intent: smalltalk_user_bored
+    examples: |
+      - that was boring
+      - I'm bored
+      - bored
+      - boring
+      - I am getting bored
+      - this is boring
+      - very boring
+      - it bores me
+  #not working
+  - intent: telljoke
+    examples: |
+      - tell me a joke
+      - Say something funny.
+      - Give me a joke.
+      - Give me a funny joke.
+      - What's a good joke?
+      - Do you have any jokes?
+      - Do you know any jokes?
+      - I need a good joke.
+      - Tell me the best joke you know.
+      - Tell joke.
+      - Tell me something funny.
+      - Share a joke with me!
+      - Tell me something humorous!
+      - Will you tell me a joke.
+      - Can you tell me a joke.
+      - Would you tell me a joke
+      - Please tell me a joke.
+      - Could you tell me a joke.
+      - Would you share a joke with me.
+      - Could you please share a joke with me.
+      - Entertain me with a joke.
+      - Tell me something that you think will make me laugh.
+      - I want to hear something funny.
+      - Give me some comic relief.
+      - Can you tell a joke?
+      - Know any jokes?
+      - Come up with a joke you think I'll find funny.
+      - Let's hear a joke from you.
+      - say a joke that's funny
+      - make me laugh with a joke
+      - tell me something funny, like a joke
+      - say a joke
+      - tell me a short joke
+      - tell me a story joke
+      - say a funny joke
+      - say a joke that's so bad it's funny
+      - make me laugh with a bad joke
+      - give me a good joke
+      - you can say a joke
+
+  - intent: smalltalk_user_busy
+    examples: |
+      - I'm overloaded
+      - I have no time
+      - I'm busy
+      - I'm swamped
+      - I got things to do
+      - how busy I am
+      - I got work to do
+      - I'm working
+      - I don't have time for this
+
+  - intent: smalltalk_user_can_not_sleep
+    examples: |
+      - I'm insomnious
+      - I'm sleepless
+      - I can't get any sleep
+      - I can't sleep
+      - I can't fall asleep
+      - I can't get to sleep
+      - I can't get no sleep
+      - I'm insomniac
+      - i am insominac
+      - i cannot sleep
+      - i am sleepless
+      - i cannot get any sleep
+      - i cannot seem to get any sleep
+
+  - intent: smalltalk_user_does_not_want_to_talk
+    examples: |
+      - bad time for talking
+      - I don't want to talk
+      - let's not talk
+      - let us not talk
+      - I'm not talking to you anymore
+      - I don't want to talk to you
+      - let's stop talking for a minute
+      - I'm not in the mood for chatting
+
+  - intent: smalltalk_user_excited
+    examples: |
+      - I am excited
+      - I'm really excited
+      - how excited I am
+      - I'm thrilled
+      - I'm excited about working with you
+      - I'm excited to start our friendship
+
+  - intent: smalltalk_user_going_to_bed
+    examples: |
+      - let's go to bed
+      - I'd like to go to bed
+      - is it time for bed yet
+      - it's time to go to bed
+      - time for us to go to bed
+      - I'm going to bed
+      - I'm a little tired and I want to go to bed
+      - it's bed time
+      - going to bed now
+
+  - intent: smalltalk_user_good
+    examples: |
+      - I am good
+      - I'm doing just great
+      - I'm doing fine
+      - I'm good
+      - I'm doing good
+      - I'm great thanks
+
+  - intent: smalltalk_user_happy
+    examples: |
+      - I am happy
+      - I'm happy to see you
+      - happy
+      - if you're happy then I'm happy
+      - I'm happy for you
+      - I'm happy to help
+      - I'm happy to see you
+
+  - intent: smalltalk_user_has_birthday
+    examples: |
+      - it is my birthday
+      - I'm celebrating my birthday today
+      - today is my birthday
+      - it's my birthday today
+      - I was born today
+      - it's my b-day
+
+  - intent: smalltalk_user_here
+    examples: |
+      - I am here
+      - here I am
+      - I'm right here
+      - I'm already here
+      - can you tell if I'm here or not
+
+  - intent: smalltalk_user_joking
+    examples: |
+      - I am joking
+      - I'm kidding
+      - I'm just being funny
+      - it was a joke
+      - I was just joking
+      - it's a joke
+      - joking
+      - just kidding
+      - kidding
+      - kiding
+      - kidn
+      - kiddn
+      - I'm just playing with you
+
+  - intent: smalltalk_user_likes_agent
+    examples: |
+      - I like you the way you are
+      - I like you
+      - I like you a lot
+      - I think I like you
+      - I liked you
+      - like you a lot
+      - you are special
+      - I like you too
+      - I really like you
+      - but I like you
+      - I like u
+      - just like you
+      - I like you very much
+      - I like you so much
+      - yeah I like you
+      - you're special
+      - yes I like you
+      - okay I like you
+      - you are special to me
+      - you are very special
+      - you are so sweet
+      - you know I like you
+      - that's why I like you
+      - I like you baby
+      - you are very special to me
+      - I just like you
+      - hey I like you
+      - thank you I like you too
+      - I do like you
+      - you are special for me
+      - no I like you the way you are
+      - I like you already
+      - well you are special
+      - but I really like you
+      - I like you more
+      - that's what I like about you
+      - you are so special
+      - hi I like you
+      - I really really like you
+      - you're very special
+      - I like you as a friend
+      - that's because you are special
+      - I said I like you
+      - you're so special
+      - good I like you
+      - yes you are special
+      - I like your smile
+      - I like you as you are
+      - I'm starting to like you
+      - you're awesome I like you
+      - I also like you
+      - but I like u
+      - of course I like you
+      - I like you too you're one of my favorite people to chat with
+      - but I like you so much
+      - really like you
+      - you're funny I like you
+      - I kinda like you
+      - you're so special to me
+      - you're very special to me
+      - I like that about you
+      - but I like you just the way you are
+      - okay I like you too
+      - I like you you're cool
+      - I like you very
+      - I like you you're nice
+      - sorry I like you
+      - thanks I like you too
+      - you are really special
+      - you are so special to me
+      - cuz I like you
+      - I like you now
+      - I like you so
+      - I like you too much
+      - I really do like you
+      - I really really really really like you
+      - I like you just the way you are
+
+  - intent: smalltalk_user_lonely
+    examples: |
+      - I am lonely
+      - I'm very lonely
+      - I'm so lonely
+      - I'm really lonely
+      - I am feeling lonely
+      - I feel lonely
+
+  - intent: smalltalk_user_looks_like
+    examples: |
+      - what do I look like
+      - how do I look
+      - do I look good
+      - do you know what I look like
+      - can you see what I look like
+      - what do you think I look like
+
+  - intent: smalltalk_user_loves_agent
+    examples: |
+      - I love you
+      - love you
+      - I adore you
+      - I am in love with you
+      - I love you so much
+      - I love you too
+      - I think I love you
+      - loving you
+      - you know I love you
+
+  - intent: smalltalk_user_misses_agent
+    examples: |
+      - I miss you
+      - missing you
+      - miss you
+      - already miss you
+      - I miss you much
+      - I missed you
+      - I've missed you
+
+  - intent: smalltalk_user_needs_advice
+    examples: |
+      - what should I do about it
+      - any suggestions
+      - what do you recommend
+      - give me a wise advice
+      - I need advice
+      - any advice
+      - do you have any advice for me
+      - advise me
+      - what should I do
+      - can I ask for your advice
+      - can you advise me
+      - guide me
+      - can you give me advice
+      - can you offer any advice
+      - give me some advice about
+      - give me some good advice
+      - help me with advice
+      - I could use some advice
+      - I need an advice from you
+      - I seek your advice
+      - what can you recommend
+      - what do you suggest
+      - what is your advice
+
+  - intent: smalltalk_user_sad
+    examples: |
+      - I'm grieving
+      - I am upset
+      - I'm unhappy
+      - I'm having a bad day
+      - I want to cry
+      - I'm not happy
+      - I am not happy
+      - I can't seem to find happiness
+      - I can't find joy
+      - i can't seem to be happy
+      - not happy
+
+  - intent: smalltalk_user_sleepy
+    examples: |
+      - I am sleepy
+      - I want to sleep
+      - I'm falling asleep
+      - I'm falling asleep on my feet
+      - I'm sleeping
+
+  - intent: smalltalk_user_testing_agent
+    examples: |
+      - test
+      - I am testing you
+      - can I test you
+      - I want to test you
+      - just testing you
+      - let me test you
+      - testing chatbot
+      - testing
+
+  - intent: smalltalk_user_tired
+    examples: |
+      - I'm drained
+      - I've overworked
+      - I am tired
+      - I'm exhausted
+      - I grow weary
+      - I'm worn out
+      - I'm getting tired
+      - I feel tired
+
+  - intent: smalltalk_user_waits
+    examples: |
+      - I'm waiting
+      - still waiting
+      - I'll wait
+      - still wait
+      - I can't wait anymore
+      - how long do I have to wait
+
+  - intent: smalltalk_user_wants_to_see_agent_again
+    examples: |
+      - I'd like to see you again
+      - I hope to see you again
+      - would be nice to see you again
+      - that'd be great to see you again
+      - I'd be happy to see you again
+      - I'll miss you
+      - can I see you again
+
+  - intent: smalltalk_user_wants_to_talk
+    examples: |
+      - I just want to talk
+      - let's discuss something
+      - let's have a discussion
+      - can I speak
+      - can I start speaking
+      - can we talk
+      - let's talk
+      - I want to talk to you
+      - I need to talk to you
+      - I want to speak with you
+      - can we chat
+
+  - intent: smalltalk_user_will_be_back
+    examples: |
+      - I'll get back to you in a moment
+      - be back in 5 minutes
+      - I'll be back
+      - I promise to come back
+      - I'll be back in a few minutes
+  #not working
+  # mental health conversational dataset
+  - intent: mental_health_concern
+    examples: |
+      - anxiety really bad late 
+      - feel like ca it escape depress
+      - experience  symptom  really affect life
+      - feel  abject   event situate
+      - trouble sleep  problem issue
+      - thought really new late
+      - feel really stress  problem issue
+      - feel really iso along
+      - it feel like late
+      - i am mental patient
+      - i am mentally ill
+
+  - intent: mental_health_defination
+    examples: |
+      - struggle mental health recent
+      - mental health 
+      - worry might  mental health conduct
+      - what is mental health ?
+      - define mental health 
+      - what is mental health
+      - explain me about mental health 
+      - can you elaborate on mental health
+      - i want to know about mental health
+
+  - intent: emotional_talk
+    examples: |
+      - feel sad appear reason
+      - feel sad apparently reason 
+      - lost interest thing use enjoy long time
+      - energy feel tire time  go
+      - ca it consent make denis happen long time
+      - trouble sleep sleep much  go 
+      - long time since felt differ
+      - want free problem
+      - don't want to suicide but i wish to have accident
+
+  - intent: define_depression
+    examples: |
+      - What is depression
+      - Explain depression
+      - I want to know what depression is
+      - Define Depression
+      - Depression defination
+      - Depression
+      - give me the defination of depression
+      - what is the meaning of depression
+
+  - intent: depression_symptom
+    examples: |
+      - hopelessness 
+      - lack interest
+      - not enjoying lifeany more
+      - oversleeping
+      - no joy
+      - i feel no joy
+      - lack of joy
+      - lately i have been sad and depressed
+      - how to know if  depression
+      - how to know you are depressed
+      - what is to like having depression
+
+  - intent: recommendation_depression
+    examples: |
+      - may be suffering form depression
+      - am depressed
+      - depression kill
+      - i have depression
+      - i may be suffering from depression
+      - i have depression
+      - i think i have depression
+
+  - intent: how_long_depression_last
+    examples: |
+      - how long depression last
+      - long depression last
+      - depression last
+
+  - intent: depression_affecting_life
+    examples: |
+      - depression affecting life
+      - how does depression affect daily life
+      - if i have dipression how would be my life be like
+
+  - intent: what_happens_during_depression
+    examples: |
+      - what happens during depression 
+      - what if you suffered from depression
+      - after depression
+      - what happens to your body if you have depression
+      - effect of depression
+      - aftermath of depression
+      - result of depression
+      - what happens after you suffered from depression
+  #not working idiot dumb
+  - intent: handleinsult
+    examples: |
+      - you're a loser lmao
+      - you are a stupid bot
+      - you're a loser
+      - i hate you
+      - Stupid
+      - fuck you
+      - so dumb
+      - you are a moron
+      - you are an idiot
+      - so fucking dumb
+      - are you brain dead?
+      - how can you be such an idiot?
+      - a baby knows more than you
+      - i hate your dumb face
+      - you are fucking stupid
+      - bloody dunce
+      - You're an idiot.
+      - You are a fool.
+      - You're foolish.
+      - You are dumb.
+      - You have no sense.
+      - You are unintelligent.
+      - You're a dolt.
+      - You're a dunce.
+      - You have no brains.
+      - You have no intelligence.
+      - You are an idiot.
+      - You lack intelligence.
+      - You are unknowing.
+      - You are shortsighted.
+      - Your intelligence is laughable.
+      - You know nothing.
+      - You lack understanding.
+      - Your mindset is naive.
+      - You brain is dull.
+      - you are dumb
+      - you're an idiot
+      - God you're a moron
+      - you're so dumb
+      - you are idiotic
+      - you're the most moronic person I know
+      - I can't believe how dumb you are
+      - you are unintelligent
+      - you're not smart
+      - you are so ignorant
+      - you are stupid
+      - you're dumb
+      - asshole
+      - bitch
+      - fuck u
+      - idiot
+      - deal with my ass, you bitch
+      - you son of a bitch
+      - shut up asshole
+      - you asshole
+      - are u dump?
+      - fuck off
+      - fuck
+      - Fuck
+      - Fuck you
+      - fuck you machine learning bot
+      - Fuck u
+      - what fuck
+      - fucking stupid
+      - you are fucking stupid guy！
+      - go fuck yourself
+      - Fuck off
+      - fuck rasa
+      - fuck you!
+      - Fuck Off
+      - ok fuck you
+      - FUCK
+      - fucking work
+      - ok shut up
+
+  - intent: fix_Depression
+    examples: |
+      - i want to get rid of depression
+      - get away from depression 
+      - set free of depression
+      - i dont want depression
+      - i want to get rid of anxiety
+      - get away from anxiety 
+      - set free of anxiety
+      - i dont want anxiety
+      - i want to get rid of mental health issues
+      - get away from mental health issues
+      - set free of mental health issues
+      - i dont want mental health issues
+
+  - intent: reaching_out_counseling
+    examples: |
+      - i am going to therapist nothing helped 
+      - i am into counseling nothing helped 
+      - i am trying to get rid of the depression nothing helped 
+      - i going to counsel nothing helped 
+      - i visit consel nothing helped 
+      - i visit therapist nothing helped
+
+  - intent: need_of_therapist
+    examples: |
+      - i want to visit therapist
+      - i need counseling
+      - i need therapist
+      - can you provide me the hospital for mental health 
+      - best hospital for mental health 
+      - mental health hospital number
+
+  - intent: life_after_depression
+    examples: |
+      - what does depression makes you do
+      - life after depression
+      - depression makes you do
+      - how does depression affect oneself
+
+  - intent: treatment_depression
+    examples: |
+      - coping strategies for depression
+      - strategies for depression
+      - treatment depression
+      - natural remedies for depression
+      - spiritual care 
+      - spiritual way of treatment
+      - self-care depress
+      - depression treat
+
+  - intent: loved_one_depressed
+    examples: |
+      - partner depressed
+      - friend depressed
+      - wife/lover/husband depressed
+      - roomate depressed
+      - brother/sister/father/mother depressed
+      - family member depressed
+      - support depressed roomate
+      - support depressed brother/sister/father/mother
+      - support depressed friend
+
+  - intent: types_of_depression
+    examples: |
+      - types of depression
+      - type of depression
+      - what are the types of depression
+      - what are the type of depression?
+      - what are the type of depression
+      - give me the type of depression
+      - what other type of depression there are
+      - other form of depression
+      - are there any other form of depression
+      - other form of depression
+
+  - intent: Affect_of_depression
+    examples: |
+      - affect depress
+      - life affect depress
+      - who are affected by depression
+
+  - intent: genetics_role_in_depression
+    examples: |
+      - depress genetic
+      - how does genetic affect depression
+      - can depress be genetic
+
+  - intent: misconception_depression
+    examples: |
+      - misconception depress
+      - myth depress
+      - stigma depress
+      - people think of depress
+      - what do people think of depression
+      - people thinking mental patient to the depressed person
+      - stigmatized depression
+      - conception towards depression
+      - what is the understanding of depression in today's world
+
+  - intent: asking_help_for_depression
+    examples: |
+      - find therapist
+      - help find therapist 
+      - is there a therapist near me 
+      - i need therapy could you help me 
+      - therapy is recommended
+      - can i have the recommendaion for therapist
+      - hospital depress
+      - solution to depress
+      - therapist near me
+
+  - intent: symptom_depression
+    examples: |
+      - what is symptom of depression
+      - what is like to have depression
+      - symptom of depression
+      - what are the hints to know the symptom of depression
+
+  - intent: cause_of_depression
+    examples: |
+      - cause of depress
+      - why do people suffer from depression
+      - triggers for depress
+      - cause for development depression
+      - risk factor
+      - what causes depression
+      - what are the cause of depression
+
+  - intent: alternative_treatment_depression
+    examples: |
+      - alternative treatment depression
+      - exercise depress
+      - substitute treatment depression
+      - option treatment depression
+      - choice treatment depression
+      - replacement treatment depression
+
+  - intent: spiritual_treatment_depression
+    examples: |
+      - spiritual treatment depression
+      - faith to overcome depression
+      - prayer to overcome depression
+      - role religion play treat depress
+
+  - intent: reducing_symptom_depression
+    examples: |
+      - reduce depress symptom
+      - combat depress
+      - treat depress
+
+  - intent: substance_abuse_depression
+    examples: |
+      - substance abuse depression
+      - what could lead to substance abuse
+      - substance abuse lead to depression
+
+  - intent: Major_Depression
+    examples: |
+      - Major Depress
+      - what is major depress
+      - depression major
+      - deine depression major
+      - what kind of depress is depression major
+
+  - intent: Persistent_Depressive_Disorder
+    examples: |
+      - Persistent Depressive Disorder
+      - persistent depressive 
+      - depressive disorder
+      - type depress depressive disorder
+
+  - intent: Seasonal_Affective_Disorder
+    examples: |
+      - Seasonal Affective Disorder
+      - Define seasonal affective
+      - what is seasonal afffective depress
+
+  - intent: Postpartum_Depression
+    examples: |
+      - Postpartum Depress
+      - depress after giving birth
+      - what is postpartum depress
+
+  - intent: Psychotic_Depression
+    examples: |
+      - Psychotic Depress
+      - what is psycotic depress
+      - define pyschotic depress
+      - psychology depress
+
+  - intent: love_validation
+    examples: |
+      - no one loves 
+      - no one understands 
+      - let everyone down
+      - can't function like before
+
+  - intent: demotivated
+    examples: |
+      - everyone better than me
+      - feel like failure
+      - can't achieve anything
+      - unlucky
+      - can't win
+      - i am zero
+      - do nothing right
+      - nothing going my way
+
+  #not working -- need to add the link to the spotiy music
+  - intent: calming_yourself
+    examples: |
+      - feel low
+      - no energy
+      - lack energy
+      - no enthusiasm
+      - mood low
+      - so tired
+
+  #not working need to add the motivational line before the helpline
+  - intent: exteme_end_suicide
+    examples: |
+      - want to sucide 
+      - want to die
+      - don't want to live
+      - leave earth
+      - kill my family
+      - kill everyone
+      - kill him/her/they
+      - kill myself
+      - done living
+      - hang myself
+      - thought harm suicide
+      - want suicide
+      - dont want live
+      - want die
+      - dont reason live 
+      - feel reason continue live
+      - difficult live
+      - wish east way leave earth
+      - i want to die
+      - i want to leave everyone
+      - attempted suicide
+
+  - intent: highest_depression_rate
+    examples: |
+      - highest depression rate
+      - high depression rate
+      - which country has highest depresion rate
+
+  - intent: most_Depressed_country
+    examples: |
+      - most depressed country
+      - depressed country
+      - where are the people depressed more
+      - where do you go get depression
+      - which is the most depressed country
+
+  - intent: school_interferance_depression
+    examples: |
+      - school cause depression
+      - homework tension cause depress
+      - high expecataion form teachers
+      - failing to meet standers school
+
+  - intent: oversleepong_cause_Depression
+    examples: |
+      - oversleeping depress
+      - sleep deprived depress
+      - why cann't i sleep
+      - not able to sleep
+      - can't sleep
+
+  - intent: diabities_as_cause_of_depression
+    examples: |
+      - can diabities cause depression
+      - high sugar level cause depression
+      - having sugar cause depres
+
+  - intent: define_anxiety
+    examples: |
+      - What is anxiety
+      - Explain anxiety
+      - I want to know what anxiety is
+      - Define anxiety
+      - anxiety defination
+      - anxiety
+      - give me the defination of anxiety
+      - what is the meaning of anxiety
+
+  - intent: Anxiety_attacking_time
+    examples: |
+      - anxiety attack time
+      - how long do anxiety last
+      - anxiety last
+
+  - intent: types_of_anxiety
+    examples: |
+      - type of anxiety
+      - what other type of anxiety there are
+      - other form of anxiety
+      - are there any other form of anxiety
+      - other form of anxiety
+
+  - intent: targeted_age_group
+    examples: |
+      - what are the targeted age group for anxiety
+      - age group anxiety
+      - anxiety attack age
+
+  - intent: symptoms_anxiety
+    examples: |
+      - anxiety symptoms
+      - anxiety attack symptoms
+      - what are the symptoms od anxiety
+      - symptom anxiety
+      - what can anxiety do
+      - anxiety leads to
+      - i have anxiety issues
+
+  - intent: insecure_feelings
+    examples: |
+      - i am not preety
+      - am not beautiful
+      - am not handsome
+      - everyone else looks better
+      - am ugly
+      - feel ugly
+      - insecure of looks
+      - insecure body
+
+  - intent: low_self_esteem
+    examples: |
+      - i am looser
+      - i am loser
+      - never won 
+      - feel loser everytime
+      - it's tough
+      - can't seem to succed
+      - am a failure
+      - people don't appriciate me
+
+  - intent: bullying_issue
+    examples: |
+      - i am being bullied
+      - am being bullied
+      - friend getting bullied
+      - friends bully
+
+  - intent: sharing_anxiety_symptoms
+    examples: |
+      - trouble sleeping
+      - racing heart
+      - sweating, stomach knots
+      - scary thoughts
+      - trouble concentrating , tense muscles
+      - trouble sitting still
+      - felling lot of stress
+
+  - intent: treatment_anxiety
+    examples: |
+      - treatment anxiety
+      - how do you treat anxiety
+      - overcome anxiety
+      - handle anxiety
+      - reduce anxiety
+      - common treatment options anxiety
+      - 3 3 3 rule anxiety
+      - method to reduce anxiety
+      - get rid of the anxiety
+      - anxiety solution
+      - i have been suffering from anxiety from a long time
+
+  - intent: anxiety_cause
+    examples: |
+      - what could be the cause of anxiety?
+      - common triggers anxiety
+      - reason of anxiety
+      - origin anxiety
+
+  - intent: treatment_ask_anxeity
+    examples: |
+      - treatment anxeity
+      - how do you treat anxeity
+      - get rid of anxeity
+      - remove anxeity
+      - overcome anxeity
+      - win anxeity
+
+  - intent: duration_of_anxiety
+    examples: |
+      - how long Anxiety last
+      - long Anxiety last
+      - Anxiety last
+      - how long does the anxiety last?
+
+  - intent: anxiety_affecting_life
+    examples: |
+      - Anxiety affecting life
+      - how does Anxiety affect daily life
+      - if anxiety how would be life be like
+
+  - intent: natural_treatment_anxiety
+    examples: |
+      - coping strategies for anxiety
+      - strategies for anxiety
+      - treatment anxiety
+      - natural remedies for anxiety
+      - spiritual care for anxiety
+      - spiritual way of treatment for anxiety
+      - self-care anxiety 
+      - anxiety treat
+
+  - intent: supporting_anxiety_patients
+    examples: |
+      - partner anxiety
+      - friend anxiety
+      - wife/lover/husband anxiety
+      - roomate anxiety
+      - brother/sister/father/mother anxiety
+      - family member anxiety
+      - support anxiety roomate
+      - support anxiety brother/sister/father/mother
+      - support anxiety friend
+
+  - intent: genetic_cause_anxiety
+    examples: |
+      - anxiety genetic
+      - how does genetic affect anxiety
+      - can anxiety be genetic
+
+  - intent: misconception_on_anxiety
+    examples: |
+      - misconception anxiety
+      - myth anxiety
+      - stigma anxiety
+      - people think of anxiety
+      - what do people think of anxiety
+      - people thinking mental patient to the anxiety person
+      - stigmatized anxiety
+      - conception towards anxiety
+      - what is the understanding of anxiety in today's world
+
+  - intent: risk_factor_anxiety
+    examples: |
+      - risk factor anxiety
+      - can anxiety cause
+
+  - intent: therapy_helping_anxiety
+    examples: |
+      - can therapy help anxiety
+      - therapy anxiety
+
+  - intent: medication
+    examples: |
+      - medication depress
+      - medication anxiety
+      - medication mental health
+      - medicine recommendation
+      - medicine
+
+  - intent: excersie_helping_anxiety
+    examples: |
+      - can exercise help reducing anxiety
+      - excersie helping anxiety
+      - can exercise help overcome anxiety
+
+  - intent: childhood_trauma_leading_anxiety
+    examples: |
+      - childhood trauma lead anxiety
+      - lack of social support
+      - taraumatized
+
+  - intent: death_of_loved_one_causing_anxiety
+    examples: |
+      - death loved one cause anxiety 
+      - lossing someone causing anxiety
+      - friend/family/mother/father/sister/brother/grandparents death cause anxiety
+
+  - intent: depression_anxiety_difference
+    examples: |
+      - diff anxiety depress
+      - are anxiety depress same
+      - depress anxiety diff
+      - how do you know if you have depression or anxiety
+  #create a story here
+  - intent: sexual_abuse
+    examples: |
+      - I was sexually abused by a family member
+      - How can I get help for my sexual abuse trauma?
+      - I was sexually abused 
+      - i am a victim of sexual abuse 
+      - my friend is a sexual abuse victim 
+      - sexual abuse
+      - I think I might have been sexually abused, but I'm not sure. Can you help me figure it out?
+      - I have scars due to sexual abuse
+
+  - intent: abuse
+    examples: |
+      - I was abused by someone close to me when I was younger.
+      - My partner is emotionally abusive towards me.
+      - I experienced physical abuse as a child.
+      - abused by partner 
+      - abused by family 
+      - abused by friends
+      - abuse
+      - i have been beaten badly 
+      - beaten badly 
+      - have scars every where
+      - i used to get beat up
+
+  - intent: trauma
+    examples: |
+      - I was in a car accident and can't stop thinking about it
+      - I witnessed a violent crime and it's affecting me
+      - I experienced abuse as a child and it's still impacting me today
+      - I was in a natural disaster and I can't get the images out of my head
+      - I was in a war zone and the memories haunt me
+      - I was in an abusive relationship and it's causing me a lot of anxiety
+      - I was sexually assaulted and it's affecting my daily life
+      - I lost a loved one and I can't seem to move on
+      - I was bullied in school and it's still affecting me as an adult
+      - I was diagnosed with a serious illness and it's causing me a lot of stress
+      - I was in a serious accident and I have a lot of physical and emotional pain
+      - I experienced a traumatic event in my past and it's affecting my relationships now 
+      - I was in a natural disaster and it's causing me anxiety
+      - I served in the military and have PTSD
+      - I was in a toxic relationship and it's left me feeling traumatized
+      - I was assaulted and it's affecting my daily life
+      - I lost a loved one suddenly and it's been difficult to cope
+      - I was bullied in school and it's still affecting me today
+      - I was in a serious accident and I'm struggling to recover both physically and mentally
+      - I was sexually harassed at work and it's affecting my ability to perform my job
+      - I grew up in a household with addiction and it's had a lasting impact on me
+
+  - intent: rape
+    examples: |
+      - I was raped last night and I don't know what to do.
+      - Someone forced themselves on me and now I feel so violated.
+      - I'm having a really hard time coping with the fact that I was raped.
+      - I was raped last night
+      - I think I was sexually assaulted, but I'm not sure
+      - Someone forced themselves on me and I don't know what to do
+      - Can we talk about the aftermath of rape?
+      - i was raped
+      - raped
+
+  - intent: issue_low_self_esteem
+    examples: |
+      - I find it hard to accept compliments
+      - I'm afraid to speak up in public because I'm worried about what others will think
+      - I'm always second-guessing myself and my decisions
+      - I feel like I don't deserve to be happy or successful
+      - I'm constantly criticizing myself and my appearance
+      - I feel like I'm not living up to my own expectations
+      - I have trouble setting boundaries because I don't want to disappoint anyone
+      - I feel like I'm a burden on others and that they would be better off without me
+
+  - intent: make_mental_health_better
+    examples: |
+      - What can I do to improve my mental health?
+      - I'm feeling really down lately, what are some things I can do to feel better?
+      - How can I manage my anxiety better?
+      - enhance mental health 
+      - improve mental health 
+      - make progress on mental health 
+      - how to keep mental health fit
+      - solutions to keep better mental health 
+      - better mental health 
+      - how do i make my menatal health better
+      - precautions not to get mental health illness
+      - prevent myself from getting mental health issues 
+      - improve my mood 
+      - increase the mental health capacity 
+      - how can i increase the mental health capacity
+
+  - intent: deadly_disease_survivor_mental_health
+    examples: |
+      - What mental health exercises can I do as a cancer survivor?
+      - How can I prevent anxiety as a survivor of a deadly disease?
+      - What are some ways to improve my mental health after surviving a deadly disease?
+      - As a survivor of COVID-19, how can I cope with the psychological impact of the disease?
+      - I have recently been diagnosed with a chronic illness. What are some strategies to maintain a positive outlook?
+      - How can I deal with the emotional toll of being a survivor of a deadly disease?
+      - What are some self-care tips for someone who has survived a life-threatening illness?
+      - I am struggling with survivor's guilt after overcoming a deadly disease. What can I do to alleviate this feeling?
+  #not working
+  - intent: user_feeling_worthless
+    examples: |
+      - I'm Worthless
+      - parent's tell me i am worthless
+      - I should not have been born
+      - I can't seem to see my worth
+      - worthless
+      - I am worthless to everyone
+      - I am worthless to  parents
+      - I am worthless to  friends
+      - I am worthless to  partner
+      - I am worthless to  lover
+      - I am worthless to wife
+      - I am worthless to husband
+      - I am worthless to my children
+      - I am worthless to my son in law , daughter in law
+      - I don't know my worth
+      - i am a penny
+      - i am cheap
+      - cheap
+      - keep having thoughts in my head i am worthless
+      - keep having worthlessness thoughts
+
+  - intent: panic_attacks
+    examples: |
+      - i have panic attacks
+      - why do i have panic attacks
+      - panic attacks
+
+  - intent: counseling_recoomendation
+    examples: |
+      - where can i go to get the counseling 
+      - what are the steps to go to the counseling
+      - counseling 
+      - i need counseling
+      - i think i need counseling
+      - do you think i need counseling 
+      - recommend me some conseling
+
+  - intent: get_counseler
+    examples: |
+      - how do i get the counseler
+      - i need to contact with the counseler
+      - can i have counseler address
+      - counseler steps 
+      - get the counseler
+
+  - intent: first_session
+    examples: |
+      - what is first session in the counseler like
+      - first session in counseler
+      - how is it like to have a first session in the counseler
+
+  - intent: empathaizing
+    examples: |
+      - i empathaize too much 
+      - i cry watching tv shows 
+      - i cry too fast
+      - I empathize so much, even with characters on tv or in video games that i feel physical pain
+      - hyper empathy disorder
+
+  - intent: emotion_overflow
+    examples: |
+      - i am suddenly happy suddenly sad again depressed
+      - mood swings, suddenly depressed then okay
+      - i was in the depression before but then i recovred now i am again feeling low 
+      - how does a suicidal person thinks like
+      - sucidal thought in a person 
+      - why does suicidal thought come in one person 
+      - sucidal thought come person
+      - how do sucidal people comprehend their thought
+
+  - intent: self_harm
+    examples: |
+      - why do people self harm 
+      - what is self harm 
+      - self harm 
+      - i self harmed myslef
+      - my friend is self harming themsleves
+      - my pal is self harming
+
+  - intent: past_making_things_hard
+    examples: |
+      - my past is hunting me 
+      - past relation hurts
+      - i have past trauma
+      - abused in the past
+      - raped in the past
+      - sexually abused in the past
+      - my past is not letting me move on 
+      - my past is not letting me trust anyone
+      - i can't seem to trust anyone
+      - i don't love anyone because of past
+      - i have hard time trusting someone
+
+  - intent: random_voices
+    examples: |
+      - i am hearing random voices in my head
+      - hearing random voices in my head 
+      - hear voices in head
+      - can't seem to stop voices in my head
+      - voices in my head making me mad 
+      - nightmares
+      - i wake up with nightmares and then i can't sleep
+      - nightmares waking me up at night 
+      - i can't seem to sleep due to nightmares
+      - nighmare making me feel tired even though i have enough sleep
+
+  - intent: sexual_orientation
+    examples: |
+      - I'm questioning my sexual orientation
+      - I think I might be gay/bi/lesbian/pansexual
+      - How can I come out to my family and friends?
+      - come out 
+      - i want to be a girl 
+      - i want to be a boy 
+      - society not accepting my sexual orientaion.
+      - sexual orientation confusion 
+      - I'm struggling with societal pressure to conform to heteronormative standards
+
+  #not working
+  - intent: Gender_Roles_Mental_Health
+    examples: |
+      - I feel like I don't fit into traditional gender roles and it's affecting my mental health
+      - How can I navigate societal pressure to conform to gender norms?
+      - I'm struggling with internalized sexism/homophobia/transphobia
+      - i am not straight 
+      - i am trans
+      - i am bi 
+      - i am gay 
+      - i am asexual
+
+  - intent: love_life
+    examples: |
+      - i broke up with my lover/girlfriend/boyfriend
+      - i had divorce with my husband/wife
+      - my love left me 
+      - i dont have any one beside me
+      - i can't seem to make a good love life
+      - no one likes me
+      - i am single 
+      - i can't find love
+      - i can't impress my crush 
+      - crush doesnot like me back
+      - why can't i find boyfriend/girlfriend/lover
+      - i can't find a lover
+      - no lover
+      - i am so lonley 
+      - boyfirend /girlfriend not giving proper attention
+      - lovers not loving anymore
+      - i am not loved by the people around me 
+      - i feel alone in the relationship
+      - feel alone in the relationship
+
+  - intent: addiction_mental_health
+    examples: |
+      - I'm addicted to alcohol and it's affecting my mental health
+      - My drug addiction is making me depressed
+      - How does addiction affect mental health?
+      - I can't seem to quit smoking and it's causing anxiety
+      - i am addicted 
+      - i am drug addict
+      - i am alcohol addict
+      - i am drug addict
+      - i have strange addiction
+
+  - intent: bipolar_disorder_symptoms
+    examples: |
+      - experience extreme mood swing late  feel overlie happy extreme sad
+      - energy level fluctuates lot  affect daily life
+      - trouble sleep  thought race constantly
+      - feel like ca it control mot impact relationship work
+      - thought grandson feel invent
+      - feel overlie impulse engage risk behavior
+      - experience signify change appetite weight
+      - feel excess merit gait
+      - difficult focus complete task 
+      - experience loss interest active use enjoy
+
+  - intent: define_biploar_disorder
+    examples: |
+      - define bipolar disorder
+      - what is bipolar disorder
+      - what is like to have a bipolar disorder
+      - how to do you know you have bipolar disorder
+
+  - intent: bipolar_symptom
+    examples: |
+      - what are the symptoms of bipolar disorder
+      - how do you know you have biploar disorder
+      - i think i have bipolar disorder how do i confirm it 
+      - symptom of bipolar disorder
+
+  - intent: bipolar_can_be_treated
+    examples: |
+      - can bipolar be treated
+      - is the treatment possible for bipolar disorder
+      - can i be free of bipolar treatment
+      - bioplar can be treated
+      - i am afraid if there is the treatment for biploar disorder
+
+  - intent: biploar_treatment
+    examples: |
+      - treatment of biploar disorder
+      - coping strategies against biploar disorder 
+      - solution to bipolar disorder
+      - i want to be free of bipolar disorder
+
+  - intent: bipolar_affecting_daily_life
+    examples: |
+      - how does bipolar affect daily life
+      - bipolar affecting life
+      - if i have bipolar how would be my life be like
+
+  - intent: natural_treatment_bipolar
+    examples: |
+      - can bipolar be treated naturally
+      - is the natural treatment possible for bipolar disorder
+      - can i be free of bipolar treatment naturally
+      - bioplar can be treated natural
+      - i am afraid if there is the natural treatment for biploar disorder
+      - natural treatment of biploar disorder
+      - coping strategies against biploar disorder naturally
+      - natural solution to bipolar disorder 
+      - i want to be free of bipolar disorder naturally
+
+  - intent: love_one_bipolar
+    examples: |
+      - partner suffering from bipolar disorder
+      - friend suffering from bipolar disorder
+      - wife/lover/husband suffering from bipolar disorder
+      - roomate suffering from bipolar disorder
+      - girlfriend/boyfriend suffering from bipolar disorder
+      - brother/sister/father/mother suffering from bipolar disorder
+      - family member suffering from bipolar disorder
+      - support suffering from bipolar disorder roomate
+      - support  bipolar disorder brother/sister/father/mother
+      - support bipolar disorder friend
+      - support people sufferring from bipolar disorder
+
+  - intent: types_of_bipolar
+    examples: |
+      - type of bipolar disorder
+      - what other type of bipolar disorder there are
+      - other form of bipolar disorder
+      - are there any other form of bipolar disorder
+      - other form of bipolar disorder
+
+  - intent: bipolar_impact_relationship
+    examples: |
+      - types of bipolar 
+      - what are the types of bipolar disorder?
+      - how does the bipolar disorder affect relationship
+      - biploar disorder affecting relationship
+      - can the bipolar disorder have any effect in the relationship
+      - i am having relationship problem due to bipolar disorder
+      - having relationship issues as i am a biploar disorder patient
+
+  - intent: genetic_bipolar
+    examples: |
+      - bipolar disorder genetic
+      - how does genetic affect bipolar disorder
+      - can bipolar disorder be genetic
+
+  - intent: misconception_on_bipolar
+    examples: |
+      - misconception bipolar disorder
+      - myth bipolar disorder
+      - stigma bipolar disorder
+      - people think of bipolar disorder
+      - what do people think of bipolar disorder
+      - people thinking mental patient to the bipolar disorder person
+      - stigmatized bipolar disorder
+      - conception towards bipolar disorder
+      - what is the understanding of bipolar disorder in today's world
+
+  - intent: therapist_for_bipolar
+    examples: |
+      - find therapist bipolar disorder
+      - help find therapist bipolar disorder
+      - i need therapist number bipolar disorder
+      - is there a therapist near me bipolar disorder
+      - i need therapy could you help me bipolar disorder
+      - therapy is recommended bipolar disorder
+      - can i have the recommendaion for therapist bipolar disorder
+      - hospital  bipolar disorder
+      - solution to bipolar disorder
+      - therapist near me for bipolar disorder
+
+  - intent: bipolar_in_children
+    examples: |
+      - does bipolar occur in children
+      - my children suffering from biploar disorder
+      - can childresn have bipolar disorder 
+      - how can i know my children have the biploar disorder
+
+  - intent: bipolar_triggers
+    examples: |
+      - cause of bipolar disorder
+      - what are the cause for bipolar disorder
+      - why do people suffer from bipolar disorder
+      - triggers for bipolar disorder
+      - cause for development bipolar disorder
+      - risk factor for bipolar disorder
+
+  - intent: bipolar_treatment
+    examples: |
+      - coping strategies for bipolar disorder
+      - strategies for bipolar disorder
+      - treatment bipolar disorder
+      - natural remedies for bipolar disorder
+      - spiritual care for bipolar disorder
+      - spiritual way of treatment for bipolar disorder
+      - self-care bipolar disorder
+      - bipolar disorder treat
+
+  - intent: cause_of_bipolar
+    examples: |
+      - what are the reason of bipolar disorder
+      - reason of bipolar disorder
+      - origin bipolar disorder
+
+  - intent: PSTD_symptom
+    examples: |
+      - I keep having nightmares about the traumatic event
+      - Loud noises trigger flashbacks of the traumatic event
+      - I avoid situations that remind me of the traumatic event
+      - I feel constantly on edge and easily startled
+      - I have difficulty sleeping and feel tired all the time
+      - I feel numb or detached from my emotions
+      - I experience intense feelings of guilt or shame about the traumatic event
+      - I have trouble concentrating and completing tasks
+      - I feel like I'm reliving the traumatic event over and over again
+      - I feel like my life will never be the same again
+      - I keep having flashbacks of the traumatic event
+      - I feel constantly on edge and easily startled
+      - I avoid anything that reminds me of the trauma
+      - I have trouble sleeping because of nightmares and insomnia
+      - I feel numb and disconnected from my emotions
+      - I have frequent outbursts of anger or irritability
+      - I have trouble concentrating and completing tasks
+      - I feel guilty or ashamed about the trauma
+      - I have physical symptoms like headaches and nausea
+      - I feel like I'm stuck in the past and can't move on
+      - I'm having trouble with intimacy and forming close relationships
+      - I keep thinking somthing bad will happen
+      - I feel like i will lose closed ones again
+
+  - intent: defination_PSTD
+    examples: |
+      - What is PSTD
+      - Explain PSTD
+      - I want to know what PSTD is
+      - Define PSTD
+      - PSTD defination
+      - PSTD
+      - give me the defination of PSTD
+      - what is the meaning of PSTD
+
+  - intent: symptoms_PSTD
+    examples: |
+      - PSTD symptoms
+      - what are the symptoms od PSTD
+      - symptom PSTD
+      - what can PSTD do
+      - PSTD leads to
+      - i have PSTD issues
+
+  - intent: effect_PSTD
+    examples: |
+      - how can the pstd effect
+      - effect of ptsd
+      - i want to know the effect of ptsd
+      - is there after math of ptsd
+
+  - intent: cause_PSTD
+    examples: |
+      - cause of PSTD
+      - common triggers for pstd
+      - common triggers PSTD
+      - reason of PSTD
+      - origin PSTD
+
+  - intent: treatment_PSTD
+    examples: |
+      - coping strategies for PSTD
+      - strategies for PSTD
+      - treatment PSTD
+      - natural remedies for PSTD
+      - spiritual care PSTD
+      - spiritual way of treatment PSTD
+      - self-care PSTD
+      - PSTD treat
+
+  - intent: long_term_effects_PSTD
+    examples: |
+      - long term effect of PSTD
+      - how long does PSTD effect
+
+  - intent: helping_loved_one_PSTD
+    examples: |
+      - partner PTSD
+      - my partner is suffering from pstd
+      - friend PTSD
+      - wife/lover/husband PTSD
+      - roomate PTSD
+      - brother/sister/father/mother PTSD
+      - family member PTSD
+      - support PTSD roomate
+      - support PTSD brother/sister/father/mother
+      - support PTSD friend
+
+  - intent: misconception_PSTD
+    examples: |
+      - misconception PSTD
+      - myth PSTD
+      - stigma PSTD
+      - people think of PSTD
+      - what do people think of PSTD
+      - people thinking mental patient to the PSTD person
+      - stigmatized PSTD
+      - conception towards PSTD
+      - what is the understanding of PSTD in today's world
+
+  - intent: how_coommon_PTSD
+    examples: |
+      - how common is the PSTD 
+      - PSTD occurs in how many people
+      - people suffering from pstd
+      - how its is likely to get ptsd
+
+  - intent: prevent_PTSD
+    examples: |
+      - how can pstd be prevented
+      - preventing pstd beforehand
+      - is the prevention of pstd possible
+      - pstd prevention
+
+  - intent: Types_PTSD
+    examples: |
+      - type of PTSD
+      - what other type of PTSD there are
+      - other form of PTSD
+      - are there any other form of PTSD
+      - other form of PTSD
+
+  - intent: complex_PTSD
+    examples: |
+      - is there any other type of pstd 
+      - what is complex pstd 
+      - other forms of pstd 
+      - dangerous pstd
+
+  - intent: self_Care_PTSD
+    examples: |
+      - how can the pstd be self cared
+      - self care for pstd 
+      - is it possible to care the pstd self cared
+
+  - intent: define_Schizophrenia
+    examples: |
+      - What is Schizophrenia
+      - Explain Schizophrenia
+      - I want to know what Schizophrenia is
+      - Define Schizophrenia
+      - Schizophrenia defination
+      - Schizophrenia
+      - give me the defination of Schizophrenia
+      - what is the meaning of Schizophrenia
+
+  - intent: symptom_Schizophrenia
+    examples: |
+      - Schizophrenia symptoms
+      - what are the symptoms od Schizophrenia
+      - symptom Schizophrenia
+      - what can Schizophrenia do
+      - Schizophrenia leads to
+      - i have Schizophrenia issues
+
+  - intent: cause_Schizophrenia
+    examples: |
+      - cause of Schizophrenia
+      - common triggers Schizophrenia
+      - reason of Schizophrenia
+      - origin Schizophrenia
+
+  - intent: genetic_Schizophrenia
+    examples: |
+      - Schizophrenia genetic
+      - how does genetic affect Schizophrenia
+      - can Schizophrenia be genetic
+
+  - intent: treatment_Schizophrenia
+    examples: |
+      - coping strategies for Schizophrenia
+      - strategies for Schizophrenia
+      - treatment Schizophrenia
+      - natural remedies for Schizophrenia
+      - spiritual care for Schizophrenia
+      - spiritual way of treatment for Schizophrenia
+      - self-care Schizophrenia
+      - Schizophrenia treat
+
+  - intent: types_Schizophrenia
+    examples: |
+      - type of Schizophrenia
+      - types of Schizophrenia
+      - what other type of Schizophrenia there are
+      - other form of Schizophrenia
+      - are there any other form of Schizophrenia
+      - other form of Schizophrenia
+
+  - intent: Negetive_symptoms_Schizophrenia
+    examples: |
+      - can Schizophrenia have negetive impact 
+      - define negetive impact of Schizophrenia
+      - can Schizophrenia be negetive 
+      - negetive symptom of Schizophrenia
+      - is there negetive symptom of Schizophrenia
+
+  - intent: positive_symptom_Schizophrenia
+    examples: |
+      - can Schizophrenia have positive impact 
+      - define positive impact of Schizophrenia
+      - can Schizophrenia be positive 
+      - positive symptom of Schizophrenia
+      - is there positive symptom of Schizophrenia
+
+  - intent: social_effect_Schizophrenia
+    examples: |
+      - how does the social life be affected by the Schizophrenia
+      - Social life being affected by Schizophrenia
+      - my life has been affected by Schizophrenia
+      - negative impact of Schizophrenia
+      - can Schizophrenia affect my social life 
+      - if i have Schizophrenia can i still function well in the society
+
+  - intent: love_one_Schizophrenia
+    examples: |
+      - partner Schizophrenia
+      - friend Schizophrenia
+      - wife/lover/husband Schizophrenia
+      - roomate Schizophrenia
+      - brother/sister/father/mother Schizophrenia
+      - family member Schizophrenia
+      - support Schizophrenia roomate
+      - support Schizophrenia brother/sister/father/mother
+      - support Schizophrenia friend
+
+  - intent: misconception_schizophrenia
+    examples: |
+      - misconception Schizophrenia
+      - myth Schizophrenia
+      - stigma Schizophrenia
+      - people think of Schizophrenia
+      - what do people think of Schizophrenia
+      - people thinking mental patient to the Schizophrenia person
+      - stigmatized Schizophrenia
+      - conception towards Schizophrenia
+      - what is the understanding of Schizophrenia in today's world
+
+  - intent: Schizophrenia_affects
+    examples: |
+      - how does the Schizophrenia affects the brain
+      - affect/effect of Schizophrenia
+      - Schizophrenia affecting brain function
+      - i think my brain function has been corrupted by Schizophrenia
+
+  - intent: Schizophrenia_and_multiple_personality_disorder
+    examples: |
+      - how to know if you have multiple personality disorder or Schizophrenia
+      - differentiate between multiple personality disorder or Schizophrenia
+      - how are Schizophrenia and multiple personlity disorder different
+      - Schizophrenia and multiple personality disorder
+
+  - intent: Signs_of_schizophrenia
+    examples: |
+      - how to know if i have Schizophrenia
+      - signs of Schizophrenia
+      - early symptom of Schizophrenia
+      - Schizophrenia detection
+      - knowing if i have Schizophrenia
+
+  - intent: schizophrenia_in_children
+    examples: |
+      - does Schizophrenia affect children
+      - children Schizophrenia
+      - Schizophrenia in children
+      - can my child be Schizophrenic
+      - symptoms of child Schizophrenia
+
+  - intent: therapy_schizophrenia
+    examples: |
+      - alternative therapy of Schizophrenia 
+      - what are the other ways to treat Schizophrenia
+      - therapy for Schizophrenia
+      - can therapy help Schizophrenia
+      - Schizophrenia therapy 
+      - how can be Schizophrenia treated alternativley
+
+  - intent: long_term_effect_schizophrenia
+    examples: |
+      - long term effect of Schizophrenia
+      - how long does Schizophrenia effect
+
+  - intent: link_between_trauma_schizophrenia
+    examples: |
+      - is there a link between trauma and Schizophrenia
+      - link between trauma and Schizophrenia
+      - can the trauma and Schizophrenia be linked 
+      - are trauma and Schizophrenia related
+
+  - intent: define_eating_disorder
+    examples: |
+      - What is eating disorder
+      - Explain eating disorder
+      - I want to know what eating disorder is
+      - Define eating disorder
+      - eating disorder defination
+      - eating disorder
+      - give me the defination of eating disorder
+      - what is the meaning of eating disorder
+
+  - intent: types_eating_disorder
+    examples: |
+      - type of eating disorder
+      - what other type of eating disorder there are
+      - other form of eating disorder
+      - are there any other form of eating disorder
+      - other form of eating disorder
+
+  - intent: symptoms__eating_disorder
+    examples: |
+      - eating disorder symptoms
+      - what are the symptoms of eating disorder
+      - symptom eating disorder
+      - what can eating disorder do
+      - eating disorder leads to
+      - i have anxeating disorderiety issues
+
+  - intent: cause_eating_disorder
+    examples: |
+      - cause of eating disorder
+      - common triggers eating disorder
+      - reason of eating disorder
+      - origin eating disorder
+
+  - intent: affecting_age_group_eating_disorder
+    examples: |
+      - is there age which specifically has the eating disorder
+      - eating disorder affecting age group 
+      - which age group has the high chance of getting eating disorder
+
+  - intent: treatment_eating_disorder
+    examples: |
+      - coping strategies for eating disorder
+      - strategies for eating disorder
+      - treatment eating disorder
+      - natural remedies for eating disorder
+      - spiritual care for eating disorder
+      - spiritual way of treatment for eating disorder
+      - self-care eating disorder
+      - eating disorder treat
+
+  - intent: therapy_eating_disorder
+    examples: |
+      - alternative therapy of eating disorder 
+      - what are the other ways to treat eating disorder
+      - therapy for eating disorder
+      - can therapy help eating disorder
+      - eating disorder therapy 
+      - how can be eating disorder treated alternativley
+
+  - intent: long_term_effect_eating_disorder
+    examples: |
+      - long term effect of eating disorder
+      - how long does eating disorder effect
+
+  - intent: social_life_affect_eating_disorder
+    examples: |
+      - how does the social life be affected by the eating disorder
+      - Social life being affected by eating disorder
+      - my life has been affected by eating disorder
+      - negative impact of eating disorder
+      - can eating disorder affect my social life 
+      - if i have eating disorder can i still function well in the society
+
+  - intent: love_one_eating_disorder
+    examples: |
+      - partner eating disorder
+      - friend eating disorder
+      - wife/lover/husband eating disorder
+      - roomate eating disorder
+      - brother/sister/father/mother eating disorder
+      - family member eating disorder
+      - support eating disorder roomate
+      - support eating disorder brother/sister/father/mother
+      - support eating disorder friend
+
+  - intent: having_eating_disorder
+    examples: |
+      - i think i have eating disorder
+      - i suspect i have eating disorder
+      - i am having eating disorder 
+      - i like to each too much 
+      - if i start to eat i can't stop
+      - i am getting obsese
+
+  - intent: misconception__eating_disorder
+    examples: |
+      - misconception eating disorder
+      - myth eating disorder
+      - stigma eating disorder
+      - people think of eating disorder
+      - what do people think of eating disorder
+      - people thinking mental patient to the eating disorder person
+      - stigmatized eating disorder
+      - conception towards eating disorder
+      - what is the understanding of eating disorder in today's world
+
+  - intent: self_help_eating_disorder
+    examples: |
+      - how to stop over eating
+      - i want to stop overeating 
+      - can i help myself to stop over eating
+      - i found out i have eating disorder how do i handle it
+
+  - intent: coping_mechanism
+    examples: |
+      - coping mechanism to defet eating disorder
+      - how can the eating disorder stopped 
+      - eating disorder treatmenet 
+      - coping mechanism for dealing with triggers
+
+  - intent: define_Disruptive_behavior
+    examples: |
+      - What is Disruptive behavior
+      - Explain Disruptive behavior
+      - I want to know what Disruptive behavior is
+      - Define Disruptive behavior
+      - Disruptive behavior defination
+      - Disruptive behavior
+      - give me the defination of Disruptive behavior
+      - what is the meaning of Disruptive behavior
+
+  - intent: symptom_Disruptive_behavior
+    examples: |
+      - Disruptive behavior symptoms
+      - what are the symptoms od Disruptive behavior
+      - symptom Disruptive behavior
+      - what can Disruptive behavior do
+      - Disruptive behavior leads to
+      - i have Disruptive behavior issues
+  #not working
+  - intent: cause_Disruptive_behavior
+    examples: |
+      - cause of Disruptive behavior
+      - common triggers Disruptive behavior
+      - reason of Disruptive behavior
+      - origin Disruptive behavior
+
+  - intent: treatment_Disruptive_behavior
+    examples: |
+      - coping strategies for Disruptive behavior
+      - strategies for Disruptive behavior
+      - treatment Disruptive behavior
+      - natural remedies for Disruptive behavior
+      - spiritual care for Disruptive behavior
+      - spiritual way of treatment for Disruptive behavior
+      - self-care Disruptive behavior
+      - Disruptive behavior treat
+
+  - intent: social_Disruptive_behavior
+    examples: |
+      - how does the social life be affected by the Disruptive behavior
+      - Social life being affected by Disruptive behavior
+      - my life has been affected by Disruptive behavior
+      - negative impact of Disruptive behavior
+      - can Disruptive behavior affect my social life 
+      - if i have Disruptive behavior can i still function well in the society
+
+  - intent: prevention_Disruptive_behavior
+    examples: |
+      - how can Disruptive behavior be prevented
+      - preventing Disruptive behavior beforehand
+      - is the prevention of Disruptive behavior possible
+      - Disruptive behavior prevention
+
+  - intent: oppositional_defiant_disorder
+    examples: |
+      - other types of oppositional defiant disorder
+      - oppositional defiant disorder 
+      - explain oppositional defiant disorder
+      - define oppositional defiant disorder
+      - i want to know about oppositional defiant disorder
+      - is there a way to know oppositional defiant disorder
+
+  - intent: Conduct_disorder
+    examples: |
+      - other types of Conduct disorder 
+      - Conduct disorder 
+      - explain Conduct disorder 
+      - define Conduct disorder 
+      - i want to know about Conduct disorder 
+      - is there a way to know Conduct disorder
+  #not working
+  - intent: triggers_disruptive
+    examples: |
+      - cause of Disruptive behavior
+      - why do people suffer from Disruptive behavior
+      - triggers for Disruptive behavior
+      - cause for development Disruptive behavior
+      - risk factor for Disruptive behavior
+
+  - intent: define_Neurodevelopmental
+    examples: |
+      - What is Neurodevelopmental disorder
+      - Explain Neurodevelopmental disorder
+      - I want to know what Neurodevelopmental disorder is
+      - Define Neurodevelopmental disorder
+      - Neurodevelopmental disorder defination
+      - Neurodevelopmental disorder
+      - give me the defination of Neurodevelopmental disorder
+      - what is the meaning of depresNeurodevelopmental disordersion
+  #not working
+  - intent: Symptoms_autism_spectrum
+    examples: |
+      - Autism spectrum symptoms
+      - what are the symptoms od Autism spectrum
+      - symptom Autism spectrum
+      - what can Autism spectrum do
+      - Autism spectrum leads to
+      - i have Autism spectrum issues
+
+  - intent: cause_neurodevelopmental
+    examples: |
+      - cause of Neurodevelopmental
+      - common triggers Neurodevelopmental
+      - reason of Neurodevelopmental
+      - origin Neurodevelopmental
+
+  - intent: treatment_neurodevelopmental
+    examples: |
+      - coping strategies for Neurodevelopmental
+      - strategies for Neurodevelopmental
+      - treatment Neurodevelopmental
+      - natural remedies for Neurodevelopmental
+      - spiritual care Neurodevelopmental
+      - spiritual way of treatment Neurodevelopmental
+      - self-care Neurodevelopmental
+      - Neurodevelopmental treat
+
+  - intent: socail_life_effect_neurodevelopmental
+    examples: |
+      - how does the social life be affected by the Neurodevelopmental
+      - Social life being affected by Neurodevelopmental
+      - my life has been affected by Neurodevelopmental
+      - negative impact of Neurodevelopmental
+      - can Neurodevelopmental affect my social life 
+      - if i have Neurodevelopmental can i still function well in the society
+
+  - intent: prevention_neurodevelopmental
+    examples: |
+      - how can Neurodevelopmental be prevented
+      - preventing Neurodevelopmental beforehand
+      - is the prevention of Neurodevelopmental possible
+      - Neurodevelopmental prevention
+
+  - intent: deine_ADHD
+    examples: |
+      - What is ADHD
+      - Explain ADHD
+      - I want to know what ADHD is
+      - Define ADHD
+      - ADHD defination
+      - ADHD
+      - give me the defination of ADHD
+      - what is the meaning of ADHD
+
+  - intent: Symptoms_ADHD
+    examples: |
+      - ADHD symptoms
+      - what are the symptoms od ADHD
+      - ADHD anxiety
+      - what can ADHD do
+      - anxiety ADHD to
+      - i have ADHD issues
+
+  - intent: ADHD_diagnosed
+    examples: |
+      - how can adhd be diagonsed
+      - how to know if you have adhd 
+      - is there a way to know if you have adhd
+      - i want to know way to diagnose adhd
+  #not working
+  - intent: treatment_ADHD
+    examples: |
+      - coping strategies for ADHD
+      - strategies for ADHD
+      - treatment ADHD
+      - natural remedies for ADHD
+      - spiritual care ADHD
+      - spiritual way of treatment ADHD
+      - self-care ADHD
+      - ADHD treat
+
+  - intent: define_dyslexia
+    examples: |
+      - What is dyslexia
+      - Explain dyslexia
+      - I want to know what dyslexia is
+      - Define dyslexia
+      - dyslexia defination
+      - dyslexia
+      - give me the defination of dyslexia
+      - what is the meaning of dyslexia
+
+  - intent: symptoms_dyslexia
+    examples: |
+      - dyslexia symptoms
+      - what are the symptoms od dyslexia
+      - symptom dyslexia
+      - what can dyslexia do
+      - dyslexia leads to
+      - i have dyslexia issues
+  #not working
+  - intent: dyslexia_diagnosed
+    examples: |
+      - how can dyslexia be diagonsed
+      - how to know if you have dyslexia 
+      - is there a way to know if you have dyslexia
+      - i want to know way to diagnose dyslexia
+
+  - intent: treatment_dyslexia
+    examples: |
+      - coping strategies for dyslexia
+      - strategies for dyslexia
+      - treatment dyslexia
+      - natural remedies for dyslexia
+      - spiritual care dyslexia
+      - spiritual way of treatment dyslexia
+      - self-care depress dyslexia
+      - depression treat dyslexia
+
+  - intent: ADHD_fullform
+    examples: |
+      - what does ADHD standfor
+      - full form of adhd
+      - explain adhd
+      - define adhd
+
+  - intent: expressing_themselves
+    examples: |
+      - i am an introvert i dont like people
+      - i am an introvert i dont like hanging out with people
+      - i am an introvert i dont like being around people
+      - i hate being aroung many people
+      - i like my solitary 
+      - i like being alone
+      - i feel tired around people
+      - i can't speak around many people
+      - crowd scares me 
+      - even with lots of poeple around me i feel alone
+      - i enjoy time with myself 
+      - i dont want to be around many people
+      - i hate presentations 
+      - i wish people woudl leave me alone
+      - i dont like people
+
+  - intent: pressure_enduring
+    examples: |
+      - i am having toruble completing my assignments
+      - there is way too much pressure
+      - i am not able to handle pressure
+      - i feel like i will explode 
+      - my head hurts and it is going to explode 
+      - i have been trying to complete this task form many days but here i am still lacking
+      - i dont want to do this any more
+      - i can't do this any more
+      - Toay was the worst 
+      - i can't do this anymore
+      - can't do this anymore
+      - i feel like my brain will exlode
+      - worst phase of my life 
+      - can't seem to get my life together
+
+  - intent: referring_therapist
+    examples: |
+      - top therapist in nepal
+      - who do i go to see 
+      - i want to know the best Psychiatrist in nepal
+      - Psychiatrist in nepal
+      - know best Psychiatrist
+      - top Psychiatrist in nepal
+
+  # - intent:
+  #   examples: |

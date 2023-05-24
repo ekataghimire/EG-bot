@@ -1,0 +1,337 @@
+version: "3.1"
+
+rules:
+  - rule: Say goodbye anytime the user says goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - rule: Say 'I am a Mental Health support' anytime the user challenges
+    steps:
+      - intent: bot_challenge
+      - action: utter_iamabot
+
+  - rule: Respond to affirm intent
+    steps:
+      - intent: smalltalk_confirmation_yes
+      - action: utter_smalltalk_confirmation_yes
+
+  - rule: Respond to mood_great intent
+    steps:
+      - intent: mood_great
+      - action: utter_happy
+
+  - rule: Respond to sad intent
+    steps:
+      - intent: sad
+      - action: utter_make_happy
+      - action: utter_cheer_up
+      - action: utter_did_that_help
+
+  # - rule: Respond to mood_unhappy intent
+  #   steps:
+  #     - intent: mood_unhappy
+  #     - action: utter_make_happy
+  - rule: Respond to  bot_feelings intent
+    steps:
+      - intent: bot_feelings
+      - action: utter_bot_feelings
+
+  - rule: Respond to sentiment_bot  intent
+    steps:
+      - intent: sentiment_bot
+      - action: utter_sentiment_bot
+
+  - rule: Respond to define_depression intent
+    steps:
+      - intent: define_depression
+      - action: utter_define_depression
+
+  - rule: Respond to define_anxiety intent
+    steps:
+      - intent: define_anxiety
+      - action: utter_define_anxiety
+
+  - rule: Respond to depression_symptom intent
+    steps:
+      - intent: depression_symptom
+      - action: utter_depression_symptom
+
+  - rule: Respond to recommendation_depression intent
+    steps:
+      - intent: recommendation_depression
+      - action: utter_recommendation_depression
+      - action: utter_write_yourself
+
+  - rule: Respond to how_long_depression_last intent
+    steps:
+      - intent: how_long_depression_last
+      - action: utter_how_long_depression_last
+
+  - rule: Respond to depression_affecting_life intent
+    steps:
+      - intent: depression_affecting_life
+      - action: utter_depression_affecting_life
+
+  - rule: Respond to treatment_depression intent
+    steps:
+      - intent: treatment_depression
+      - action: utter_treatment_depression
+
+  - rule: Respond to loved_one_depressed intent
+    steps:
+      - intent: loved_one_depressed
+      - action: utter_loved_one_depressed
+
+  - rule: Respond to types_of_depression intent
+    steps:
+      - intent: types_of_depression
+      - action: utter_types_of_depression
+
+  - rule: Respond to Affect_of_depression intent
+    steps:
+      - intent: Affect_of_depression
+      - action: utter_Affect_of_depression
+
+  - rule: Respond to genetics_role_in_depression intent
+    steps:
+      - intent: genetics_role_in_depression
+      - action: utter_genetics_role_in_depression
+
+  - rule: Respond to misconception_depression intent
+    steps:
+      - intent: misconception_depression
+      - action: utter_misconception_depression
+
+  - rule: Respond to asking_help_for_depression intent
+    steps:
+      - intent: asking_help_for_depression
+      - action: utter_asking_help_for_depression
+
+  - rule: Respond to cause_of_depression intent
+    steps:
+      - intent: cause_of_depression
+      - action: utter_cause_of_depression
+
+  - rule: Respond to alternative_treatment_depression intent
+    steps:
+      - intent: alternative_treatment_depression
+      - action: utter_alternative_treatment_depression
+      - action: utter_yoga_link
+
+  - rule: Respond to spiritual_treatment_depression intent
+    steps:
+      - intent: spiritual_treatment_depression
+      - action: utter_spiritual_treatment_depression
+      - action: utter_soft_music
+
+  - rule: Respond to reducing_symptom_depression intent
+    steps:
+      - intent: reducing_symptom_depression
+      - action: utter_reducing_symptom_depression
+
+  - rule: Respond to substance_abuse_depression intent
+    steps:
+      - intent: substance_abuse_depression
+      - action: utter_substance_abuse_depression
+
+  - rule: Respond to Major_Depression intent
+    steps:
+      - intent: Major_Depression
+      - action: utter_Major_Depression
+
+  - rule: Respond to Persistent_Depressive_Disorder intent
+    steps:
+      - intent: Persistent_Depressive_Disorder
+      - action: utter_Persistent_Depressive_Disorder
+
+  - rule: Respond to Seasonal_Affective_Disorder intent
+    steps:
+      - intent: Seasonal_Affective_Disorder
+      - action: utter_Seasonal_Affective_Disorder
+
+  - rule: Respond to Postpartum_Depression intent
+    steps:
+      - intent: Postpartum_Depression
+      - action: utter_Postpartum_Depression
+
+  - rule: Respond to Psychotic_Depression intent
+    steps:
+      - intent: Psychotic_Depression
+      - action: utter_Psychotic_Depression
+
+  - rule: Respond to love_validation intent
+    steps:
+      - intent: love_validation
+      - action: utter_love_validation
+
+  - rule: Respond to demotivated intent
+    steps:
+      - intent: demotivated
+      - action: utter_demotivated
+
+  - rule: Respond to calming_yourself intent
+    steps:
+      - intent: calming_yourself
+      - action: utter_calming_yourself
+      - action: utter_cheer_you_up
+
+  - rule: Respond to exteme_end_suicide intent
+    steps:
+      - intent: exteme_end_suicide
+      - action: utter_help_suicide
+      - action: utter_exteme_end_suicide
+
+  - rule: Respond to highest_depression_rate intent
+    steps:
+      - intent: highest_depression_rate
+      - action: utter_highest_depression_rate
+
+  - rule: Respond to most_Depressed_country intent
+    steps:
+      - intent: most_Depressed_country
+      - action: utter_most_Depressed_country
+
+  - rule: Respond to school_interferance_depression intent
+    steps:
+      - intent: school_interferance_depression
+      - action: utter_school_interferance_depression
+
+  - rule: Respond to oversleepong_cause_Depression intent
+    steps:
+      - intent: oversleepong_cause_Depression
+      - action: utter_oversleepong_cause_Depression
+
+  - rule: Respond to diabities_as_cause_of_depression intent
+    steps:
+      - intent: diabities_as_cause_of_depression
+      - action: utter_diabities_as_cause_of_depression
+
+  - rule: Respond to Anxiety_attacking_time intent
+    steps:
+      - intent: Anxiety_attacking_time
+      - action: utter_Anxiety_attacking_time
+
+  - rule: Respond to types_of_anxiety intent
+    steps:
+      - intent: types_of_anxiety
+      - action: utter_types_of_anxiety
+
+  - rule: Respond to targeted_age_group intent
+    steps:
+      - intent: targeted_age_group
+      - action: utter_targeted_age_group
+
+  - rule: Respond to symptoms_anxiety intent
+    steps:
+      - intent: symptoms_anxiety
+      - action: utter_symptoms_anxiety
+      - action: utter_soft_music
+
+  - rule: Respond to insecure_feelings intent
+    steps:
+      - intent: insecure_feelings
+      - action: utter_insecure_feelings
+
+  - rule: Respond to low_self_esteem intent
+    steps:
+      - intent: low_self_esteem
+      - action: utter_low_self_esteem
+
+  - rule: Respond to utter_bullying_issue intent
+    steps:
+      - intent: bullying_issue
+      - action: utter_bullying_issue
+
+  - rule: Respond to emotional_talk intent
+    steps:
+      - intent: emotional_talk
+      - action: utter_emotional_talk
+      - action: utter_write_yourself
+
+  - rule: Respond to sharing_anxiety_symptoms intent
+    steps:
+      - intent: sharing_anxiety_symptoms
+      - action: utter_sharing_anxiety_symptoms
+
+  - rule: Respond to treatment_anxiety intent
+    steps:
+      - intent: treatment_anxiety
+      - action: utter_treatment_anxiety
+
+  - rule: Respond to utter_anxiety_cause intent
+    steps:
+      - intent: anxiety_cause
+      - action: utter_anxiety_cause
+
+  - rule: Respond to treatment_ask_anxeity intent
+    steps:
+      - intent: treatment_ask_anxeity
+      - action: utter_treatment_ask_anxeity
+
+  - rule: Respond to duration_of_anxiety intent
+    steps:
+      - intent: duration_of_anxiety
+      - action: utter_duration_of_anxiety
+
+  - rule: Respond to anxiety_affecting_life intent
+    steps:
+      - intent: anxiety_affecting_life
+      - action: utter_anxiety_affecting_life
+
+  - rule: Respond to  natural_treatment_anxiety intent
+    steps:
+      - intent: natural_treatment_anxiety
+      - action: utter_natural_treatment_anxiety
+      - action: utter_yoga_link
+
+  - rule: Respond to supporting_anxiety_patients intent
+    steps:
+      - intent: supporting_anxiety_patients
+      - action: utter_supporting_anxiety_patients
+
+  - rule: Respond to genetic_cause_anxiety intent
+    steps:
+      - intent: genetic_cause_anxiety
+      - action: utter_genetic_cause_anxiety
+
+  - rule: Respond to misconception_on_anxiety intent
+    steps:
+      - intent: misconception_on_anxiety
+      - action: utter_misconception_on_anxiety
+
+  - rule: Respond to risk_factor_anxiety  intent
+    steps:
+      - intent: risk_factor_anxiety
+      - action: utter_risk_factor_anxiety
+
+  - rule: Respond to therapy_helping_anxiety intent
+    steps:
+      - intent: therapy_helping_anxiety
+      - action: utter_therapy_helping_anxiety
+
+  - rule: Respond to medication intent
+    steps:
+      - intent: medication
+      - action: utter_medication
+
+  - rule: Respond to excersie_helping_anxiety  intent
+    steps:
+      - intent: excersie_helping_anxiety
+      - action: utter_excersie_helping_anxiety
+      - action: utter_yoga_link
+
+  - rule: Respond to childhood_trauma_leading_anxiety intent
+    steps:
+      - intent: childhood_trauma_leading_anxiety
+      - action: utter_childhood_trauma_leading_anxiety
+
+  - rule: Respond to death_of_loved_one_causing_anxiety intent
+    steps:
+      - intent: death_of_loved_one_causing_anxiety
+      - action: utter_death_of_loved_one_causing_anxiety
+
+  - rule: Respond to  depression_anxiety_difference  intent
+    steps:
+      - intent: depression_anxiety_difference
+      - action: utter_depression_anxiety_difference

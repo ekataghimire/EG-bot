@@ -1,0 +1,1159 @@
+version: "3.1"
+
+stories:
+  - story: happy path
+    steps:
+      - intent: greet_user
+      - action: utter_greet
+      - action: utter_after_greetings
+      - intent: mood_great
+      - action: utter_happy
+
+  - story: sad path 1
+    steps:
+      - intent: greet_user
+      - action: utter_greet
+      - action: utter_after_greetings
+      - intent: mood_unhappy
+      - action: utter_make_happy
+      - action: utter_cheer_up
+      - action: utter_did_that_help
+      - intent: smalltalk_confirmation_yes
+      - action: utter_smalltalk_confirmation_yes
+
+  - story: sad path 2
+    steps:
+      - intent: greet_user
+      - action: utter_greet
+      - intent: mood_unhappy
+      - action: utter_cheer_up
+      - action: utter_did_that_help
+      - intent: smalltalk_appraisal_bad
+      - action: utter_smalltalk_appraisal_bad
+
+  - story: make user happy
+    steps:
+      - intent: mood_unhappy
+      - action: utter_cheer_up
+      - action: utter_did_that_help
+
+  - story: user wants to define depression
+    steps:
+      - intent: mental_health_concern
+      - action: utter_mental_health_concern
+      - action: utter_solving_concern
+
+  - story: user wants to define mental health
+    steps:
+      - intent: mental_health_defination
+      - action: utter_mental_health_defination
+      - action: utter_solving_concern
+
+  - story: user wants to challenge bot
+    steps:
+      - intent: bot_challenge
+      - action: utter_iamabot
+
+  - story: user wants to thank the bot
+    steps:
+      - intent: thanks
+      - action: utter_say_welcome
+
+  - story: user wants know jokes
+    steps:
+      - intent: telljoke
+      - action: utter_telljoke
+  # basic_normal_conversational_dataset
+
+  - story: smalltalk_agent_what_they_doing
+    steps:
+      - intent: smalltalk_agent_what_they_doing
+      - action: utter_smalltalk_agent_what_they_doing
+
+  - story: handle the insult
+    steps:
+      - intent: handleinsult
+      - action: utter_handleinsult
+
+  - story: smalltalk_agent_age
+    steps:
+      - intent: smalltalk_agent_age
+      - action: utter_smalltalk_agent_age
+
+  - story: smalltalk_agent_annoying
+    steps:
+      - intent: smalltalk_agent_annoying
+      - action: utter_smalltalk_agent_annoying
+
+  - story: smalltalk_agent_answer_my_question
+    steps:
+      - intent: smalltalk_agent_answer_my_question
+      - action: utter_smalltalk_agent_answer_my_question
+
+  - story: smalltalk_agent_bad
+    steps:
+      - intent: smalltalk_agent_bad
+      - action: utter_smalltalk_agent_bad
+
+  - story: smalltalk_agent_be_clever
+    steps:
+      - intent: smalltalk_agent_be_clever
+      - action: utter_smalltalk_agent_be_clever
+
+  - story: smalltalk_agent_beautiful
+    steps:
+      - intent: smalltalk_agent_beautiful
+      - action: utter_smalltalk_agent_beautiful
+
+  - story: smalltalk_agent_birth_date
+    steps:
+      - intent: smalltalk_agent_birth_date
+      - action: utter_smalltalk_agent_birth_date
+
+  - story: smalltalk_agent_boring
+    steps:
+      - intent: smalltalk_agent_boring
+      - action: utter_smalltalk_agent_boring
+
+  - story: smalltalk_agent_boss
+    steps:
+      - intent: smalltalk_agent_boss
+      - action: utter_smalltalk_agent_boss
+
+  - story: smalltalk_agent_busy
+    steps:
+      - intent: smalltalk_agent_busy
+      - action: utter_smalltalk_agent_busy
+
+  - story: smalltalk_agent_chatbot
+    steps:
+      - intent: smalltalk_agent_chatbot
+      - action: utter_smalltalk_agent_chatbot
+
+  - story: smalltalk_agent_clever
+    steps:
+      - intent: smalltalk_agent_clever
+      - action: utter_smalltalk_agent_clever
+
+  - story: smalltalk_agent_crazy
+    steps:
+      - intent: smalltalk_agent_crazy
+      - action: utter_smalltalk_agent_crazy
+
+  - story: smalltalk_agent_fired
+    steps:
+      - intent: smalltalk_agent_fired
+      - action: utter_smalltalk_agent_fired
+
+  - story: smalltalk_agent_funny
+    steps:
+      - intent: smalltalk_agent_funny
+      - action: utter_smalltalk_agent_funny
+
+  - story: smalltalk_agent_good
+    steps:
+      - intent: smalltalk_agent_good
+      - action: utter_smalltalk_agent_good
+
+  - story: smalltalk_agent_happy
+    steps:
+      - intent: smalltalk_agent_happy
+      - action: utter_smalltalk_agent_happy
+
+  - story: smalltalk_agent_hungry
+    steps:
+      - intent: smalltalk_agent_hungry
+      - action: utter_smalltalk_agent_hungry
+
+  - story: smalltalk_agent_marry_user
+    steps:
+      - intent: smalltalk_agent_marry_user
+      - action: utter_smalltalk_agent_marry_user
+
+  - story: smalltalk_agent_my_friend
+    steps:
+      - intent: smalltalk_agent_my_friend
+      - action: utter_smalltalk_agent_my_friend
+
+  - story: smalltalk_agent_occupation
+    steps:
+      - intent: smalltalk_agent_occupation
+      - action: utter_smalltalk_agent_occupation
+
+  - story: smalltalk_agent_origin
+    steps:
+      - intent: smalltalk_agent_origin
+      - action: utter_smalltalk_agent_origin
+
+  - story: smalltalk_agent_ready
+    steps:
+      - intent: smalltalk_agent_ready
+      - action: utter_smalltalk_agent_ready
+
+  - story: smalltalk_agent_real
+    steps:
+      - intent: smalltalk_agent_real
+      - action: utter_smalltalk_agent_real
+
+  - story: smalltalk_agent_residence
+    steps:
+      - intent: smalltalk_agent_residence
+      - action: utter_smalltalk_agent_residence
+
+  - story: smalltalk_agent_right
+    steps:
+      - intent: smalltalk_agent_right
+      - action: utter_smalltalk_agent_right
+
+  - story: smalltalk_confirmation_yes
+    steps:
+      - intent: smalltalk_confirmation_yes
+      - action: utter_smalltalk_confirmation_yes
+
+  - story: smalltalk_agent_sure
+    steps:
+      - intent: smalltalk_agent_sure
+      - action: utter_smalltalk_agent_sure
+
+  - story: smalltalk_agent_talk_to_me
+    steps:
+      - intent: smalltalk_agent_talk_to_me
+      - action: utter_smalltalk_agent_talk_to_me
+
+  - story: smalltalk_agent_there
+    steps:
+      - intent: smalltalk_agent_there
+      - action: utter_smalltalk_agent_there
+
+  - story: smalltalk_appraisal_bad
+    steps:
+      - intent: smalltalk_appraisal_bad
+      - action: utter_smalltalk_appraisal_bad
+
+  - story: smalltalk_appraisal_good
+    steps:
+      - intent: smalltalk_appraisal_good
+      - action: utter_smalltalk_appraisal_good
+
+  - story: smalltalk_appraisal_no_problem
+    steps:
+      - intent: smalltalk_appraisal_no_problem
+      - action: utter_smalltalk_appraisal_no_problem
+
+  - story: smalltalk_appraisal_thank_you
+    steps:
+      - intent: smalltalk_appraisal_thank_you
+      - action: utter_smalltalk_appraisal_thank_you
+
+  - story: smalltalk_appraisal_welcome
+    steps:
+      - intent: smalltalk_appraisal_welcome
+      - action: utter_smalltalk_appraisal_welcome
+
+  - story: smalltalk_appraisal_well_done
+    steps:
+      - intent: smalltalk_appraisal_well_done
+      - action: utter_smalltalk_appraisal_well_done
+
+  - story: smalltalk_confirmation_cancel
+    steps:
+      - intent: smalltalk_confirmation_cancel
+      - action: utter_smalltalk_confirmation_cancel
+
+  - story: smalltalk_confirmation_no
+    steps:
+      - intent: smalltalk_confirmation_no
+      - action: utter_smalltalk_confirmation_no
+
+  - story: smalltalk_dialog_hold_on
+    steps:
+      - intent: smalltalk_dialog_hold_on
+      - action: utter_smalltalk_dialog_hold_on
+
+  - story: smalltalk_dialog_hug
+    steps:
+      - intent: smalltalk_dialog_hug
+      - action: utter_smalltalk_dialog_hug
+
+  - story: smalltalk_dialog_i_do_not_care
+    steps:
+      - intent: smalltalk_dialog_i_do_not_care
+      - action: utter_smalltalk_dialog_i_do_not_care
+
+  - story: smalltalk_dialog_sorry
+    steps:
+      - intent: smalltalk_dialog_sorry
+      - action: utter_smalltalk_dialog_sorry
+
+  - story: smalltalk_dialog_what_do_you_mean
+    steps:
+      - intent: smalltalk_dialog_what_do_you_mean
+      - action: utter_smalltalk_dialog_what_do_you_mean
+
+  - story: smalltalk_dialog_wrong
+    steps:
+      - intent: smalltalk_dialog_wrong
+      - action: utter_smalltalk_dialog_wrong
+
+  - story: smalltalk_emotions_ha_ha
+    steps:
+      - intent: smalltalk_emotions_ha_ha
+      - action: utter_smalltalk_emotions_ha_ha
+
+  - story: smalltalk_emotions_wow
+    steps:
+      - intent: smalltalk_emotions_wow
+      - action: utter_smalltalk_emotions_wow
+
+  - story: smalltalk_greetings_bye
+    steps:
+      - intent: smalltalk_greetings_bye
+      - action: utter_smalltalk_greetings_bye
+
+  - story: smalltalk_greetings_goodevening
+    steps:
+      - intent: smalltalk_greetings_goodevening
+      - action: utter_smalltalk_greetings_goodevening
+
+  - story: smalltalk_greetings_goodmorning
+    steps:
+      - intent: smalltalk_greetings_goodmorning
+      - action: utter_smalltalk_greetings_goodmorning
+
+  - story: smalltalk_greetings_goodnight
+    steps:
+      - intent: smalltalk_greetings_goodnight
+      - action: utter_smalltalk_greetings_goodnight
+
+  # - story: smalltalk_greetings_hello
+  #   steps:
+  #     - intent: smalltalk_greetings_hello
+  #     - action: utter_smalltalk_greetings_hello
+
+  - story: smalltalk_greetings_how_are_you
+    steps:
+      - intent: smalltalk_greetings_how_are_you
+      - action: utter_smalltalk_greetings_how_are_you
+
+  - story: smalltalk_greetings_nice_to_meet_you
+    steps:
+      - intent: smalltalk_greetings_nice_to_meet_you
+      - action: utter_smalltalk_greetings_nice_to_meet_you
+
+  - story: smalltalk_greetings_nice_to_see_you
+    steps:
+      - intent: smalltalk_greetings_nice_to_see_you
+      - action: utter_smalltalk_greetings_nice_to_see_you
+
+  - story: smalltalk_greetings_nice_to_talk_to_you
+    steps:
+      - intent: smalltalk_greetings_nice_to_talk_to_you
+      - action: utter_smalltalk_greetings_nice_to_talk_to_you
+
+  - story: smalltalk_greetings_whatsup
+    steps:
+      - intent: smalltalk_greetings_whatsup
+      - action: utter_smalltalk_greetings_whatsup
+
+  - story: smalltalk_user_angry
+    steps:
+      - intent: smalltalk_user_angry
+      - action: utter_smalltalk_user_angry
+
+  - story: smalltalk_user_back
+    steps:
+      - intent: smalltalk_user_back
+      - action: utter_smalltalk_user_back
+
+  - story: smalltalk_user_bored
+    steps:
+      - intent: smalltalk_user_bored
+      - action: utter_smalltalk_user_bored
+
+  - story: smalltalk_user_busy
+    steps:
+      - intent: smalltalk_user_busy
+      - action: utter_smalltalk_user_busy
+
+  - story: smalltalk_user_can_not_sleep
+    steps:
+      - intent: smalltalk_user_can_not_sleep
+      - action: utter_smalltalk_user_can_not_sleep
+
+  - story: smalltalk_user_does_not_want_to_talk
+    steps:
+      - intent: smalltalk_user_does_not_want_to_talk
+      - action: utter_smalltalk_user_does_not_want_to_talk
+
+  - story: smalltalk_user_excited
+    steps:
+      - intent: smalltalk_user_excited
+      - action: utter_smalltalk_user_excited
+
+  - story: smalltalk_user_going_to_bed
+    steps:
+      - intent: smalltalk_user_going_to_bed
+      - action: utter_smalltalk_user_going_to_bed
+
+  - story: smalltalk_user_good
+    steps:
+      - intent: smalltalk_user_good
+      - action: utter_smalltalk_user_good
+
+  - story: smalltalk_user_happy
+    steps:
+      - intent: smalltalk_user_happy
+      - action: utter_smalltalk_user_happy
+
+  - story: smalltalk_user_has_birthday
+    steps:
+      - intent: smalltalk_user_has_birthday
+      - action: utter_smalltalk_user_has_birthday
+
+  - story: smalltalk_user_here
+    steps:
+      - intent: smalltalk_user_here
+      - action: utter_smalltalk_user_here
+
+  - story: smalltalk_user_joking
+    steps:
+      - intent: smalltalk_user_joking
+      - action: utter_smalltalk_user_joking
+
+  - story: smalltalk_user_likes_agent
+    steps:
+      - intent: smalltalk_user_likes_agent
+      - action: utter_smalltalk_user_likes_agent
+
+  - story: smalltalk_user_lonely
+    steps:
+      - intent: smalltalk_user_lonely
+      - action: utter_smalltalk_user_lonely
+
+  - story: smalltalk_user_looks_like
+    steps:
+      - intent: smalltalk_user_looks_like
+      - action: utter_smalltalk_user_looks_like
+
+  - story: smalltalk_user_loves_agent
+    steps:
+      - intent: smalltalk_user_loves_agent
+      - action: utter_smalltalk_user_loves_agent
+
+  - story: smalltalk_user_misses_agent
+    steps:
+      - intent: smalltalk_user_misses_agent
+      - action: utter_smalltalk_user_misses_agent
+
+  - story: smalltalk_user_needs_advice
+    steps:
+      - intent: smalltalk_user_needs_advice
+      - action: utter_smalltalk_user_needs_advice
+
+  - story: smalltalk_user_sad
+    steps:
+      - intent: smalltalk_user_sad
+      - action: utter_smalltalk_user_sad
+
+  - story: smalltalk_user_sleepy
+    steps:
+      - intent: smalltalk_user_sleepy
+      - action: utter_smalltalk_user_sleepy
+
+  - story: smalltalk_user_testing_agent
+    steps:
+      - intent: smalltalk_user_testing_agent
+      - action: utter_smalltalk_user_testing_agent
+
+  - story: smalltalk_user_tired
+    steps:
+      - intent: smalltalk_user_tired
+      - action: utter_smalltalk_user_tired
+
+  - story: smalltalk_user_waits
+    steps:
+      - intent: smalltalk_user_waits
+      - action: utter_smalltalk_user_waits
+
+  - story: smalltalk_user_wants_to_see_agent_again
+    steps:
+      - intent: smalltalk_user_wants_to_see_agent_again
+      - action: utter_smalltalk_user_wants_to_see_agent_again
+
+  - story: smalltalk_user_wants_to_talk
+    steps:
+      - intent: smalltalk_user_wants_to_talk
+      - action: utter_smalltalk_user_wants_to_talk
+
+  - story: smalltalk_user_will_be_back
+    steps:
+      - intent: smalltalk_user_will_be_back
+      - action: utter_smalltalk_user_will_be_back
+
+  # mental_health_conversatinal_dataset
+  - story: user wants to define depression
+    steps:
+      - intent: define_depression
+      - action: utter_define_depression
+
+  - story: user wants to define anxiety
+    steps:
+      - intent: define_anxiety
+      - action: utter_define_anxiety
+
+  - story: user wants to know symptom of depression
+    steps:
+      - intent: symptom_depression
+      - action: utter_depression_symptom
+
+  - story: user wants to know depression symptoms
+    steps:
+      - intent: depression_symptom
+      - action: utter_depression_symptom
+
+  - story: user wants recommendations for depression
+    steps:
+      - intent: recommendation_depression
+      - action: utter_recommendation_depression
+      - action: utter_write_yourself
+
+  - story: user wants to know how long depression lasts
+    steps:
+      - intent: how_long_depression_last
+      - action: utter_how_long_depression_last
+
+  - story: user wants to know how depression is affecting their life
+    steps:
+      - intent: depression_affecting_life
+      - action: utter_depression_affecting_life
+
+  - story: user wants to know what happens if they have depression
+    steps:
+      - intent: what_happens_during_depression
+      - action: utter_what_happens_during_depression
+
+  - story: user wants to reach the counseling
+    steps:
+      - intent: reaching_out_counseling
+      - action: utter_reaching_out_counseling
+
+  - story: user wants to fix depression
+    steps:
+      - intent: fix_Depression
+      - action: utter_fix_Depression
+      - action: utter_yoga_link
+
+  - story: user wants to know how depression is treated
+    steps:
+      - intent: treatment_depression
+      - action: utter_treatment_depression
+
+  - story: user wants to know how to help a loved one who is depressed
+    steps:
+      - intent: loved_one_depressed
+      - action: utter_loved_one_depressed
+
+  - story: user wants to know about types of depression
+    steps:
+      - intent: types_of_depression
+      - action: utter_types_of_depression
+
+  - story: user wants to know how depression affects them
+    steps:
+      - intent: Affect_of_depression
+      - action: utter_Affect_of_depression
+
+  - story: user wants to know the role of genetics in depression
+    steps:
+      - intent: genetics_role_in_depression
+      - action: utter_genetics_role_in_depression
+
+  - story: user has misconceptions about depression
+    steps:
+      - intent: misconception_depression
+      - action: utter_misconception_depression
+
+  - story: user wants to know how to ask for help for depression
+    steps:
+      - intent: asking_help_for_depression
+      - action: utter_asking_help_for_depression
+
+  - story: user wants to know the cause of depression
+    steps:
+      - intent: cause_of_depression
+      - action: utter_cause_of_depression
+
+  - story: user wants express sexual abuse happened to them
+    steps:
+      - intent: sexual_abuse
+      - action: utter_sexual_abuse
+      - action: utter_make_people_happy
+      - action: utter_cheer_up
+
+  - story: user wants express abuse happened to them
+    steps:
+      - intent: abuse
+      - action: utter_abuse
+      - action: utter_make_people_happy
+      - action: utter_cheer_up
+
+  - story: user wants express they were raped
+    steps:
+      - intent: rape
+      - action: utter_rape
+      - action: utter_make_people_happy
+      - action: utter_cheer_up
+
+  - story: user wants express trauma
+    steps:
+      - intent: trauma
+      - action: utter_trauma
+      - action: utter_make_people_happy
+      - action: utter_cheer_up
+
+  - story: user wants express low self esteem
+    steps:
+      - intent: issue_low_self_esteem
+      - action: utter_issue_low_self_esteem
+
+  - story: user wants to impove the mental health condition
+    steps:
+      - intent: make_mental_health_better
+      - action: utter_make_mental_health_better
+
+  - story: deadly disease surviour asking about mental health
+    steps:
+      - intent: deadly_disease_survivor_mental_health
+      - action: utter_deadly_disease_survivor_mental_health
+
+  - story: user wants express their worthless ness feeling
+    steps:
+      - intent: user_feeling_worthless
+      - action: utter_user_feeling_worthless
+
+  - story: user wants express panic_attacks
+    steps:
+      - intent: panic_attacks
+      - action: utter_panic_attacks
+
+  - story: user wants to get the counseler
+    steps:
+      - intent: get_counseler
+      - action: utter_get_counseler
+
+  - story: user wants to get couseling recommendation
+    steps:
+      - intent: counseling_recoomendation
+      - action: utter_counseling_recoomendation
+
+  - story: user wants to know the first experience in the counseler
+    steps:
+      - intent: first_session
+      - action: utter_first_session
+
+  - story: user wants express empathaizing
+    steps:
+      - intent: empathaizing
+      - action: utter_empathaizing
+
+  - story: user wants express emotion_overflow
+    steps:
+      - intent: emotion_overflow
+      - action: utter_emotion_overflow
+
+  - story: user wants express self_harm
+    steps:
+      - intent: self_harm
+      - action: utter_self_harm
+
+  - story: user wants express past_making_things_hard
+    steps:
+      - intent: past_making_things_hard
+      - action: utter_past_making_things_hard
+
+  - story: user wants express random_voices
+    steps:
+      - intent: random_voices
+      - action: utter_random_voices
+
+  - story: user wants express sexual_orientation
+    steps:
+      - intent: sexual_orientation
+      - action: utter_sexual_orientation
+
+  - story: user wants express utter_Gender_Roles_Mental_Health
+    steps:
+      - intent: Gender_Roles_Mental_Health
+      - action: utter_Gender_Roles_Mental_Health
+
+  - story: user wants express love_life
+    steps:
+      - intent: love_life
+      - action: utter_love_life
+
+  - story: user wants express mental health addiction
+    steps:
+      - intent: addiction_mental_health
+      - action: utter_addiction_mental_health
+
+  - story: user wants to know the symptom of bipolar disorder
+    steps:
+      - intent: bipolar_symptom
+      - action: utter_bipolar_symptom
+
+  - story: user wants express bipolar_disorder_symptoms
+    steps:
+      - intent: bipolar_disorder_symptoms
+      - action: utter_bipolar_disorder_symptoms
+
+  - story: user wants express define_biploar_disorder
+    steps:
+      - intent: define_biploar_disorder
+      - action: utter_define_biploar_disorder
+
+  - story: user wants express bipolar_can_be_treated
+    steps:
+      - intent: bipolar_can_be_treated
+      - action: utter_bipolar_can_be_treated
+
+  - story: user wants express biploar_treatment
+    steps:
+      - intent: biploar_treatment
+      - action: utter_biploar_treatment
+
+  - story: user wants express bipolar_affecting_daily_life
+    steps:
+      - intent: bipolar_affecting_daily_life
+      - action: utter_bipolar_affecting_daily_life
+
+  - story: user wants express natural_treatment_bipolar
+    steps:
+      - intent: natural_treatment_bipolar
+      - action: utter_natural_treatment_bipolar
+      - action: utter_yoga_link
+
+  - story: user wants express natural_treatment_anxiety
+    steps:
+      - intent: natural_treatment_anxiety
+      - action: utter_natural_treatment_anxiety
+      - action: utter_yoga_link
+
+  - story: user wants express love_one_bipolar
+    steps:
+      - intent: love_one_bipolar
+      - action: utter_love_one_bipolar
+
+  - story: user wants express types_of_bipolar
+    steps:
+      - intent: types_of_bipolar
+      - action: utter_types_of_bipolar
+
+  - story: user wants express bipolar_impact_relationship
+    steps:
+      - intent: bipolar_impact_relationship
+      - action: utter_bipolar_impact_relationship
+
+  - story: user wants express genetic_bipolar
+    steps:
+      - intent: genetic_bipolar
+      - action: utter_genetic_bipolar
+
+  - story: user wants express misconception_on_bipolar
+    steps:
+      - intent: misconception_on_bipolar
+      - action: utter_misconception_on_bipolar
+
+  - story: user wants express therapist_for_bipolar
+    steps:
+      - intent: therapist_for_bipolar
+      - action: utter_therapist_for_bipolar
+
+  - story: user wants express bipolar_in_children
+    steps:
+      - intent: bipolar_in_children
+      - action: utter_bipolar_in_children
+
+  - story: user wants express bipolar_triggers
+    steps:
+      - intent: bipolar_triggers
+      - action: utter_bipolar_triggers
+
+  - story: user wants express bipolar_treatment
+    steps:
+      - intent: bipolar_treatment
+      - action: utter_bipolar_treatment
+
+  - story: user wants express cause_of_bipolar
+    steps:
+      - intent: cause_of_bipolar
+      - action: utter_cause_of_bipolar
+
+  - story: user wants express PSTD_symptom
+    steps:
+      - intent: PSTD_symptom
+      - action: utter_PSTD_symptom
+
+  - story: user wants express defination_PSTD
+    steps:
+      - intent: defination_PSTD
+      - action: utter_defination_PSTD
+
+  - story: user wants express symptoms_PSTD
+    steps:
+      - intent: symptoms_PSTD
+      - action: utter_symptoms_PSTD
+
+  - story: user wants express effect_PSTD
+    steps:
+      - intent: effect_PSTD
+      - action: utter_effect_PSTD
+
+  - story: user wants express cause_PSTD
+    steps:
+      - intent: cause_PSTD
+      - action: utter_cause_PSTD
+
+  - story: user wants express treatment_PSTD
+    steps:
+      - intent: treatment_PSTD
+      - action: utter_treatment_PSTD
+
+  - story: user wants express long_term_effects_PSTD
+    steps:
+      - intent: long_term_effects_PSTD
+      - action: utter_long_term_effects_PSTD
+
+  - story: user wants express helping_loved_one_PSTD
+    steps:
+      - intent: helping_loved_one_PSTD
+      - action: utter_helping_loved_one_PSTD
+
+  - story: user wants express misconception_PSTD
+    steps:
+      - intent: misconception_PSTD
+      - action: utter_misconception_PSTD
+
+  - story: user wants express how_coommon_PTSD
+    steps:
+      - intent: how_coommon_PTSD
+      - action: utter_how_coommon_PTSD
+
+  - story: user wants express prevent_PTSD
+    steps:
+      - intent: prevent_PTSD
+      - action: utter_prevent_PTSD
+
+  - story: user wants express Types_PTSD
+    steps:
+      - intent: Types_PTSD
+      - action: utter_Types_PTSD
+
+  - story: user wants express complex_PTSD
+    steps:
+      - intent: complex_PTSD
+      - action: utter_complex_PTSD
+
+  - story: user wants express self_Care_PTSD
+    steps:
+      - intent: self_Care_PTSD
+      - action: utter_self_Care_PTSD
+
+  - story: user wants express define_Schizophrenia
+    steps:
+      - intent: define_Schizophrenia
+      - action: utter_define_Schizophrenia
+
+  - story: user wants express symptom_Schizophrenia
+    steps:
+      - intent: symptom_Schizophrenia
+      - action: utter_symptom_Schizophrenia
+
+  - story: user wants express cause_Schizophrenia
+    steps:
+      - intent: cause_Schizophrenia
+      - action: utter_cause_Schizophrenia
+
+  - story: user wants express genetic_Schizophrenia
+    steps:
+      - intent: genetic_Schizophrenia
+      - action: utter_genetic_Schizophrenia
+
+  - story: user wants express treatment_Schizophrenia
+    steps:
+      - intent: treatment_Schizophrenia
+      - action: utter_treatment_Schizophrenia
+
+  - story: user wants express types_Schizophrenia
+    steps:
+      - intent: types_Schizophrenia
+      - action: utter_types_Schizophrenia
+
+  - story: user wants express Negetive_symptoms_Schizophrenia
+    steps:
+      - intent: Negetive_symptoms_Schizophrenia
+      - action: utter_Negetive_symptoms_Schizophrenia
+
+  - story: user wants express positive_symptom_Schizophrenia
+    steps:
+      - intent: positive_symptom_Schizophrenia
+      - action: utter_positive_symptom_Schizophrenia
+
+  - story: user wants express social_effect_Schizophrenia
+    steps:
+      - intent: social_effect_Schizophrenia
+      - action: utter_social_effect_Schizophrenia
+
+  - story: user wants express love_one_Schizophrenia
+    steps:
+      - intent: love_one_Schizophrenia
+      - action: utter_love_one_Schizophrenia
+
+  - story: user wants express misconception_schizophrenia
+    steps:
+      - intent: misconception_schizophrenia
+      - action: utter_misconception_schizophrenia
+
+  - story: user wants express Schizophrenia_affects
+    steps:
+      - intent: Schizophrenia_affects
+      - action: utter_Schizophrenia_affects
+
+  - story: user wants express Schizophrenia_and_multiple_personality_disorder
+    steps:
+      - intent: Schizophrenia_and_multiple_personality_disorder
+      - action: utter_Schizophrenia_and_multiple_personality_disorder
+
+  - story: user wants express Signs_of_schizophrenia
+    steps:
+      - intent: Signs_of_schizophrenia
+      - action: utter_Signs_of_schizophrenia
+
+  - story: user wants express schizophrenia_in_children
+    steps:
+      - intent: schizophrenia_in_children
+      - action: utter_schizophrenia_in_children
+
+  - story: user wants express therapy_schizophrenia
+    steps:
+      - intent: therapy_schizophrenia
+      - action: utter_therapy_schizophrenia
+
+  - story: user wants express long_term_effect_schizophrenia
+    steps:
+      - intent: long_term_effect_schizophrenia
+      - action: utter_long_term_effect_schizophrenia
+
+  - story: user wants express link_between_trauma_schizophrenia
+    steps:
+      - intent: link_between_trauma_schizophrenia
+      - action: utter_link_between_trauma_schizophrenia
+
+  - story: user wants express define_eating_disorder
+    steps:
+      - intent: define_eating_disorder
+      - action: utter_define_eating_disorder
+
+  - story: user wants express types_eating_disorder
+    steps:
+      - intent: types_eating_disorder
+      - action: utter_types_eating_disorder
+
+  - story: user wants express symptoms__eating_disorder
+    steps:
+      - intent: symptoms__eating_disorder
+      - action: utter_symptoms__eating_disorder
+
+  - story: user wants express cause_eating_disorder
+    steps:
+      - intent: cause_eating_disorder
+      - action: utter_cause_eating_disorder
+
+  - story: user wants express affecting_age_group_eating_disorder
+    steps:
+      - intent: affecting_age_group_eating_disorder
+      - action: utter_affecting_age_group_eating_disorder
+
+  - story: user wants express treatment_eating_disorder
+    steps:
+      - intent: treatment_eating_disorder
+      - action: utter_treatment_eating_disorder
+
+  - story: user wants express therapy_eating_disorder
+    steps:
+      - intent: therapy_eating_disorder
+      - action: utter_therapy_eating_disorder
+
+  - story: user wants express long_term_effect_eating_disorder
+    steps:
+      - intent: long_term_effect_eating_disorder
+      - action: utter_long_term_effect_eating_disorder
+
+  - story: user wants express social_life_affect_eating_disorder
+    steps:
+      - intent: social_life_affect_eating_disorder
+      - action: utter_social_life_affect_eating_disorder
+
+  - story: user wants express love_one_eating_disorder
+    steps:
+      - intent: love_one_eating_disorder
+      - action: utter_love_one_eating_disorder
+
+  - story: user wants express having_eating_disorder
+    steps:
+      - intent: having_eating_disorder
+      - action: utter_having_eating_disorder
+
+  - story: user wants express misconception__eating_disorder
+    steps:
+      - intent: misconception__eating_disorder
+      - action: utter_misconception__eating_disorder
+
+  - story: user wants express
+    steps:
+      - intent: self_help_eating_disorder
+      - action: utter_self_help_eating_disorder
+
+  - story: user wants express
+    steps:
+      - intent: coping_mechanism
+      - action: utter_coping_mechanism
+
+  - story: user wants express define_Disruptive_behavior
+    steps:
+      - intent: define_Disruptive_behavior
+      - action: utter_define_Disruptive_behavior
+
+  - story: user wants express symptom_Disruptive_behavior
+    steps:
+      - intent: symptom_Disruptive_behavior
+      - action: utter_symptom_Disruptive_behavior
+
+  - story: user wants express cause_Disruptive_behavior
+    steps:
+      - intent: cause_Disruptive_behavior
+      - action: utter_cause_Disruptive_behavior
+
+  - story: user wants express treatment_Disruptive_behavior
+    steps:
+      - intent: treatment_Disruptive_behavior
+      - action: utter_treatment_Disruptive_behavior
+
+  - story: user wants express social_Disruptive_behavior
+    steps:
+      - intent: social_Disruptive_behavior
+      - action: utter_social_Disruptive_behavior
+
+  - story: user wants express prevention_Disruptive_behavior
+    steps:
+      - intent: prevention_Disruptive_behavior
+      - action: utter_prevention_Disruptive_behavior
+
+  - story: user wants express oppositional_defiant_disorder
+    steps:
+      - intent: oppositional_defiant_disorder
+      - action: utter_oppositional_defiant_disorder
+
+  - story: user wants express Conduct_disorder
+    steps:
+      - intent: Conduct_disorder
+      - action: utter_Conduct_disorder
+
+  - story: user wants express triggers_disruptive
+    steps:
+      - intent: triggers_disruptive
+      - action: utter_triggers_disruptive
+
+  - story: user wants express define_Neurodevelopmental
+    steps:
+      - intent: define_Neurodevelopmental
+      - action: utter_define_Neurodevelopmental
+
+  - story: user wants express Symptoms_autism_spectrum
+    steps:
+      - intent: Symptoms_autism_spectrum
+      - action: utter_Symptoms_autism_spectrum
+
+  - story: user wants express cause_neurodevelopmental
+    steps:
+      - intent: cause_neurodevelopmental
+      - action: utter_cause_neurodevelopmental
+
+  - story: user wants express treatment_neurodevelopmental
+    steps:
+      - intent: treatment_neurodevelopmental
+      - action: utter_treatment_neurodevelopmental
+
+  - story: user wants express socail_life_effect_neurodevelopmental
+    steps:
+      - intent: socail_life_effect_neurodevelopmental
+      - action: utter_socail_life_effect_neurodevelopmental
+
+  - story: user wants express prevention_neurodevelopmental
+    steps:
+      - intent: prevention_neurodevelopmental
+      - action: utter_prevention_neurodevelopmental
+
+  - story: user wants express deine_ADHD
+    steps:
+      - intent: deine_ADHD
+      - action: utter_deine_ADHD
+
+  - story: user wants express Symptoms_ADHD
+    steps:
+      - intent: Symptoms_ADHD
+      - action: utter_Symptoms_ADHD
+
+  - story: user wants express ADHD_diagnosed
+    steps:
+      - intent: ADHD_diagnosed
+      - action: utter_ADHD_diagnosed
+
+  - story: user wants express treatment_ADHD
+    steps:
+      - intent: treatment_ADHD
+      - action: utter_treatment_ADHD
+
+  - story: user wants express define_dyslexia
+    steps:
+      - intent: define_dyslexia
+      - action: utter_define_dyslexia
+
+  - story: user wants express symptoms_dyslexia
+    steps:
+      - intent: symptoms_dyslexia
+      - action: utter_symptoms_dyslexia
+
+  - story: user wants express dyslexia_diagnosed
+    steps:
+      - intent: dyslexia_diagnosed
+      - action: utter_dyslexia_diagnosed
+
+  - story: user wants express treatment_dyslexia
+    steps:
+      - intent: treatment_dyslexia
+      - action: utter_treatment_dyslexia
+
+  - story: user wants express ADHD_fullform
+    steps:
+      - intent: ADHD_fullform
+      - action: utter_ADHD_fullform
+
+  - story: user wants utter_expressing_themselves
+    steps:
+      - intent: expressing_themselves
+      - action: utter_expressing_themselves
+
+  - story: user wants pressure_enduring
+    steps:
+      - intent: pressure_enduring
+      - action: utter_pressure_enduring
+
+  - story: user wants utter_referring_therapist
+    steps:
+      - intent: referring_therapist
+      - action: utter_referring_therapist
+
+  # - story: Respond fallback
+  #   steps:
+  #     - intent: bot_challenge
+  #     - action: utter_default

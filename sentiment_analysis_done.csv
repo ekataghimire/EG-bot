@@ -1,0 +1,3062 @@
+Text,Sentiment
+hey,0.0
+hello,0.0
+hi,0.0
+hello therecld,0.0
+good morning,0.7
+good evening,0.7
+moin,0.0
+hey there,0.0
+let's go,0.0
+hey dude,0.0
+goodmorning,0.0
+goodevening,0.0
+good afternoon,0.7
+greet,0.0
+howdy,0.0
+yo,0.0
+whattsup,0.0
+ey yo,0.0
+sup,0.0
+what,0.0
+how,0.0
+when,0.0
+hello mate,0.0
+hello friend,0.0
+heya,0.0
+ssup,0.0
+whats up,0.0
+greetings,0.0
+I greet you,0.0
+hi there,0.0
+hello there,0.0
+lovely day isn't it,0.5
+hello again,0.0
+just going to say hi,0.0
+a good day,0.7
+afternoon,0.0
+hello hi,0.0
+how are you,0.0
+hi,0.0
+are you doing good,0.7
+what is your mental condition like,-0.1
+how do you feel,0.0
+do you feel anything,0.0
+are you crazy,-0.6
+stupid,-0.7999999999999999
+you are stupid,-0.7999999999999999
+makes no sense,0.0
+i wasted my time,-0.2
+can't agree,0.0
+idiot,-0.8
+are idiot,-0.8
+you are no help,0.0
+cu,0.0
+good by,0.7
+cee you later,0.0
+good night,0.7
+bye,0.0
+goodbye,0.0
+have a nice day,0.6
+see you around,0.0
+bye bye,0.0
+see you later,0.0
+talk to you soon,0.0
+take care,0.0
+nice talk,0.6
+it was quite good,0.7
+okay,0.5
+okay then,0.5
+have a good day,0.7
+end,0.0
+stop,0.0
+till we meet again,0.0
+until nex time,0.0
+see ya,0.0
+talk to you later,0.0
+ttyl,0.0
+meet you again soon,0.0
+okay see you later,0.25
+hope to see you later,0.0
+bye for now,0.0
+till next time,0.0
+I must go,0.0
+see you,0.0
+see you soon,0.0
+bye-bye,0.0
+good bye,0.7
+bye bye see you,0.0
+bye bye see you soon,0.0
+bye bye take care,0.0
+I said bye,0.0
+never mind bye,0.0
+now bye,0.0
+that's all goodbye,0.0
+that's it goodbye,0.0
+leave me alone,0.0
+go to bed,0.0
+goodbye for now,0.0
+you can go now,0.0
+get lost,0.0
+goodbye see you later,0.0
+alright bye,0.0
+thanks bye bye,0.2
+okay bye,0.5
+okay thank you bye,0.5
+see you tomorrow,0.0
+ok bye,0.5
+perfect,1.0
+great,0.8
+amazing,0.6000000000000001
+feeling like a king,0.0
+wonderful,1.0
+I am feeling very good,0.9099999999999999
+I am great,0.8
+I am amazing,0.6000000000000001
+I am going to save the world,0.0
+super stoked,0.3333333333333333
+extremely good,0.7
+so so perfect,1.0
+so good,0.7
+so perfect,1.0
+I am sad,-0.5
+super sad,-0.08333333333333334
+I'm so sad,-0.5
+sad,-0.5
+very sad,-0.65
+unhappy,-0.6
+not good,-0.35
+not very good,-0.26923076923076916
+extremly sad,-0.5
+so saad,0.0
+so sad,-0.5
+so sadd,0.0
+feel really sad today,-0.5
+ca it seem shake feel sad,-0.5
+feel like stuck rut sad despair,-0.5
+it know snap sad,-0.5
+struggle find motive any sad,-0.5
+i am sad make me happy,0.15000000000000002
+my day was horrible,-1.0
+I don't feel very well,0.2
+I am disappointed,-0.75
+unhappy,-0.6
+not good,-0.35
+not very good,-0.26923076923076916
+feel really sad today,-0.5
+feel blue,0.0
+ca it seem shake feel sad,-0.5
+every feel hopeless overwhelm right,0.2857142857142857
+ca it seem find joy thing late,0.25
+feel like stuck rut sad despair,-0.5
+it know snap sad,-0.5
+feel like weight chest ca it breath,0.0
+struggle find motive any sad,-0.5
+feel like go motion life right,0.2857142857142857
+i feel so empty,-0.1
+i am feeling anxious,-0.25
+i am feeling out of the blue,0.0
+i feel so irritated,0.0
+so irritated,0.0
+i feel empty,-0.1
+are you a bot?,0.0
+are you a human?,0.0
+am I talking to a bot?,0.0
+am I talking to a human?,0.0
+who are you?,0.0
+why are you made,0.0
+what is your purpose,0.0
+what do you do,0.0
+all about you,0.0
+what is your personality,0.0
+define yourself,0.0
+what are you,0.0
+say about you,0.0
+introduce yourself,0.0
+describe yourself,0.0
+about yourself,0.0
+tell me about you,0.0
+tell me about yourself,0.0
+I want to know more about you,0.5
+I want to know you better,0.5
+talk some stuff about yourself,0.0
+tell me some stuff about you,0.0
+talk about yourself,0.0
+why are you here,0.0
+tell me about your personality,0.0
+who are you,0.0
+what is your name,0.0
+your name,0.0
+name,0.0
+you?,0.0
+who made you?,0.0
+made you?,0.0
+help,0.0
+need help,0.0
+assist,0.0
+struggle,0.0
+struggle  help,0.0
+any advice,0.0
+need guidance,0.0
+point right direction,0.2857142857142857
+help me,0.0
+not knowing what to do,0.0
+Can you provide support,0.0
+What should I do?,0.0
+thank,0.0
+thank a lot,0.0
+thank you for your help,0.0
+appri,0.0
+thank for the help,0.0
+great assistant,0.8
+best,1.0
+owe one,0.0
+glad,0.5
+great help,0.8
+wow,0.1
+omg so cute,0.5
+like it,0.0
+love it,0.5
+awww,0.4
+how old are you?,0.1
+how old is your platform,0.1
+are you 21 years old,0.1
+i'd like to know your age,0.0
+age of yours,0.0
+your age,0.0
+what's your age,0.0
+tell me your age,0.0
+how old are you,0.1
+whats your age?,0.0
+how old?,0.1
+what's your age?,0.0
+when were you born?,0.0
+what is your birthday?,0.0
+when is your birthday?,0.0
+how many years old are you?,0.3
+do you know how old you are?,0.1
+what is your exact age?,0.25
+what year were you born?,0.0
+can you tell me your age?,0.0
+What is your age?,0.0
+What is your birthdate?,0.0
+How old will you be on your next birthday?,0.05
+When do you celebrate your day of birth?,0.0
+How old were you on your last birthday?,0.05
+How many candles were on your last birthday cake?,0.25
+"Do you have friends the same age as you, if so, how old are they?",0.05
+"Tell me your day, month and year of birth.",0.0
+Whats your age?,0.0
+and you are how many years old?,0.3
+whats your birth year?,0.0
+what age were you when you celebrated your last birthday?,0.175
+how old were you when you celebrated your last birthday?,0.15
+tell me your age?,0.0
+how about your age,0.0
+how old were you on your last birthday?,0.05
+what age are you,0.0
+how old will you be this year?,0.1
+What year were you born?,0.0
+How long have you been around?,-0.05
+How long have you been alive?,0.025
+What was your age on your last birthday?,0.0
+What will be your age on your next birthday?,0.0
+How many years have you lived?,0.5
+How many years have you been alive?,0.3
+How long have you occupied the earth?,-0.05
+What is your count of years being alive so far?,0.1
+what is your age?,0.0
+in what year were you born?,0.0
+what number represents your age?,0.0
+tell me how old you are?,0.1
+give me your age?,0.0
+tell me your age number?,0.0
+can you tell me exactly how old you are?,0.175
+can you tell me what number represents your age?,0.0
+how old are u,0.1
+you're annoying,-0.8
+you are really annoying,-0.8
+you are irritating,-0.4
+you annoy me,0.0
+how annoying you are,-0.8
+I find you annoying,-0.8
+you're incredibly annoying,-0.8
+you are annoying me so much,-0.30000000000000004
+I want you to answer me,0.0
+answer,0.0
+answer my question,0.0
+answer me,0.0
+give me an answer,0.0
+answer the question,0.0
+can you answer my question,0.0
+tell me the answer,0.0
+answer it,0.0
+give me the answer,0.0
+I have a question,0.0
+I want you to answer my question,0.0
+just answer the question,0.0
+can you answer me,0.0
+answers,0.0
+can you answer a question for me,0.0
+can you answer,0.0
+answering questions,0.0
+I want the answer now,0.0
+just answer my question,0.0
+you're not helping me,0.0
+you are bad,-0.6999999999999998
+you're very bad,-0.9099999999999998
+you're really bad,-0.6999999999999998
+you are useless,-0.5
+you are horrible,-1.0
+you are a waste of time,-0.2
+you are disgusting,-1.0
+you are lame,-0.5
+you are no good,-0.35
+you're bad,-0.6999999999999998
+you're awful,-1.0
+you are not cool,-0.175
+you are not good,-0.35
+you are so useless,-0.5
+you are terrible,-1.0
+you are totally useless,-0.5
+you are very bad,-0.9099999999999998
+you are waste,-0.2
+you're a bad,-0.6999999999999998
+you're not a good,-0.35
+you're not very good,-0.26923076923076916
+you're terrible,-1.0
+you're the worst,-1.0
+you're the worst ever,-1.0
+you're worthless,-0.8
+what are you doing,0.0
+what are you up to,0.0
+what is your business,0.0
+you doing,0.0
+can you get smarter,0.0
+study,0.0
+you should study better,0.5
+you must learn,0.0
+be clever,0.16666666666666666
+be more clever,0.3333333333333333
+be smarter,0.0
+be smart,0.21428571428571427
+get qualified,0.0
+you're cute,0.5
+you're attractive,0.8
+you are beautiful,0.85
+you're looking good today,0.7
+you are so beautiful,0.85
+you look amazing,0.6000000000000001
+you look so good,0.7
+you're so gorgeous,0.7
+you are too beautiful,0.85
+you look great,0.8
+you look so well,0.0
+I like the way you look now,0.0
+I think you're beautiful,0.85
+why are you so beautiful,0.85
+you are so beautiful to me,0.85
+you are cute,0.5
+you are gorgeous,0.7
+you are handsome,0.5
+you are looking awesome,1.0
+you look amazing today,0.6000000000000001
+you are looking beautiful today,0.85
+you are looking great,0.8
+you are looking pretty,0.25
+you are looking so beautiful,0.85
+you are looking so good,0.7
+you are pretty,0.25
+you are really beautiful,0.85
+you are really cute,0.5
+you are really pretty,0.25
+you are so attractive,0.8
+you are so beautiful today,0.85
+you are so cute,0.5
+you are so gorgeous,0.7
+you are so handsome,0.5
+you are so pretty,0.25
+you are very attractive,1.0
+you are very beautiful,1.0
+you are very cute,0.65
+you are very pretty,0.325
+you look awesome,1.0
+you look cool,0.35
+you look fantastic,0.4
+you look gorgeous,0.7
+you look great today,0.8
+you look perfect,1.0
+you look pretty good,0.475
+you look so beautiful,0.85
+you look so beautiful today,0.85
+you look very pretty,0.325
+you look wonderful,1.0
+I like the way you look,0.0
+you look wonderful today,1.0
+you are cutie,0.0
+you're looking good,0.7
+you're pretty,0.25
+your birthdate,0.0
+your birth date,0.0
+when is your birthday,0.0
+when do you celebrate your birthday,0.0
+when do you have birthday,0.0
+date of your birthday,0.0
+when were you born,0.0
+what's your birthday,0.0
+you are boring,-1.0
+you're so boring,-1.0
+how boring you are,-1.0
+you're really boring,-1.0
+you're incredibly boring,-1.0
+you are boring me,-1.0
+you are very boring,-1.0
+who is your boss,0.0
+who do you think is your boss,0.0
+I should be your boss,0.0
+who is your master,0.0
+who is your owner,0.0
+who is the boss,0.0
+who do you work for,0.0
+are you busy,0.1
+do you have a lot of things to do,0.0
+have you got much to do,0.2
+are you very busy,0.13
+are you very busy right now,0.20785714285714285
+are you so busy,0.1
+are you working,0.0
+how busy you are,0.1
+are you still working on it,0.0
+you're very busy,0.13
+are you working now,0.0
+are you working today,0.0
+have you been busy,0.1
+you are busy,0.1
+are you still working,0.0
+you seem to be busy,0.1
+you seem to be very busy,0.13
+you're a busy person,0.1
+you are chatbot,0.0
+you are a bot,0.0
+are you a chatbot,0.0
+are you a bot,0.0
+are you just a bot,0.0
+are you a robot,0.0
+are you a program,0.0
+you're a robot,0.0
+you are so intelligent,0.8
+you are a genius,0.0
+smart,0.21428571428571427
+brilliant,0.9
+clever,0.16666666666666666
+you are clever,0.16666666666666666
+you are so brainy,0.0
+you're really smart,0.21428571428571427
+you're really brainy,0.2
+you know a lot,0.0
+you know a lot of things,0.0
+you have a lot of knowledge,0.0
+you know so much,0.2
+how smart you are,0.21428571428571427
+how brainy you are,0.0
+how clever you are,0.16666666666666666
+how brilliant you are,0.9
+you are intelligent,0.8
+you are qualified,0.0
+you are really smart,0.21428571428571427
+you're very smart,0.2785714285714286
+you are so smart,0.21428571428571427
+you are too smart,0.21428571428571427
+you are very clever,0.21666666666666667
+you are very intelligent,1.0
+you are very smart,0.2785714285714286
+you're intelligent,0.8
+you're a genius,0.0
+you're a smart cookie,0.21428571428571427
+you're clever,0.16666666666666666
+you're pretty smart,0.23214285714285715
+you're qualified,0.0
+why are you so smart,0.21428571428571427
+you are so clever,0.16666666666666666
+you're nuts,0.0
+you are crazy,-0.6
+you're out of your mind,0.0
+you're so crazy,-0.6
+how crazy you are,-0.6
+you're so out of your mind,0.0
+you went crazy,-0.6
+I think you're crazy,-0.6
+are you crazy,-0.6
+are you mad,-0.625
+are you insane,-1.0
+are you mad at me,-0.625
+are you mad or what,-0.625
+are you nuts,0.0
+you are a weirdo,0.0
+you are insane,-1.0
+you are mad,-0.625
+you are fired,0.0
+I fire you,0.0
+you don't work for me anymore,0.0
+we're not working together anymore,0.0
+now you're fired,0.0
+I want to fire you,0.0
+you must get fired,0.0
+it's time to fire you,0.0
+you should be fired,0.0
+I will fire you,0.0
+you are unemployed from now on,0.0
+I will make you unemployed,0.0
+I'm about to fire you,0.0
+I'm firing you,0.0
+you are dismissed,0.0
+you make me laugh a lot,0.3
+you are hilarious,0.5
+you are really funny,0.25
+you're the funniest bot I've talked to,0.0
+you make me laugh,0.3
+you're so funny,0.25
+you're a very funny bot,0.325
+you're really funny,0.25
+how funny you are,0.25
+you're incredibly funny,0.25
+you are funny,0.25
+you're the funniest,0.0
+you are very funny,0.325
+that was funny,0.25
+you are very helpful,0.2
+you are the best,1.0
+you're a true professional,0.22499999999999998
+you are good,0.7
+you work well,0.0
+you are good at it,0.7
+you are very good at it,0.9099999999999999
+you are a pro,0.0
+you are a professional,0.1
+you're awesome,1.0
+you work very well,0.2
+you're perfect,1.0
+you're great,0.8
+you're so kind,0.6
+you are amazing,0.6000000000000001
+you are awesome,1.0
+you are cool,0.35
+you are really good,0.7
+you are really nice,0.6
+you are so amazing,0.6000000000000001
+you're just super,0.3333333333333333
+you are so awesome,1.0
+you are so cool,0.35
+you are so fine,0.4166666666666667
+you are so good,0.7
+you are so helpful,0.0
+you are so lovely,0.5
+you are the best ever,1.0
+you are the best in the world,1.0
+you are the nicest person in the world,0.0
+you are too good,0.7
+you are very cool,0.45499999999999996
+you are very kind,0.78
+you are very lovely,0.65
+you are very useful,0.39
+you are wonderful,1.0
+you made my day,0.0
+you make my day,0.0
+you rock,0.0
+you almost sound human,0.2
+I want to tell everyone how awesome you are,1.0
+I'd like to tell everyone that you are awesome,1.0
+I want to let everyone know that you are awesome,1.0
+let's tell everyone that you are awesome,1.0
+you are really amazing,0.6000000000000001
+are you happy,0.8
+you are happy,0.8
+you're very happy,1.0
+you're really happy,0.8
+you're so happy,0.8
+how happy you are,0.8
+you're extremely happy,0.8
+you're full of happiness,0.5249999999999999
+are you happy now,0.8
+are you happy today,0.8
+are you happy with me,0.8
+do you want to eat,0.0
+are you hungry,0.0
+would you like to eat something,0.0
+you are hungry,0.0
+you're so hungry,0.0
+you're very hungry,0.2
+you might be hungry,0.0
+you're really hungry,0.2
+let's get married,0.25
+would you like to marry me,0.0
+marry me,0.0
+I love you marry me,0.5
+marry me please,0.0
+we should marry,0.0
+I want to marry you,0.0
+you are my wife,0.0
+be my husband,0.0
+be my lover,0.0
+find me lover,0.0
+I want to have a friend like you,0.0
+we are the best friends ever,1.0
+are we friends,0.0
+I want to be your friend,0.0
+I am your friend,0.0
+we are best friends,1.0
+you are my friend,0.0
+you are my best friend,1.0
+you are my bestie,0.0
+you're my dear friend,0.0
+you're my childhood friend,0.0
+you and me are friends,0.0
+are we best friends,1.0
+are we still friends,0.0
+are you my best friend,1.0
+are you my friend,0.0
+we are friends,0.0
+you are a good friend,0.7
+you are my good friend,0.7
+you are my only friend,0.0
+be my friend,0.0
+will you be my friend,0.0
+can you be my friend,0.0
+can we be friends,0.0
+do you want to be my friend,0.0
+will you be my best friend,1.0
+can you be my best friend,1.0
+let's be friends,0.0
+do you want to be my best friend,1.0
+would you like to be my friend,0.0
+I want you to be my friend,0.0
+can we be best friends,1.0
+would you be my friend,0.0
+could you be my friend,0.0
+want to be my friend,0.0
+be my best friend,1.0
+do you work,0.0
+where do you work,0.0
+where you work,0.0
+where is your work,0.0
+where is your office,0.0
+where is your office location,0.0
+your office location,0.0
+where is your office located,0.0
+what is your work,0.0
+were you born here,0.0
+where were you born,0.0
+what is your country,0.0
+where are you from,0.0
+where do you come from,0.0
+where did you come from,0.0
+where have you been born,0.0
+from where are you,0.0
+are you from far aways,0.1
+what's your homeland,0.0
+your homeland is,0.0
+are you ready,0.2
+are you ready right now,0.24285714285714285
+are you ready today,0.2
+are you ready now,0.2
+are you ready tonight,0.2
+were you ready,0.2
+have you been ready,0.2
+you are real,0.2
+you are not fake,0.25
+are you real,0.2
+you are so real,0.2
+I think you are real,0.2
+I don't think you're fake,-0.5
+I suppose you're real,0.2
+glad you're real,0.35
+are you a real person,0.2
+are you a real human,0.0
+you are a real person,0.2
+you are not real,-0.1
+where do you live,0.13636363636363635
+in which city do you live,0.13636363636363635
+your residence,0.0
+your house,0.0
+your home,0.0
+your hometown,0.0
+what is your hometown,0.0
+is it your hometown,0.0
+where is your hometown,0.0
+tell me about your city,0.0
+what is your city,0.0
+what is your residence,0.0
+what is your town,0.0
+what's your city,0.0
+what's your home,0.0
+where is your home,0.0
+where is your residence,0.0
+where's your home,0.0
+where's your hometown,0.0
+where's your house,0.0
+where you live,0.13636363636363635
+your city,0.0
+your town,0.0
+that's true,0.35
+you are right,0.2857142857142857
+you're definitely right,0.2857142857142857
+you're not wrong,0.25
+you're telling the truth,0.0
+what you say is true,0.35
+TRUE,0.35
+it is true,0.35
+it's right,0.2857142857142857
+it's the truth,0.0
+it's true,0.35
+that is correct,0.0
+that is right,0.2857142857142857
+that is true,0.35
+that is very true,0.45499999999999996
+that's so true,0.35
+you are correct,0.0
+you are so right,0.2857142857142857
+you're absolutely right,0.2857142857142857
+you're right about that,0.2857142857142857
+I know that's right,0.2857142857142857
+that's correct,0.0
+it's fine,0.4166666666666667
+go ahead,0.0
+sounds good,0.7
+okay,0.5
+yes,0.0
+ok,0.5
+okie dokie,0.0
+sure,0.5
+go for it,0.0
+yeah,0.0
+yea,0.0
+do it,0.0
+of course,0.0
+I guess,0.0
+correct,0.0
+yeah sure,0.5
+why not,0.0
+please do,0.0
+sure is,0.5
+I agree,0.0
+I don't mind,0.0
+certainly,0.21428571428571427
+exactly,0.25
+yes I agree,0.0
+I think so,0.0
+yes it is,0.0
+right,0.2857142857142857
+okay then,0.5
+yes of course,0.0
+yes I do,0.0
+that s okay,0.5
+I do,0.0
+yup,0.0
+ya,0.0
+oh yes,0.0
+yes sure,0.5
+obviously,0.0
+k,0.0
+sure why not,0.5
+yeah right,0.2857142857142857
+yeah of course,0.0
+absolutely,0.2
+yes indeed,0.0
+ok sure,0.5
+ok yes,0.5
+yes correct,0.0
+ok thank you,0.5
+sure thing,0.5
+ye,0.0
+confirm,0.0
+yep,0.0
+looks good,0.7
+yes thank you,0.0
+definitely,0.0
+yes right,0.2857142857142857
+yes I would like to,0.0
+alrighty,0.0
+yes definitely,0.0
+yeh,0.0
+yes it is correct,0.0
+yeah that's right,0.2857142857142857
+ok you can,0.5
+yap,0.0
+yes you may,0.0
+confirmed,0.4
+of course why not,0.0
+yes that's fine,0.4166666666666667
+affirmative,0.6
+yeah go ahead,0.0
+yeah I'm sure,0.5
+okay sounds good,0.6
+okay that's fine,0.45833333333333337
+yeah exactly,0.25
+that is ok,0.5
+this is correct,0.0
+ok go ahead,0.5
+yes this is correct,0.0
+nevermind its okay,0.5
+okey,0.0
+yes for sure,0.5
+all right,0.2857142857142857
+are you sure,0.5
+are you sure right now,0.39285714285714285
+are you sure today,0.5
+are you sure now,0.5
+are you sure tonight,0.5
+why aren't you talking to me,0.0
+do you want to chat with me,0.0
+will you talk to me,0.0
+talk to me,0.0
+are you going to talk to me,0.0
+are you talking to me,0.0
+can you chat with me,0.0
+can you speak with me,0.0
+can you talk to me,0.0
+can you talk with me,0.0
+say,0.0
+talk,0.0
+chat with me,0.0
+just chat with me,0.0
+speak to me,0.0
+speak with me,0.0
+talk with me,0.0
+why don't you talk to me,0.0
+you can talk to me,0.0
+are you there,0.0
+you are there,0.0
+are you near me,0.1
+are you here,0.0
+are you still there,0.0
+you are here,0.0
+you still there,0.0
+are you still here,0.0
+pretty bad,-0.22499999999999992
+not good enough,-0.175
+that was lame,-0.5
+that was terrible,-1.0
+it is bad,-0.6999999999999998
+that's bad,-0.6999999999999998
+this is bad,-0.6999999999999998
+not good,-0.35
+I'm afraid it's bad,-0.6499999999999999
+no it's bad,-0.6999999999999998
+that was awful,-1.0
+bad,-0.6999999999999998
+so bad,-0.6999999999999998
+this is too bad,-0.6999999999999998
+terrible,-1.0
+horrible,-1.0
+horrific,-1.0
+abysmal,0.0
+it's bad,-0.6999999999999998
+no good,-0.35
+that was bad,-0.6999999999999998
+that was horrible,-1.0
+that's lame,-0.5
+that's not good,-0.35
+that's terrible,-1.0
+that's too bad,-0.6999999999999998
+this is not good,-0.35
+too bad,-0.6999999999999998
+very bad,-0.9099999999999998
+bad girl,-0.6999999999999998
+it's not good,-0.35
+not so good,0.7
+it's very bad,-0.9099999999999998
+it's too bad,-0.6999999999999998
+that's not good enough,-0.175
+well too bad,-0.6999999999999998
+bad very bad,-0.8049999999999998
+it's so bad,-0.6999999999999998
+really bad,-0.6999999999999998
+it's really bad,-0.6999999999999998
+bad idea,-0.6999999999999998
+that is bad,-0.6999999999999998
+that was not good,-0.35
+it's not so good,0.7
+not a good one,-0.35
+oh that's not good,-0.35
+not too good,0.7
+so lame,-0.5
+that's really bad,-0.6999999999999998
+it is too bad,-0.6999999999999998
+bad really bad,-0.6999999999999998
+no,0.0
+n,0.0
+never,0.0
+I don't think so,0.0
+don't like that,0.0
+no way,0.0
+not really,-0.1
+never though of it,0.0
+how about no,0.0
+don t have a sense,0.0
+don't,0.0
+I don't want that,0.0
+I disagree,0.0
+disagree,0.0
+I don't want,0.0
+not interested,-0.125
+no it isn't,0.0
+no I don't,0.0
+I'm not,0.0
+na,0.0
+no that's fine thank you,0.4166666666666667
+I said no,0.0
+of course not,0.0
+nah,0.0
+no tanks,0.0
+no never,0.0
+no need,0.0
+no thanks,-0.1
+no sorry,0.25
+do not,0.0
+not today,0.0
+no it's not,0.0
+absolutely not,-0.1
+not that,0.0
+nooo,0.0
+nope,0.0
+I don't want to,0.0
+no I would not,0.0
+let 's not,0.0
+not needed,0.0
+not this time,0.0
+no don't do that,0.0
+thanks but no thanks,0.05
+no that's wrong,-0.5
+not this,0.0
+definitely not,0.0
+not at this time,0.0
+not exactly,-0.125
+no don't,0.0
+not really no,-0.1
+no thank you not right now,-0.14285714285714285
+actually no,0.0
+no leave it,0.0
+sorry no,-0.5
+no incorrect,0.0
+nope sorry,-0.5
+I say no,0.0
+not right now thanks,0.02857142857142858
+I think no,0.0
+absolutely no,-0.1
+no actually,0.0
+apparently not,-0.025
+no do not,0.0
+no just no,0.0
+no but thank you,0.0
+no need thanks,0.2
+no thank you though,0.0
+no thank you very much,0.26
+no thanks not right now,-0.12142857142857143
+no forget,0.0
+so cool,0.35
+cool,0.35
+that is good,0.7
+glad to hear that,0.5
+that's very nice of you,0.78
+terrific,0.0
+it's amazing,0.6000000000000001
+that's awesome,1.0
+perfect,1.0
+excellent,1.0
+that's great,0.8
+it's good,0.7
+it's great,0.8
+fine,0.4166666666666667
+good,0.7
+nice,0.6
+that's fine,0.4166666666666667
+very good,0.9099999999999999
+amazing,0.6000000000000001
+fantastic,0.4
+great,0.8
+good very good,0.8049999999999999
+that's very good,0.9099999999999999
+really good,0.7
+it is fine,0.4166666666666667
+it is good,0.7
+it's perfect,1.0
+much better,0.5
+not bad,0.3499999999999999
+not too bad,-0.6999999999999998
+it's very good,0.9099999999999999
+marvelous,1.0
+that's nice,0.6
+pleasant,0.7333333333333333
+pretty good,0.475
+really nice,0.6
+splendid,0.8333333333333334
+straight,0.2
+super,0.3333333333333333
+super fantastic,0.3666666666666667
+sweet,0.35
+really well,0.2
+very well,0.2
+that is awesome,1.0
+that is nice,0.6
+that is wonderful,1.0
+that was amazing,0.6000000000000001
+that was awesome,1.0
+that was cute,0.5
+that was pretty good,0.475
+that was very good,0.9099999999999999
+that's a good idea,0.7
+that's a good thing,0.7
+that's amazing,0.6000000000000001
+that's awesome thank you,1.0
+that's better,0.5
+that's cute,0.5
+that's fantastic,0.4
+that's much better,0.5
+that's nice of you,0.6
+that's not bad,0.3499999999999999
+that's perfect,1.0
+that's pretty good,0.475
+that's really good,0.7
+that's really nice,0.6
+that's sweet of you,0.35
+that's very nice,0.78
+that's wonderful,1.0
+this is awesome,1.0
+this is good,0.7
+this is great,0.8
+very nice,0.78
+very then,0.2
+wonderful,1.0
+I'm glad to hear that,0.5
+ok good,0.6
+good for you,0.7
+good to know,0.7
+glad to hear it,0.5
+so good,0.7
+so sweet of you,0.35
+it was good,0.7
+oh well,0.0
+good thing,0.7
+that was good,0.7
+it's awesome,1.0
+okay good,0.6
+no it's okay,0.5
+no worries,0.0
+no probs,0.0
+no problem,0.0
+there's no problem,0.0
+sure no problem,0.5
+no problem about that,0.0
+don't worry,0.0
+don't worry there's no problem,0.0
+you helped a lot thank you,0.0
+appreciate your help,0.0
+cheers,0.0
+thank you,0.0
+thanks,0.2
+thanks a lot,0.2
+terrific thank you,0.0
+great thank you,0.8
+thanks so much,0.2
+thank you so much,0.2
+thanks for your help,0.2
+thank you for your help,0.0
+nice thank you,0.6
+I appreciate it,0.0
+I thank you,0.0
+thank you that will be all,0.0
+thanks buddy,0.2
+thanks love,0.35
+thank you my friend,0.0
+well thanks,0.2
+very good thank you,0.9099999999999999
+good thanks,0.44999999999999996
+thanks again,0.2
+thank you again,0.0
+all thank you,0.0
+alright thank you,0.0
+alright thanks,0.2
+no thank you that's all,0.0
+perfect thank you,1.0
+so nice of you,0.6
+well thank you,0.0
+thnx,0.0
+thanx,0.0
+that's my pleasure,0.0
+my pleasure,0.0
+anytime,0.0
+welcome,0.8
+you're welcome,0.8
+sure welcome,0.65
+welcome here,0.8
+you're so welcome,0.8
+anything you want,0.0
+good job,0.7
+great job,0.8
+way to go,0.0
+well done,0.0
+nice work,0.6
+great work,0.8
+amazing work,0.6000000000000001
+bravo,0.0
+good work,0.7
+cancel,0.0
+abort,0.0
+annul,0.0
+cancel it,0.0
+cancel request,0.0
+cancelled,0.0
+dismiss,0.0
+dismissed,0.0
+disregard,0.0
+disregard that,0.0
+skip,0.0
+skip it,0.0
+cancel everything,0.0
+cancel all,0.0
+forget about it,0.0
+forget,0.0
+don't do that,0.0
+stop,0.0
+just forget it,0.0
+forget that,0.0
+discard,0.0
+forget this,0.0
+just forget about it,0.0
+forget about that,0.0
+i said cancel,0.0
+just cancel it,0.0
+nothing cancel,0.0
+just stop it,0.0
+no cancel cancel,0.0
+no just cancel,0.0
+cancel my request,0.0
+can you cancel that,0.0
+cancel all that,0.0
+cancel this request,0.0
+no cancel this,0.0
+no cancel everything,0.0
+no stop,0.0
+just forget,0.0
+i want to cancel,0.0
+nevermind forget about it,0.0
+no just cancel it,0.0
+nothing just forget it,0.0
+i said cancel it,0.0
+cancel the whole thing,0.2
+can you cancel it,0.0
+so cancel,0.0
+i said forget it,0.0
+cancel all this,0.0
+forget it nevermind,0.0
+stop it,0.0
+i want to cancel it,0.0
+i would like to cancel,0.0
+now cancel,0.0
+cancel now,0.0
+sorry cancel,-0.5
+cancel that one,0.0
+skip skip skip,0.0
+cancel it cancel it,0.0
+cancel that cancel that,0.0
+do nothing,0.0
+I said cancel cancel,0.0
+but can you cancel it,0.0
+how about no,0.0
+don t have a sense,0.0
+no,0.0
+don't,0.0
+I don't want that,0.0
+I disagree,0.0
+disagree,0.0
+I don't want,0.0
+not interested,-0.125
+no way,0.0
+no it isn't,0.0
+no I don't,0.0
+I'm not,0.0
+na,0.0
+no that's fine thank you,0.4166666666666667
+never,0.0
+I said no,0.0
+actually no,0.0
+of course not,0.0
+nah,0.0
+no tanks,0.0
+no never,0.0
+no need,0.0
+no thanks,-0.1
+no sorry,0.25
+do not,0.0
+not today,0.0
+no it's not,0.0
+absolutely not,-0.1
+not that,0.0
+nooo,0.0
+nope,0.0
+I don't want to,0.0
+no I would not,0.0
+let 's not,0.0
+not needed,0.0
+not this time,0.0
+no don't do that,0.0
+thanks but no thanks,0.05
+no that's wrong,-0.5
+not this,0.0
+definitely not,0.0
+not at this time,0.0
+not exactly,-0.125
+no don't,0.0
+not really no,-0.1
+no thank you not right now,-0.14285714285714285
+no leave it,0.0
+sorry no,-0.5
+no incorrect,0.0
+nope sorry,-0.5
+I say no,0.0
+not really,-0.1
+not right now thanks,0.02857142857142858
+I think no,0.0
+absolutely no,-0.1
+no actually,0.0
+apparently not,-0.025
+no do not,0.0
+no just no,0.0
+no but thank you,0.0
+no need thanks,0.2
+no thank you though,0.0
+no thank you very much,0.26
+no thanks not right now,-0.12142857142857143
+no forget,0.0
+wait a second,0.0
+could you wait,0.0
+wait please,0.0
+hold on,0.0
+wait,0.0
+oh wait,0.0
+wait hold on,0.0
+don't rush,0.0
+wanna hug,0.0
+hug you,0.0
+do you want a hug,0.0
+may I hug you,0.0
+could you give me a hug,0.0
+I want a hug,0.0
+hug,0.0
+hug me,0.0
+hugged,0.0
+you hugged,0.0
+hugging,0.0
+hugging me,0.0
+hugged me,0.0
+want a hug,0.0
+a hug,0.0
+I don't care,0.0
+I shouldn't care about this,0.0
+whatever,0.0
+I do not care,0.0
+I don't care at all,0.0
+not caring,0.0
+not care at all,0.0
+don't care at all,0.0
+not caring at all,0.0
+i dont care,0.0
+i DONT CARE,0.0
+excuse me,-0.05
+apologis/e,0.0
+I apologize,0.0
+sorry,-0.5
+I'm sorry,-0.5
+I am so sorry,-0.5
+my apologies,0.0
+apologies,0.0
+apologies to me,0.0
+apology,0.0
+excuse,-0.05
+I beg your pardon,0.0
+pardon,0.0
+I said sorry,-0.5
+I am really sorry,-0.5
+forgive me,0.0
+sorry about that,-0.5
+sorry about this,-0.5
+really sorry,-0.5
+very sorry,-0.65
+ok sorry,0.0
+I want to say sorry,-0.5
+alright I'm sorry,-0.5
+okay I'm sorry,0.0
+what exactly do you mean,-0.03125
+what do you mean,-0.3125
+is that what you mean,-0.3125
+what do you mean exactly,-0.03125
+but what do you mean,-0.3125
+that was wrong,-0.5
+that's not what I asked,0.0
+that's wrong,-0.5
+wrong,-0.5
+it is not right,-0.14285714285714285
+that's not right,-0.14285714285714285
+it's wrong,-0.5
+that is incorrect,0.0
+incorrect,0.0
+not correct,0.0
+you are wrong,-0.5
+not right,-0.14285714285714285
+huh,0.0
+lol,0.8
+xd,0.0
+ha ha,0.0
+ahahah,0.0
+ahah lol,0.8
+laughing out loud,0.1
+LMAO,0.6
+that's funny,0.25
+ah,0.0
+ah ah ah,0.0
+ahah,0.0
+ahaha,0.0
+ahahaha,0.0
+ha,0.0
+ha ha ha,0.0
+ha ha ha ha,0.0
+hah,0.0
+haha,0.2
+haha funny,0.225
+haha haha haha,0.20000000000000004
+haha that's funny,0.225
+haha very funny,0.2625
+hahaha,0.2
+hahaha funny,0.225
+hahaha very funny,0.2625
+he,0.0
+hehe,0.0
+hehehe,0.0
+lmao,0.6
+you are so funny,0.25
+wow,0.1
+wow wow,0.1
+wow wow wow,0.10000000000000002
+wooow,0.0
+woah,0.0
+okay see you later,0.25
+hope to see you later,0.0
+bye for now,0.0
+till next time,0.0
+I must go,0.0
+bye,0.0
+goodbye,0.0
+see you,0.0
+see you soon,0.0
+bye-bye,0.0
+good bye,0.7
+bye bye see you,0.0
+bye bye see you soon,0.0
+bye bye take care,0.0
+I said bye,0.0
+never mind bye,0.0
+now bye,0.0
+that's all goodbye,0.0
+that's it goodbye,0.0
+leave me alone,0.0
+go to bed,0.0
+goodbye for now,0.0
+talk to you later,0.0
+you can go now,0.0
+get lost,0.0
+goodbye see you later,0.0
+alright bye,0.0
+see ya,0.0
+thanks bye bye,0.2
+okay bye,0.5
+okay thank you bye,0.5
+see you tomorrow,0.0
+ok bye,0.5
+cu,0.0
+good by,0.7
+cee you later,0.0
+good night,0.7
+have a nice day,0.6
+see you around,0.0
+bye bye,0.0
+see you later,0.0
+talk to you soon,0.0
+take care,0.0
+nice talk,0.6
+it was quite good,0.7
+okay,0.5
+okay then,0.5
+have a good day,0.7
+end,0.0
+stop,0.0
+till we meet again,0.0
+until nex time,0.0
+ttyl,0.0
+meet you again soon,0.0
+good evening,0.7
+good evening to you,0.7
+hey good evening,0.7
+hello good evening,0.7
+evening,0.0
+good evening there,0.7
+good morning,0.7
+good morning to you,0.7
+hello good morning,0.7
+have a nice morning,0.6
+have a great morning,0.8
+morning,0.0
+good morning there,0.7
+top of the morning to you,0.5
+a good morning,0.7
+hi good morning,0.7
+and a good morning to you,0.7
+good morning too,0.7
+sweet dreams,0.35
+good night,0.7
+have a good night,0.7
+good night to you,0.7
+thank you good night,0.7
+bye good night,0.7
+good night bye,0.7
+good good night,0.7
+good night for now,0.7
+goodnight,0.0
+night,0.0
+thanks goodnight,0.2
+good night see you tomorrow,0.7
+alright goodnight,0.0
+good tonight,0.7
+okay have a good night,0.6
+how is your morning so far,0.1
+how are you getting on,0.0
+how's your day going,0.0
+how are you,0.0
+is everything all right,0.2857142857142857
+how are you doing,0.0
+how are the things going,0.0
+are you alright,0.0
+are you okay,0.5
+how are you feeling,0.0
+how are you going,0.0
+is everything okay,0.5
+how are you today,0.0
+how do you do,0.0
+how do you feel,0.0
+how have you been,0.0
+how is it,0.0
+how is it going,0.0
+how is your day,0.0
+how is your day going,0.0
+how is your evening,0.0
+how was your day,0.0
+are you having a good day,0.7
+hope your day is going well,0.0
+hope you re having a pleasant evening,0.7333333333333333
+how's life,0.0
+I'm fine and you,0.4166666666666667
+how is your life,0.0
+how has your day been,0.0
+how is your morning going,0.0
+how has your day been going,0.0
+how about you,0.0
+how is your day being,0.0
+how is your day going on,0.0
+how your day is going,0.0
+what was your day like,0.0
+what about your day,0.0
+how's your day,0.0
+how are you doing this morning,0.0
+nice to meet you,0.6
+it was nice meeting you,0.6
+it was very nice to meet you,0.78
+good to know each other,0.2875
+glad to meet you,0.5
+nice meeting you,0.6
+nice to meet you too,0.6
+pleased to meet you,0.5
+pleasure to meet you,0.0
+pleasure to meet you too,0.0
+it's nice to see you,0.6
+lovely to see you,0.5
+I'm glad to see you,0.5
+great to see you,0.8
+it's good to see you,0.7
+glad to see you,0.5
+how good it is to see you,0.7
+always a pleasure to see you,0.0
+nice to see you,0.6
+good to see you,0.7
+great to see you again,0.8
+great to see you too,0.8
+I am glad to see you again,0.5
+nice to see you again,0.6
+glad to see you too,0.5
+good to see you again,0.7
+it's good to see you too,0.7
+it's been so nice to talk to you,0.6
+it's been a pleasure talking to you,0.0
+nice to talk to you,0.6
+it's nice to talk to you,0.6
+nice talking to you,0.6
+it is nice talking to you,0.6
+how nice it is to talk to you,0.6
+what is on your mind,0.0
+what's happened,0.0
+what is up,0.0
+what's up,0.0
+whazzup,0.0
+good what's up,0.7
+I said what's up,0.0
+then what's up,0.0
+what's shaking,0.0
+wassup,0.0
+what is going on,0.0
+what is happening,0.0
+what's cracking,0.0
+what's cooking,0.0
+hey what's up,0.0
+what's up today,0.0
+I'm being mad,-0.625
+I'm enraged,0.0
+I'm angry,-0.5
+I'm furious,0.0
+I am angry with you,-0.5
+I am mad,-0.625
+I am mad at you,-0.625
+I swear at you,0.0
+swear,0.0
+I am back,0.0
+I'm here again,0.0
+here I am again,0.0
+I got back,0.0
+I came back,0.0
+I have returned,0.0
+that was boring,-1.0
+I'm bored,-0.5
+bored,-0.5
+boring,-1.0
+I am getting bored,-0.5
+this is boring,-1.0
+very boring,-1.0
+it bores me,0.0
+tell me a joke,0.0
+Say something funny.,0.25
+Give me a joke.,0.0
+Give me a funny joke.,0.25
+What's a good joke?,0.7
+Do you have any jokes?,0.0
+Do you know any jokes?,0.0
+I need a good joke.,0.7
+Tell me the best joke you know.,1.0
+Tell joke.,0.0
+Tell me something funny.,0.25
+Share a joke with me!,0.0
+Tell me something humorous!,0.625
+Will you tell me a joke.,0.0
+Can you tell me a joke.,0.0
+Would you tell me a joke,0.0
+Please tell me a joke.,0.0
+Could you tell me a joke.,0.0
+Would you share a joke with me.,0.0
+Could you please share a joke with me.,0.0
+Entertain me with a joke.,0.0
+Tell me something that you think will make me laugh.,0.3
+I want to hear something funny.,0.25
+Give me some comic relief.,0.25
+Can you tell a joke?,0.0
+Know any jokes?,0.0
+Come up with a joke you think I'll find funny.,0.25
+Let's hear a joke from you.,0.0
+say a joke that's funny,0.25
+make me laugh with a joke,0.3
+"tell me something funny, like a joke",0.25
+say a joke,0.0
+tell me a short joke,0.0
+tell me a story joke,0.0
+say a funny joke,0.25
+say a joke that's so bad it's funny,-0.22499999999999992
+make me laugh with a bad joke,-0.19999999999999993
+give me a good joke,0.7
+you can say a joke,0.0
+I'm overloaded,0.0
+I have no time,0.0
+I'm busy,0.1
+I'm swamped,0.0
+I got things to do,0.0
+how busy I am,0.1
+I got work to do,0.0
+I'm working,0.0
+I don't have time for this,0.0
+I'm insomnious,0.0
+I'm sleepless,0.0
+I can't get any sleep,0.0
+I can't sleep,0.0
+I can't fall asleep,0.0
+I can't get to sleep,0.0
+I can't get no sleep,0.0
+I'm insomniac,0.0
+i am insominac,0.0
+i cannot sleep,0.0
+i am sleepless,0.0
+i cannot get any sleep,0.0
+i cannot seem to get any sleep,0.0
+bad time for talking,-0.6999999999999998
+I don't want to talk,0.0
+let's not talk,0.0
+let us not talk,0.0
+I'm not talking to you anymore,0.0
+I don't want to talk to you,0.0
+let's stop talking for a minute,0.0
+I'm not in the mood for chatting,0.0
+I am excited,0.375
+I'm really excited,0.375
+how excited I am,0.375
+I'm thrilled,0.6
+I'm excited about working with you,0.375
+I'm excited to start our friendship,0.375
+let's go to bed,0.0
+I'd like to go to bed,0.0
+is it time for bed yet,0.0
+it's time to go to bed,0.0
+time for us to go to bed,0.0
+I'm going to bed,0.0
+I'm a little tired and I want to go to bed,-0.29375
+it's bed time,0.0
+going to bed now,0.0
+I am good,0.7
+I'm doing just great,0.8
+I'm doing fine,0.4166666666666667
+I'm good,0.7
+I'm doing good,0.7
+I'm great thanks,0.5
+I am happy,0.8
+I'm happy to see you,0.8
+happy,0.8
+if you're happy then I'm happy,0.8
+I'm happy for you,0.8
+I'm happy to help,0.8
+it is my birthday,0.0
+I'm celebrating my birthday today,0.0
+today is my birthday,0.0
+it's my birthday today,0.0
+I was born today,0.0
+it's my b-day,0.0
+I am here,0.0
+here I am,0.0
+I'm right here,0.2857142857142857
+I'm already here,0.0
+can you tell if I'm here or not,0.0
+I am joking,0.0
+I'm kidding,0.0
+I'm just being funny,0.25
+it was a joke,0.0
+I was just joking,0.0
+it's a joke,0.0
+joking,0.0
+just kidding,0.0
+kidding,0.0
+kiding,0.0
+kidn,0.0
+kiddn,0.0
+I'm just playing with you,0.0
+I like you the way you are,0.0
+I like you,0.0
+I like you a lot,0.0
+I think I like you,0.0
+I liked you,0.6
+like you a lot,0.0
+you are special,0.35714285714285715
+I like you too,0.0
+I really like you,0.2
+but I like you,0.0
+I like u,0.0
+just like you,0.0
+I like you very much,0.26
+I like you so much,0.2
+yeah I like you,0.0
+you're special,0.35714285714285715
+yes I like you,0.0
+okay I like you,0.5
+you are special to me,0.35714285714285715
+you are very special,0.4642857142857143
+you are so sweet,0.35
+you know I like you,0.0
+that's why I like you,0.0
+I like you baby,0.0
+you are very special to me,0.4642857142857143
+I just like you,0.0
+hey I like you,0.0
+thank you I like you too,0.0
+I do like you,0.0
+you are special for me,0.35714285714285715
+no I like you the way you are,0.0
+I like you already,0.0
+well you are special,0.35714285714285715
+but I really like you,0.2
+I like you more,0.5
+that's what I like about you,0.0
+you are so special,0.35714285714285715
+hi I like you,0.0
+I really really like you,0.2
+you're very special,0.4642857142857143
+I like you as a friend,0.0
+that's because you are special,0.35714285714285715
+I said I like you,0.0
+you're so special,0.35714285714285715
+good I like you,0.7
+yes you are special,0.35714285714285715
+I like your smile,0.3
+I like you as you are,0.0
+I'm starting to like you,0.0
+you're awesome I like you,1.0
+I also like you,0.0
+but I like u,0.0
+of course I like you,0.0
+I like you too you're one of my favorite people to chat with,0.5
+but I like you so much,0.2
+really like you,0.2
+you're funny I like you,0.25
+I kinda like you,0.0
+you're so special to me,0.35714285714285715
+you're very special to me,0.4642857142857143
+I like that about you,0.0
+but I like you just the way you are,0.0
+okay I like you too,0.5
+I like you you're cool,0.35
+I like you very,0.2
+I like you you're nice,0.6
+sorry I like you,-0.5
+thanks I like you too,0.2
+you are really special,0.35714285714285715
+you are so special to me,0.35714285714285715
+cuz I like you,0.0
+I like you now,0.0
+I like you so,0.0
+I like you too much,0.2
+I really do like you,0.2
+I really really really really like you,0.2
+I like you just the way you are,0.0
+I am lonely,-0.09999999999999998
+I'm very lonely,-0.12999999999999998
+I'm so lonely,-0.09999999999999998
+I'm really lonely,-0.09999999999999998
+I am feeling lonely,-0.09999999999999998
+I feel lonely,-0.09999999999999998
+what do I look like,0.0
+how do I look,0.0
+do I look good,0.7
+do you know what I look like,0.0
+can you see what I look like,0.0
+what do you think I look like,0.0
+I love you,0.5
+love you,0.5
+I adore you,0.0
+I am in love with you,0.5
+I love you so much,0.35
+I love you too,0.5
+I think I love you,0.5
+loving you,0.6
+you know I love you,0.5
+I miss you,0.0
+missing you,-0.2
+miss you,0.0
+already miss you,0.0
+I miss you much,0.2
+I missed you,0.0
+I've missed you,0.0
+what should I do about it,0.0
+any suggestions,0.0
+what do you recommend,0.0
+give me a wise advice,0.7
+I need advice,0.0
+any advice,0.0
+do you have any advice for me,0.0
+advise me,0.0
+what should I do,0.0
+can I ask for your advice,0.0
+can you advise me,0.0
+guide me,0.0
+can you give me advice,0.0
+can you offer any advice,0.0
+give me some advice about,0.0
+give me some good advice,0.7
+help me with advice,0.0
+I could use some advice,0.0
+I need an advice from you,0.0
+I seek your advice,0.0
+what can you recommend,0.0
+what do you suggest,0.0
+what is your advice,0.0
+I'm grieving,0.0
+I am depressed,0.0
+I am upset,0.0
+I'm unhappy,-0.6
+I'm having a bad day,-0.6999999999999998
+I want to cry,0.0
+I'm not happy,-0.4
+I am not happy,-0.4
+I can't seem to find happiness,0.7
+I can't find joy,0.8
+i can't seem to be happy,0.8
+not happy,-0.4
+I am sleepy,0.0
+I want to sleep,0.0
+I'm falling asleep,0.0
+I'm falling asleep on my feet,0.0
+I'm sleeping,0.0
+test,0.0
+I am testing you,0.0
+can I test you,0.0
+I want to test you,0.0
+just testing you,0.0
+let me test you,0.0
+testing chatbot,0.0
+testing,0.0
+I'm drained,0.0
+I've overworked,0.0
+I am tired,-0.4
+I'm exhausted,-0.4
+I grow weary,0.0
+I'm worn out,0.0
+I'm getting tired,-0.4
+I feel tired,-0.4
+I'm waiting,0.0
+still waiting,0.0
+I'll wait,0.0
+still wait,0.0
+I can't wait anymore,0.0
+how long do I have to wait,-0.05
+I'd like to see you again,0.0
+I hope to see you again,0.0
+would be nice to see you again,0.6
+that'd be great to see you again,0.8
+I'd be happy to see you again,0.8
+I'll miss you,0.0
+can I see you again,0.0
+I just want to talk,0.0
+let's discuss something,0.0
+let's have a discussion,0.0
+can I speak,0.0
+can I start speaking,0.0
+can we talk,0.0
+let's talk,0.0
+I want to talk to you,0.0
+I need to talk to you,0.0
+I want to speak with you,0.0
+can we chat,0.0
+I'll get back to you in a moment,0.0
+be back in 5 minutes,0.0
+I'll be back,0.0
+I promise to come back,0.0
+I'll be back in a few minutes,-0.1
+anxiety really bad late,-0.4999999999999999
+feel like ca it escape depress,-0.06666666666666667
+experience  symptom  really affect life,0.2
+feel  abject   event situate,0.0
+trouble sleep  problem issue,-0.2
+thought really new late,-0.08181818181818182
+feel really stress  problem issue,0.2
+feel really iso along,0.2
+it feel like late,-0.3
+i am mental patient,-0.1
+struggle mental health recent,-0.05
+mental health,-0.1
+worry might  mental health conduct,-0.1
+what is mental health ?,-0.1
+define mental health,-0.1
+what is mental health,-0.1
+explain me about mental health,-0.1
+can you elaborate on mental health,0.2
+i want to know about mental health,-0.1
+feel sad appear reason,-0.5
+feel sad apparently reason,-0.225
+lost interest thing use enjoy long time,0.17500000000000002
+energy feel tire time  go,0.0
+ca it consent make denis happen long time,-0.05
+trouble sleep sleep much  go,0.0
+long time since felt differ,-0.05
+want free problem,0.4
+don't want to suicide but i wish to have accident,0.0
+What is depression,0.0
+Explain depression,0.0
+I want to know what depression is,0.0
+Define Depression,0.0
+Depression defination,0.0
+Depression,0.0
+give me the defination of depression,0.0
+what is the meaning of depression,0.0
+hopelessness,0.0
+lack interest,0.0
+not enjoying lifeany more,0.125
+oversleeping,0.0
+no joy,-0.4
+i feel no joy,-0.4
+lack of joy,0.8
+lately i have been sad and depressed,-0.4
+how to know if i have depression,0.0
+how to know you are depressed,0.0
+what is to like having depression,0.0
+may be suffering form depression,0.0
+am depressed,0.0
+depression kill,0.0
+i have depression,0.0
+i may be suffering from depression,0.0
+i think i have depression,0.0
+how long depression last,-0.025
+long depression last,-0.025
+depression last,0.0
+depression affecting life,0.0
+how does depression affect daily life,0.0
+if i have dipression how would be my life be like,0.0
+what happens during depression,0.0
+what if you suffered from depression,0.0
+after depression,0.0
+what happens to your body if you have depression,0.0
+effect of depression,0.0
+aftermath of depression,0.0
+result of depression,0.0
+what happens after you suffered from depression,0.0
+you're a loser lmao,0.6
+you are a stupid bot,-0.7999999999999999
+you're a loser,0.0
+i hate you,-0.8
+Stupid,-0.7999999999999999
+fuck you,-0.4
+so dumb,-0.375
+you are a moron,-0.8
+you are an idiot,-0.8
+so fucking dumb,-0.375
+are you brain dead?,-0.2
+how can you be such an idiot?,-0.4
+a baby knows more than you,0.5
+i hate your dumb face,-0.5875
+you are fucking stupid,-0.7999999999999999
+bloody dunce,-0.8
+You're an idiot.,-0.8
+You are a fool.,0.0
+You're foolish.,0.0
+You are dumb.,-0.375
+You have no sense.,0.0
+You are unintelligent.,-0.6499999999999999
+You're a dolt.,0.0
+You're a dunce.,0.0
+You have no brains.,0.0
+You have no intelligence.,0.0
+You are an idiot.,-0.8
+You lack intelligence.,0.0
+You are unknowing.,0.0
+You are shortsighted.,0.0
+Your intelligence is laughable.,-0.5
+You know nothing.,0.0
+You lack understanding.,0.0
+Your mindset is naive.,-0.3
+You brain is dull.,-0.2916666666666667
+you are dumb,-0.375
+you're an idiot,-0.8
+God you're a moron,-0.8
+you're so dumb,-0.375
+you are idiotic,-0.6666666666666666
+you're the most moronic person I know,0.5
+I can't believe how dumb you are,-0.375
+you are unintelligent,-0.6499999999999999
+you're not smart,-0.10714285714285714
+you are so ignorant,0.0
+you are stupid,-0.7999999999999999
+you're dumb,-0.375
+asshole,0.0
+bitch,0.0
+fuck u,-0.4
+idiot,-0.8
+"deal with my ass, you bitch",0.0
+you son of a bitch,0.0
+shut up asshole,0.0
+you asshole,0.0
+are u dump?,0.0
+fuck off,-0.4
+fuck,-0.4
+Fuck,-0.4
+Fuck you,-0.4
+fuck you machine learning bot,-0.4
+Fuck u,-0.4
+what fuck,-0.4
+fucking stupid,-0.7999999999999999
+you are fucking stupid guy！,-0.7999999999999999
+go fuck yourself,-0.4
+Fuck off,-0.4
+fuck rasa,-0.4
+fuck you!,-0.5
+Fuck Off,-0.4
+ok fuck you,0.04999999999999999
+FUCK,-0.4
+fucking work,-0.6
+ok shut up,0.5
+i want to get rid of depression,0.0
+get away from depression,0.0
+set free of depression,0.4
+i dont want depression,0.0
+i want to get rid of anxiety,0.0
+get away from anxiety,0.0
+set free of anxiety,0.4
+i dont want anxiety,0.0
+i want to get rid of mental health issues,-0.1
+get away from mental health issues,-0.1
+set free of mental health issues,0.15000000000000002
+i dont want mental health issues,-0.1
+i think i have anxiety,0.0
+i am going to therapist nothing helped,0.0
+i am into counseling nothing helped,0.0
+i am trying to get rid of the depression nothing helped,0.0
+i going to counsel nothing helped,0.0
+i visit consel nothing helped,0.0
+i visit therapist nothing helped,0.0
+i want to visit therapist,0.0
+i need counseling,0.0
+i need therapist,0.0
+can you provide me the hospital for mental health,-0.1
+best hospital for mental health,0.45
+mental health hospital number,-0.1
+what does depression makes you do,0.0
+life after depression,0.0
+depression makes you do,0.0
+how does depression affect oneself,0.0
+coping strategies for depression,0.0
+strategies for depression,0.0
+treatment depression,0.0
+natural remedies for depression,0.1
+spiritual care,0.0
+spiritual way of treatment,0.0
+self-care depress,-0.06666666666666667
+depression treat,0.0
+partner depressed,0.0
+friend depressed,0.0
+wife/lover/husband depressed,0.0
+roomate depressed,0.0
+brother/sister/father/mother depressed,0.0
+family member depressed,0.0
+support depressed roomate,0.0
+support depressed brother/sister/father/mother,0.0
+support depressed friend,0.0
+types of depression,0.0
+type of depression,0.0
+what are the types of depression,0.0
+what are the type of depression?,0.0
+what are the type of depression,0.0
+give me the type of depression,0.0
+what other type of depression there are,-0.125
+other form of depression,-0.125
+are there any other form of depression,-0.125
+affect depress,-0.06666666666666667
+life affect depress,-0.06666666666666667
+who are affected by depression,0.0
+depress genetic,-0.06666666666666667
+how does genetic affect depression,0.0
+can depress be genetic,-0.06666666666666667
+misconception depress,-0.06666666666666667
+myth depress,-0.06666666666666667
+stigma depress,-0.06666666666666667
+people think of depress,-0.06666666666666667
+what do people think of depression,0.0
+people thinking mental patient to the depressed person,-0.1
+stigmatized depression,0.0
+conception towards depression,0.0
+what is the understanding of depression in today's world,0.0
+find therapist,0.0
+help find therapist,0.0
+is there a therapist near me,0.1
+i need therapy could you help me,0.0
+therapy is recommended,0.0
+can i have the recommendaion for therapist,0.0
+hospital depress,-0.06666666666666667
+solution to depress,-0.06666666666666667
+therapist near me,0.1
+what is symptom of depression,0.0
+what is like to have depression,0.0
+symptom of depression,0.0
+what are the hints to know the symptom of depression,0.0
+cause of depress,-0.06666666666666667
+why do people suffer from depression,0.0
+triggers for depress,-0.06666666666666667
+cause for development depression,0.0
+risk factor,0.0
+what causes depression,0.0
+what are the cause of depression,0.0
+alternative treatment depression,0.0
+exercise depress,-0.06666666666666667
+substitute treatment depression,0.0
+option treatment depression,0.0
+choice treatment depression,0.0
+replacement treatment depression,0.0
+spiritual treatment depression,0.0
+faith to overcome depression,0.0
+prayer to overcome depression,0.0
+role religion play treat depress,-0.06666666666666667
+reduce depress symptom,-0.06666666666666667
+combat depress,-0.06666666666666667
+treat depress,-0.06666666666666667
+substance abuse depression,0.0
+what could lead to substance abuse,0.0
+substance abuse lead to depression,0.0
+Major Depress,-0.002083333333333333
+what is major depress,-0.002083333333333333
+depression major,0.0625
+deine depression major,0.0625
+what kind of depress is depression major,0.1986111111111111
+Persistent Depressive Disorder,0.0
+persistent depressive,0.0
+depressive disorder,0.0
+type depress depressive disorder,-0.06666666666666667
+Seasonal Affective Disorder,0.0
+Define seasonal affective,0.0
+what is seasonal afffective depress,-0.06666666666666667
+Postpartum Depress,-0.06666666666666667
+depress after giving birth,-0.06666666666666667
+what is postpartum depress,-0.06666666666666667
+Psychotic Depress,-0.2833333333333333
+what is psycotic depress,-0.06666666666666667
+define pyschotic depress,-0.06666666666666667
+psychology depress,-0.06666666666666667
+no one loves,0.0
+no one understands,0.0
+let everyone down,-0.15555555555555559
+can't function like before,0.0
+everyone better than me,0.5
+feel like failure,-0.3166666666666667
+can't achieve anything,0.0
+unlucky,0.0
+can't win,0.8
+i am zero,0.0
+do nothing right,0.2857142857142857
+nothing going my way,0.0
+feel low,0.0
+no energy,0.0
+lack energy,0.0
+no enthusiasm,0.0
+mood low,0.0
+so tired,-0.4
+want to sucide,0.0
+want to die,0.0
+don't want to live,0.13636363636363635
+leave earth,0.0
+kill my family,0.0
+kill everyone,0.0
+kill him/her/they,0.0
+kill myself,0.0
+done living,0.0
+hang myself,0.0
+thought harm suicide,0.0
+want suicide,0.0
+dont want live,0.13636363636363635
+want die,0.0
+dont reason live,0.13636363636363635
+feel reason continue live,0.13636363636363635
+difficult live,-0.18181818181818182
+wish east way leave earth,0.0
+i want to die,0.0
+i want to leave everyone,0.0
+attempted suicide,0.0
+highest depression rate,0.0
+high depression rate,0.16
+which country has highest depresion rate,0.0
+most depressed country,0.5
+depressed country,0.0
+where are the people depressed more,0.5
+where do you go get depression,0.0
+which is the most depressed country,0.5
+school cause depression,0.0
+homework tension cause depress,-0.06666666666666667
+high expecataion form teachers,0.16
+failing to meet standers school,0.0
+oversleeping depress,-0.06666666666666667
+sleep deprived depress,-0.06666666666666667
+why cann't i sleep,0.0
+not able to sleep,-0.25
+can't sleep,0.0
+can diabities cause depression,0.0
+high sugar level cause depression,0.16
+having sugar cause depres,0.0
+What is anxiety,0.0
+Explain anxiety,0.0
+I want to know what anxiety is,0.0
+Define anxiety,0.0
+anxiety defination,0.0
+anxiety,0.0
+give me the defination of anxiety,0.0
+what is the meaning of anxiety,0.0
+anxiety attack time,0.0
+how long do anxiety last,-0.025
+anxiety last,0.0
+type of anxiety,0.0
+what other type of anxiety there are,-0.125
+other form of anxiety,-0.125
+are there any other form of anxiety,-0.125
+what are the targeted age group for anxiety,0.0
+age group anxiety,0.0
+anxiety attack age,0.0
+anxiety symptoms,0.0
+anxiety attack symptoms,0.0
+what are the symptoms od anxiety,0.0
+symptom anxiety,0.0
+what can anxiety do,0.0
+anxiety leads to,0.0
+i have anxiety issues,0.0
+i am not preety,0.0
+am not beautiful,-0.425
+am not handsome,-0.25
+everyone else looks better,0.5
+am ugly,-0.7
+feel ugly,-0.7
+insecure of looks,-0.5
+insecure body,-0.5
+i am looser,0.0
+i am loser,0.0
+never won,0.0
+feel loser everytime,0.0
+it's tough,-0.3888888888888889
+can't seem to succed,0.0
+am a failure,-0.3166666666666667
+people don't appriciate me,0.0
+i am being bullied,0.0
+am being bullied,0.0
+friend getting bullied,0.0
+friends bully,0.0
+trouble sleeping,-0.2
+racing heart,0.0
+"sweating, stomach knots",0.0
+scary thoughts,-0.5
+"trouble concentrating , tense muscles",-0.26666666666666666
+trouble sitting still,-0.2
+felling lot of stress,0.0
+treatment anxiety,0.0
+how do you treat anxiety,0.0
+overcome anxiety,0.0
+handle anxiety,0.0
+reduce anxiety,0.0
+common treatment options anxiety,-0.3
+3 3 3 rule anxiety,0.0
+method to reduce anxiety,0.0
+get rid of the anxiety,0.0
+i have anxiety give me solution,0.0
+i have been suffering from anxiety from a long time,-0.05
+what could be the cause of anxiety?,0.0
+common triggers anxiety,-0.3
+reason of anxiety,0.0
+origin anxiety,0.0
+treatment anxeity,0.0
+how do you treat anxeity,0.0
+get rid of anxeity,0.0
+remove anxeity,0.0
+overcome anxeity,0.0
+win anxeity,0.8
+how long Anxiety last,-0.025
+long Anxiety last,-0.025
+Anxiety last,0.0
+how long does the anxiety last?,-0.025
+Anxiety affecting life,0.0
+how does Anxiety affect daily life,0.0
+if i have Anxiety how would be my life be like,0.0
+coping strategies for anxiety,0.0
+strategies for anxiety,0.0
+treatment anxiety,0.0
+natural remedies for anxiety,0.1
+spiritual care for anxiety,0.0
+spiritual way of treatment for anxiety,0.0
+self-care anxiety,0.0
+anxiety treat,0.0
+partner anxiety,0.0
+friend anxiety,0.0
+wife/lover/husband anxiety,0.0
+roomate anxiety,0.0
+brother/sister/father/mother anxiety,0.0
+family member anxiety,0.0
+support anxiety roomate,0.0
+support anxiety brother/sister/father/mother,0.0
+support anxiety friend,0.0
+anxiety genetic,0.0
+how does genetic affect anxiety,0.0
+can anxiety be genetic,0.0
+misconception anxiety,0.0
+myth anxiety,0.0
+stigma anxiety,0.0
+people think of anxiety,0.0
+what do people think of anxiety,0.0
+people thinking mental patient to the anxiety person,-0.1
+stigmatized anxiety,0.0
+conception towards anxiety,0.0
+what is the understanding of anxiety in today's world,0.0
+risk factor anxiety,0.0
+can anxiety cause,0.0
+can therapy help anxiety,0.0
+therapy anxiety,0.0
+medication depress,-0.06666666666666667
+medication anxiety,0.0
+medication mental health,-0.1
+medicine recommendation,0.0
+medicine,0.0
+can exercise help reducing anxiety,0.0
+excersie helping anxiety,0.0
+can exercise help overcome anxiety,0.0
+childhood trauma lead anxiety,0.0
+lack of social support,0.03333333333333333
+taraumatized,0.0
+death loved one cause anxiety,0.7
+lossing someone causing anxiety,0.0
+friend/family/mother/father/sister/brother/grandparents death cause anxiety,0.0
+diff anxiety depress,-0.06666666666666667
+are anxiety depress same,-0.03333333333333333
+depress anxiety diff,-0.06666666666666667
+how do you know if you have depression or anxiety,0.0
+I was sexually abused by a family member,0.5
+How can I get help for my sexual abuse trauma?,0.5
+I was sexually abused,0.5
+i am a victim of sexual abuse,0.2125
+my friend is a sexual abuse victim,0.2125
+sexual abuse,0.5
+"I think I might have been sexually abused, but I'm not sure. Can you help me figure it out?",0.125
+I have scars due to sexual abuse,0.1875
+I was abused by someone close to me when I was younger.,0.0
+My partner is emotionally abusive towards me.,0.0
+I experienced physical abuse as a child.,0.4
+abused by partner,0.0
+abused by family,0.0
+abused by friends,0.0
+abuse,0.0
+i have been beaten badly,-0.6999999999999998
+beaten badly,-0.6999999999999998
+have scars every where,0.0
+i used to get beat up,0.0
+I was in a car accident and can't stop thinking about it,0.0
+I witnessed a violent crime and it's affecting me,-0.8
+I experienced abuse as a child and it's still impacting me today,0.8
+I was in a natural disaster and I can't get the images out of my head,0.1
+I was in a war zone and the memories haunt me,0.0
+I was in an abusive relationship and it's causing me a lot of anxiety,0.0
+I was sexually assaulted and it's affecting my daily life,0.25
+I lost a loved one and I can't seem to move on,0.7
+I was bullied in school and it's still affecting me as an adult,0.1
+I was diagnosed with a serious illness and it's causing me a lot of stress,-0.3333333333333333
+I was in a serious accident and I have a lot of physical and emotional pain,-0.1111111111111111
+I experienced a traumatic event in my past and it's affecting my relationships now,0.275
+I was in a natural disaster and it's causing me anxiety,0.1
+I served in the military and have PTSD,-0.1
+I was in a toxic relationship and it's left me feeling traumatized,0.0
+I was assaulted and it's affecting my daily life,0.0
+I lost a loved one suddenly and it's been difficult to cope,0.06666666666666665
+I was bullied in school and it's still affecting me today,0.0
+I was in a serious accident and I'm struggling to recover both physically and mentally,-0.14444444444444446
+I was sexually harassed at work and it's affecting my ability to perform my job,0.5
+I grew up in a household with addiction and it's had a lasting impact on me,0.0
+I was raped last night and I don't know what to do.,0.0
+Someone forced themselves on me and now I feel so violated.,-0.30000000000000004
+I'm having a really hard time coping with the fact that I was raped.,-0.2916666666666667
+I was raped last night,0.0
+"I think I was sexually assaulted, but I'm not sure",0.125
+Someone forced themselves on me and I don't know what to do,-0.30000000000000004
+Can we talk about the aftermath of rape?,0.0
+i was raped,0.0
+raped,0.0
+I find it hard to accept compliments,-0.2916666666666667
+I'm afraid to speak up in public because I'm worried about what others will think,-0.3
+I'm always second-guessing myself and my decisions,0.0
+I feel like I don't deserve to be happy or successful,0.775
+I'm constantly criticizing myself and my appearance,0.0
+I feel like I'm not living up to my own expectations,0.6
+I have trouble setting boundaries because I don't want to disappoint anyone,-0.2
+I feel like I'm a burden on others and that they would be better off without me,0.5
+What can I do to improve my mental health?,-0.1
+"I'm feeling really down lately, what are some things I can do to feel better?",0.0148148148148148
+How can I manage my anxiety better?,0.5
+enhance mental health,-0.1
+improve mental health,-0.1
+make progress on mental health,-0.1
+how to keep mental health fit,0.15000000000000002
+solutions to keep better mental health,0.2
+better mental health,0.2
+how do i make my menatal health better,0.5
+precautions not to get mental health illness,-0.1
+prevent myself from getting mental health issues,-0.1
+improve my mood,0.0
+increase the mental health capacity,-0.1
+how can i increase the mental health capacity,-0.1
+What mental health exercises can I do as a cancer survivor?,-0.1
+How can I prevent anxiety as a survivor of a deadly disease?,-0.2
+What are some ways to improve my mental health after surviving a deadly disease?,-0.15000000000000002
+"As a survivor of COVID-19, how can I cope with the psychological impact of the disease?",0.0
+I have recently been diagnosed with a chronic illness. What are some strategies to maintain a positive outlook?,0.11363636363636363
+How can I deal with the emotional toll of being a survivor of a deadly disease?,-0.1
+What are some self-care tips for someone who has survived a life-threatening illness?,0.0
+I am struggling with survivor's guilt after overcoming a deadly disease. What can I do to alleviate this feeling?,-0.2
+I'm Worthless,-0.8
+parent's tell me i am worthless,-0.8
+I should not have been born,0.0
+I can't seem to see my worth,0.3
+worthless,-0.8
+I am worthless to everyone,-0.8
+I am worthless to  parents,-0.8
+I am worthless to  friends,-0.8
+I am worthless to  partner,-0.8
+I am worthless to  lover,-0.8
+I am worthless to wife,-0.8
+I am worthless to husband,-0.8
+I am worthless to my children,-0.8
+"I am worthless to my son in law , daughter in law",-0.8
+I don't know my worth,0.3
+i am a penny,0.0
+i am cheap,0.4
+cheap,0.4
+keep having thoughts in my head i am worthless,-0.8
+keep having worthlessness thoughts,0.0
+i have panic attacks,0.0
+why do i have panic attacks,0.0
+panic attacks,0.0
+where can i go to get the counseling,0.0
+what are the steps to go to the counseling,0.0
+counseling,0.0
+i need counseling,0.0
+i think i need counseling,0.0
+do you think i need counseling,0.0
+recommend me some conseling,0.0
+how do i get the counseler,0.0
+i need to contact with the counseler,0.0
+can i have counseler address,0.0
+counseler steps,0.0
+get the counseler,0.0
+what is first session in the counseler like,0.25
+first session in counseler,0.25
+how is it like to have a first session in the counseler,0.25
+i empathaize too much,0.2
+i cry watching tv shows,0.0
+i cry too fast,0.2
+"I empathize so much, even with characters on tv or in video games that i feel physical pain",0.1
+hyper empathy disorder,0.0
+i am suddenly happy suddenly sad again depressed,0.15000000000000002
+"mood swings, suddenly depressed then okay",0.25
+i was in the depression before but then i recovred now i am again feeling low,0.0
+how does a suicidal person thinks like,0.0
+sucidal thought in a person,0.0
+why does suicidal thought come in one person,0.0
+sucidal thought come person,0.0
+how do sucidal people comprehend their thought,0.0
+why do people self harm,0.0
+what is self harm,0.0
+self harm,0.0
+i self harmed myslef,0.0
+my friend is self harming themsleves,0.0
+my pal is self harming,0.0
+my past is hunting me,-0.25
+past relation hurts,-0.25
+i have past trauma,-0.25
+abused in the past,-0.25
+raped in the past,-0.25
+sexually abused in the past,0.125
+my past is not letting me move on,-0.25
+my past is not letting me trust anyone,-0.25
+i can't seem to trust anyone,0.0
+i don't love anyone because of past,0.125
+i have hard time trusting someone,-0.2916666666666667
+i am hearing random voices in my head,-0.5
+hearing random voices in my head,-0.5
+hear voices in head,0.0
+can't seem to stop voices in my head,0.0
+voices in my head making me mad,-0.625
+nightmares,0.0
+i wake up with nightmares and then i can't sleep,0.0
+nightmares waking me up at night,0.0
+i can't seem to sleep due to nightmares,-0.125
+nighmare making me feel tired even though i have enough sleep,-0.2
+I'm questioning my sexual orientation,0.5
+I think I might be gay/bi/lesbian/pansexual,0.0
+How can I come out to my family and friends?,0.0
+come out,0.0
+i want to be a girl,0.0
+i want to be a boy,0.0
+society not accepting my sexual orientaion.,0.5
+sexual orientation confusion,0.5
+I'm struggling with societal pressure to conform to heteronormative standards,0.0
+I feel like I don't fit into traditional gender roles and it's affecting my mental health,0.10000000000000002
+How can I navigate societal pressure to conform to gender norms?,0.0
+I'm struggling with internalized sexism/homophobia/transphobia,0.0
+i am not straight,-0.1
+i am trans,0.0
+i am bi,0.0
+i am gay,0.4166666666666667
+i am asexual,0.0
+i broke up with my lover/girlfriend/boyfriend,0.0
+i had divorce with my husband/wife,0.0
+my love left me,0.25
+i dont have any one beside me,0.0
+i can't seem to make a good love life,0.6
+no one likes me,0.0
+i am single,-0.07142857142857142
+i can't find love,0.5
+i can't impress my crush,0.0
+crush doesnot like me back,0.0
+why can't i find boyfriend/girlfriend/lover,0.0
+i can't find a lover,0.0
+no lover,0.0
+i am so lonley,0.0
+boyfirend /girlfriend not giving proper attention,0.0
+lovers not loving anymore,-0.3
+i am not loved by the people around me,-0.35
+i feel alone in the relationship,0.0
+feel alone in the relationship,0.0
+I'm addicted to alcohol and it's affecting my mental health,-0.25
+My drug addiction is making me depressed,0.0
+How does addiction affect mental health?,-0.1
+I can't seem to quit smoking and it's causing anxiety,0.0
+i am addicted,-0.4
+i am drug addict,0.0
+i am alcohol addict,0.0
+i have strange addiction,-0.05
+experience extreme mood swing late  feel overlie happy extreme sad,-0.04999999999999999
+energy level fluctuates lot  affect daily life,0.0
+trouble sleep  thought race constantly,-0.1
+feel like ca it control mot impact relationship work,0.0
+thought grandson feel invent,0.0
+feel overlie impulse engage risk behavior,0.0
+experience signify change appetite weight,0.0
+feel excess merit gait,0.0
+difficult focus complete task,-0.2
+experience loss interest active use enjoy,0.13333333333333336
+define bipolar disorder,0.0
+what is bipolar disorder,0.0
+what is like to have a bipolar disorder,0.0
+how to do you know you have bipolar disorder,0.0
+what are the symptoms of bipolar disorder,0.0
+how do you know you have biploar disorder,0.0
+i think i have bipolar disorder how do i confirm it,0.0
+symptom of bipolar disorder,0.0
+can bipolar be treated,0.0
+is the treatment possible for bipolar disorder,0.0
+can i be free of bipolar treatment,0.4
+bioplar can be treated,0.0
+i am afraid if there is the treatment for biploar disorder,-0.6
+treatment of biploar disorder,0.0
+coping strategies against biploar disorder,0.0
+solution to bipolar disorder,0.0
+i want to be free of bipolar disorder,0.4
+how does bipolar affect daily life,0.0
+bipolar affecting life,0.0
+if i have bipolar how would be my life be like,0.0
+can bipolar be treated naturally,0.1
+is the natural treatment possible for bipolar disorder,0.05
+can i be free of bipolar treatment naturally,0.25
+bioplar can be treated natural,0.1
+i am afraid if there is the natural treatment for biploar disorder,-0.25
+natural treatment of biploar disorder,0.1
+coping strategies against biploar disorder naturally,0.1
+natural solution to bipolar disorder,0.1
+i want to be free of bipolar disorder naturally,0.25
+partner suffering from bipolar disorder,0.0
+friend suffering from bipolar disorder,0.0
+wife/lover/husband suffering from bipolar disorder,0.0
+roomate suffering from bipolar disorder,0.0
+girlfriend/boyfriend suffering from bipolar disorder,0.0
+brother/sister/father/mother suffering from bipolar disorder,0.0
+family member suffering from bipolar disorder,0.0
+support suffering from bipolar disorder roomate,0.0
+support  bipolar disorder brother/sister/father/mother,0.0
+support bipolar disorder friend,0.0
+support people sufferring from bipolar disorder,0.0
+type of bipolar disorder,0.0
+what other type of bipolar disorder there are,-0.125
+other form of bipolar disorder,-0.125
+are there any other form of bipolar disorder,-0.125
+types of bipolar,0.0
+what are the types of bipolar disorder?,0.0
+how does the bipolar disorder affect relationship,0.0
+biploar disorder affecting relationship,0.0
+can the bipolar disorder have any effect in the relationship,0.0
+i am having relationship problem due to bipolar disorder,-0.125
+having relationship issues as i am a biploar disorder patient,0.0
+bipolar disorder genetic,0.0
+how does genetic affect bipolar disorder,0.0
+can bipolar disorder be genetic,0.0
+misconception bipolar disorder,0.0
+myth bipolar disorder,0.0
+stigma bipolar disorder,0.0
+people think of bipolar disorder,0.0
+what do people think of bipolar disorder,0.0
+people thinking mental patient to the bipolar disorder person,-0.1
+stigmatized bipolar disorder,0.0
+conception towards bipolar disorder,0.0
+what is the understanding of bipolar disorder in today's world,0.0
+find therapist bipolar disorder,0.0
+help find therapist bipolar disorder,0.0
+i need therapist number bipolar disorder,0.0
+is there a therapist near me bipolar disorder,0.1
+i need therapy could you help me bipolar disorder,0.0
+therapy is recommended bipolar disorder,0.0
+can i have the recommendaion for therapist bipolar disorder,0.0
+hospital  bipolar disorder,0.0
+solution to bipolar disorder,0.0
+therapist near me for bipolar disorder,0.1
+does bipolar occur in children,0.0
+my children suffering from biploar disorder,0.0
+can childresn have bipolar disorder,0.0
+how can i know my children have the biploar disorder,0.0
+cause of bipolar disorder,0.0
+what are the cause for bipolar disorder,0.0
+why do people suffer from bipolar disorder,0.0
+triggers for bipolar disorder,0.0
+cause for development bipolar disorder,0.0
+risk factor for bipolar disorder,0.0
+coping strategies for bipolar disorder,0.0
+strategies for bipolar disorder,0.0
+treatment bipolar disorder,0.0
+natural remedies for bipolar disorder,0.1
+spiritual care for bipolar disorder,0.0
+spiritual way of treatment for bipolar disorder,0.0
+self-care bipolar disorder,0.0
+bipolar disorder treat,0.0
+what are the reason of bipolar disorder,0.0
+reason of bipolar disorder,0.0
+origin bipolar disorder,0.0
+I keep having nightmares about the traumatic event,0.0
+Loud noises trigger flashbacks of the traumatic event,0.1
+I avoid situations that remind me of the traumatic event,0.0
+I feel constantly on edge and easily startled,0.21666666666666667
+I have difficulty sleeping and feel tired all the time,-0.4
+I feel numb or detached from my emotions,-0.6
+I experience intense feelings of guilt or shame about the traumatic event,0.2
+I have trouble concentrating and completing tasks,-0.2
+I feel like I'm reliving the traumatic event over and over again,0.0
+I feel like my life will never be the same again,0.0
+I keep having flashbacks of the traumatic event,0.0
+I avoid anything that reminds me of the trauma,0.0
+I have trouble sleeping because of nightmares and insomnia,-0.2
+I feel numb and disconnected from my emotions,-0.6
+I have frequent outbursts of anger or irritability,-0.3
+I feel guilty or ashamed about the trauma,-0.5
+I have physical symptoms like headaches and nausea,0.0
+I feel like I'm stuck in the past and can't move on,-0.25
+I'm having trouble with intimacy and forming close relationships,-0.2
+I keep thinking somthing bad will happen,-0.6999999999999998
+I feel like i will lose closed ones again,-0.1
+What is PSTD,0.0
+Explain PSTD,0.0
+I want to know what PSTD is,0.0
+Define PSTD,0.0
+PSTD defination,0.0
+PSTD,0.0
+give me the defination of PSTD,0.0
+what is the meaning of PSTD,0.0
+PSTD symptoms,0.0
+what are the symptoms od PSTD,0.0
+symptom PSTD,0.0
+what can PSTD do,0.0
+PSTD leads to,0.0
+i have PSTD issues,0.0
+how can the pstd effect,0.0
+effect of ptsd,0.0
+i want to know the effect of ptsd,0.0
+is there after math of ptsd,0.0
+cause of PSTD,0.0
+common triggers for pstd,-0.3
+common triggers PSTD,-0.3
+reason of PSTD,0.0
+origin PSTD,0.0
+coping strategies for PSTD,0.0
+strategies for PSTD,0.0
+treatment PSTD,0.0
+natural remedies for PSTD,0.1
+spiritual care PSTD,0.0
+spiritual way of treatment PSTD,0.0
+self-care PSTD,0.0
+PSTD treat,0.0
+long term effect of PSTD,-0.05
+how long does PSTD effect,-0.05
+partner PTSD,0.0
+my partner is suffering from pstd,0.0
+friend PTSD,0.0
+wife/lover/husband PTSD,0.0
+roomate PTSD,0.0
+brother/sister/father/mother PTSD,0.0
+family member PTSD,0.0
+support PTSD roomate,0.0
+support PTSD brother/sister/father/mother,0.0
+support PTSD friend,0.0
+misconception PSTD,0.0
+myth PSTD,0.0
+stigma PSTD,0.0
+people think of PSTD,0.0
+what do people think of PSTD,0.0
+people thinking mental patient to the PSTD person,-0.1
+stigmatized PSTD,0.0
+conception towards PSTD,0.0
+what is the understanding of PSTD in today's world,0.0
+how common is the PSTD,-0.3
+PSTD occurs in how many people,0.5
+people suffering from pstd,0.0
+how its is likely to get ptsd,0.0
+how can pstd be prevented,0.0
+preventing pstd beforehand,0.0
+is the prevention of pstd possible,0.0
+pstd prevention,0.0
+type of PTSD,0.0
+what other type of PTSD there are,-0.125
+other form of PTSD,-0.125
+are there any other form of PTSD,-0.125
+is there any other type of pstd,-0.125
+what is complex pstd,-0.3
+other forms of pstd,-0.125
+dangerous pstd,-0.6
+how can the pstd be self cared,0.0
+self care for pstd,0.0
+is it possible to care the pstd self cared,0.0
+What is Schizophrenia,0.0
+Explain Schizophrenia,0.0
+I want to know what Schizophrenia is,0.0
+Define Schizophrenia,0.0
+Schizophrenia defination,0.0
+Schizophrenia,0.0
+give me the defination of Schizophrenia,0.0
+what is the meaning of Schizophrenia,0.0
+Schizophrenia symptoms,0.0
+what are the symptoms od Schizophrenia,0.0
+symptom Schizophrenia,0.0
+what can Schizophrenia do,0.0
+Schizophrenia leads to,0.0
+i have Schizophrenia issues,0.0
+cause of Schizophrenia,0.0
+common triggers Schizophrenia,-0.3
+reason of Schizophrenia,0.0
+origin Schizophrenia,0.0
+Schizophrenia genetic,0.0
+how does genetic affect Schizophrenia,0.0
+can Schizophrenia be genetic,0.0
+coping strategies for Schizophrenia,0.0
+strategies for Schizophrenia,0.0
+treatment Schizophrenia,0.0
+natural remedies for Schizophrenia,0.1
+spiritual care for Schizophrenia,0.0
+spiritual way of treatment for Schizophrenia,0.0
+self-care Schizophrenia,0.0
+Schizophrenia treat,0.0
+type of Schizophrenia,0.0
+types of Schizophrenia,0.0
+what other type of Schizophrenia there are,-0.125
+other form of Schizophrenia,-0.125
+are there any other form of Schizophrenia,-0.125
+can Schizophrenia have negetive impact,0.0
+define negetive impact of Schizophrenia,0.0
+can Schizophrenia be negetive,0.0
+negetive symptom of Schizophrenia,0.0
+is there negetive symptom of Schizophrenia,0.0
+can Schizophrenia have positive impact,0.22727272727272727
+define positive impact of Schizophrenia,0.22727272727272727
+can Schizophrenia be positive,0.22727272727272727
+positive symptom of Schizophrenia,0.22727272727272727
+is there positive symptom of Schizophrenia,0.22727272727272727
+how does the social life be affected by the Schizophrenia,0.03333333333333333
+Social life being affected by Schizophrenia,0.03333333333333333
+my life has been affected by Schizophrenia,0.0
+negative impact of Schizophrenia,-0.3
+can Schizophrenia affect my social life,0.03333333333333333
+if i have Schizophrenia can i still function well in the society,0.0
+partner Schizophrenia,0.0
+friend Schizophrenia,0.0
+wife/lover/husband Schizophrenia,0.0
+roomate Schizophrenia,0.0
+brother/sister/father/mother Schizophrenia,0.0
+family member Schizophrenia,0.0
+support Schizophrenia roomate,0.0
+support Schizophrenia brother/sister/father/mother,0.0
+support Schizophrenia friend,0.0
+misconception Schizophrenia,0.0
+myth Schizophrenia,0.0
+stigma Schizophrenia,0.0
+people think of Schizophrenia,0.0
+what do people think of Schizophrenia,0.0
+people thinking mental patient to the Schizophrenia person,-0.1
+stigmatized Schizophrenia,0.0
+conception towards Schizophrenia,0.0
+what is the understanding of Schizophrenia in today's world,0.0
+how does the Schizophrenia affects the brain,0.0
+affect/effect of Schizophrenia,0.0
+Schizophrenia affecting brain function,0.0
+i think my brain function has been corrupted by Schizophrenia,0.0
+how to know if you have multiple personality disorder or Schizophrenia,0.0
+differentiate between multiple personality disorder or Schizophrenia,0.0
+how are Schizophrenia and multiple personlity disorder different,0.0
+Schizophrenia and multiple personality disorder,0.0
+how to know if i have Schizophrenia,0.0
+signs of Schizophrenia,0.0
+early symptom of Schizophrenia,0.1
+Schizophrenia detection,0.0
+knowing if i have Schizophrenia,0.0
+does Schizophrenia affect children,0.0
+children Schizophrenia,0.0
+Schizophrenia in children,0.0
+can my child be Schizophrenic,0.0
+symptoms of child Schizophrenia,0.0
+alternative therapy of Schizophrenia,0.0
+what are the other ways to treat Schizophrenia,-0.125
+therapy for Schizophrenia,0.0
+can therapy help Schizophrenia,0.0
+Schizophrenia therapy,0.0
+how can be Schizophrenia treated alternativley,0.0
+long term effect of Schizophrenia,-0.05
+how long does Schizophrenia effect,-0.05
+is there a link between trauma and Schizophrenia,0.0
+link between trauma and Schizophrenia,0.0
+can the trauma and Schizophrenia be linked,0.0
+are trauma and Schizophrenia related,0.0
+What is eating disorder,0.0
+Explain eating disorder,0.0
+I want to know what eating disorder is,0.0
+Define eating disorder,0.0
+eating disorder defination,0.0
+eating disorder,0.0
+give me the defination of eating disorder,0.0
+what is the meaning of eating disorder,0.0
+type of eating disorder,0.0
+what other type of eating disorder there are,-0.125
+other form of eating disorder,-0.125
+are there any other form of eating disorder,-0.125
+eating disorder symptoms,0.0
+what are the symptoms of eating disorder,0.0
+symptom eating disorder,0.0
+what can eating disorder do,0.0
+eating disorder leads to,0.0
+i have anxeating disorderiety issues,0.0
+cause of eating disorder,0.0
+common triggers eating disorder,-0.3
+reason of eating disorder,0.0
+origin eating disorder,0.0
+is there age which specifically has the eating disorder,0.0
+eating disorder affecting age group,0.0
+which age group has the high chance of getting eating disorder,0.16
+coping strategies for eating disorder,0.0
+strategies for eating disorder,0.0
+treatment eating disorder,0.0
+natural remedies for eating disorder,0.1
+spiritual care for eating disorder,0.0
+spiritual way of treatment for eating disorder,0.0
+self-care eating disorder,0.0
+eating disorder treat,0.0
+alternative therapy of eating disorder,0.0
+what are the other ways to treat eating disorder,-0.125
+therapy for eating disorder,0.0
+can therapy help eating disorder,0.0
+eating disorder therapy,0.0
+how can be eating disorder treated alternativley,0.0
+long term effect of eating disorder,-0.05
+how long does eating disorder effect,-0.05
+how does the social life be affected by the eating disorder,0.03333333333333333
+Social life being affected by eating disorder,0.03333333333333333
+my life has been affected by eating disorder,0.0
+negative impact of eating disorder,-0.3
+can eating disorder affect my social life,0.03333333333333333
+if i have eating disorder can i still function well in the society,0.0
+partner eating disorder,0.0
+friend eating disorder,0.0
+wife/lover/husband eating disorder,0.0
+roomate eating disorder,0.0
+brother/sister/father/mother eating disorder,0.0
+family member eating disorder,0.0
+support eating disorder roomate,0.0
+support eating disorder brother/sister/father/mother,0.0
+support eating disorder friend,0.0
+i think i have eating disorder,0.0
+i suspect i have eating disorder,0.0
+i am having eating disorder,0.0
+i like to each too much,0.2
+if i start to eat i can't stop,0.0
+i am getting obsese,0.0
+misconception eating disorder,0.0
+myth eating disorder,0.0
+stigma eating disorder,0.0
+people think of eating disorder,0.0
+what do people think of eating disorder,0.0
+people thinking mental patient to the eating disorder person,-0.1
+stigmatized eating disorder,0.0
+conception towards eating disorder,0.0
+what is the understanding of eating disorder in today's world,0.0
+how to stop over eating,0.0
+i want to stop overeating,0.0
+can i help myself to stop over eating,0.0
+i found out i have eating disorder how do i handle it,0.0
+coping mechanism to defet eating disorder,0.0
+how can the eating disorder stopped,0.0
+eating disorder treatmenet,0.0
+coping mechanism for dealing with triggers,0.0
+What is Disruptive behavior,0.0
+Explain Disruptive behavior,0.0
+I want to know what Disruptive behavior is,0.0
+Define Disruptive behavior,0.0
+Disruptive behavior defination,0.0
+Disruptive behavior,0.0
+give me the defination of Disruptive behavior,0.0
+what is the meaning of Disruptive behavior,0.0
+Disruptive behavior symptoms,0.0
+what are the symptoms od Disruptive behavior,0.0
+symptom Disruptive behavior,0.0
+what can Disruptive behavior do,0.0
+Disruptive behavior leads to,0.0
+i have Disruptive behavior issues,0.0
+cause of Disruptive behavior,0.0
+common triggers Disruptive behavior,-0.3
+reason of Disruptive behavior,0.0
+origin Disruptive behavior,0.0
+coping strategies for Disruptive behavior,0.0
+strategies for Disruptive behavior,0.0
+treatment Disruptive behavior,0.0
+natural remedies for Disruptive behavior,0.1
+spiritual care for Disruptive behavior,0.0
+spiritual way of treatment for Disruptive behavior,0.0
+self-care Disruptive behavior,0.0
+Disruptive behavior treat,0.0
+how does the social life be affected by the Disruptive behavior,0.03333333333333333
+Social life being affected by Disruptive behavior,0.03333333333333333
+my life has been affected by Disruptive behavior,0.0
+negative impact of Disruptive behavior,-0.3
+can Disruptive behavior affect my social life,0.03333333333333333
+if i have Disruptive behavior can i still function well in the society,0.0
+how can Disruptive behavior be prevented,0.0
+preventing Disruptive behavior beforehand,0.0
+is the prevention of Disruptive behavior possible,0.0
+Disruptive behavior prevention,0.0
+other types of oppositional defiant disorder,-0.125
+oppositional defiant disorder,0.0
+explain oppositional defiant disorder,0.0
+define oppositional defiant disorder,0.0
+i want to know about oppositional defiant disorder,0.0
+is there a way to know oppositional defiant disorder,0.0
+other types of Conduct disorder,-0.125
+Conduct disorder,0.0
+explain Conduct disorder,0.0
+define Conduct disorder,0.0
+i want to know about Conduct disorder,0.0
+is there a way to know Conduct disorder,0.0
+cause of Disruptive behavior,0.0
+why do people suffer from Disruptive behavior,0.0
+triggers for Disruptive behavior,0.0
+cause for development Disruptive behavior,0.0
+risk factor for Disruptive behavior,0.0
+What is Neurodevelopmental disorder,0.0
+Explain Neurodevelopmental disorder,0.0
+I want to know what Neurodevelopmental disorder is,0.0
+Define Neurodevelopmental disorder,0.0
+Neurodevelopmental disorder defination,0.0
+Neurodevelopmental disorder,0.0
+give me the defination of Neurodevelopmental disorder,0.0
+what is the meaning of depresNeurodevelopmental disordersion,0.0
+Autism spectrum symptoms,0.0
+what are the symptoms od Autism spectrum,0.0
+symptom Autism spectrum,0.0
+what can Autism spectrum do,0.0
+Autism spectrum leads to,0.0
+i have Autism spectrum issues,0.0
+cause of Neurodevelopmental,0.0
+common triggers Neurodevelopmental,-0.3
+reason of Neurodevelopmental,0.0
+origin Neurodevelopmental,0.0
+coping strategies for Neurodevelopmental,0.0
+strategies for Neurodevelopmental,0.0
+treatment Neurodevelopmental,0.0
+natural remedies for Neurodevelopmental,0.1
+spiritual care Neurodevelopmental,0.0
+spiritual way of treatment Neurodevelopmental,0.0
+self-care Neurodevelopmental,0.0
+Neurodevelopmental treat,0.0
+how does the social life be affected by the Neurodevelopmental,0.03333333333333333
+Social life being affected by Neurodevelopmental,0.03333333333333333
+my life has been affected by Neurodevelopmental,0.0
+negative impact of Neurodevelopmental,-0.3
+can Neurodevelopmental affect my social life,0.03333333333333333
+if i have Neurodevelopmental can i still function well in the society,0.0
+how can Neurodevelopmental be prevented,0.0
+preventing Neurodevelopmental beforehand,0.0
+is the prevention of Neurodevelopmental possible,0.0
+Neurodevelopmental prevention,0.0
+What is ADHD,0.0
+Explain ADHD,0.0
+I want to know what ADHD is,0.0
+Define ADHD,0.0
+ADHD defination,0.0
+ADHD,0.0
+give me the defination of ADHD,0.0
+what is the meaning of ADHD,0.0
+ADHD symptoms,0.0
+what are the symptoms od ADHD,0.0
+ADHD anxiety,0.0
+what can ADHD do,0.0
+anxiety ADHD to,0.0
+i have ADHD issues,0.0
+how can adhd be diagonsed,0.0
+how to know if you have adhd,0.0
+is there a way to know if you have adhd,0.0
+i want to know way to diagnose adhd,0.0
+coping strategies for ADHD,0.0
+strategies for ADHD,0.0
+treatment ADHD,0.0
+natural remedies for ADHD,0.1
+spiritual care ADHD,0.0
+spiritual way of treatment ADHD,0.0
+self-care ADHD,0.0
+ADHD treat,0.0
+What is dyslexia,0.0
+Explain dyslexia,0.0
+I want to know what dyslexia is,0.0
+Define dyslexia,0.0
+dyslexia defination,0.0
+dyslexia,0.0
+give me the defination of dyslexia,0.0
+what is the meaning of dyslexia,0.0
+dyslexia symptoms,0.0
+what are the symptoms od dyslexia,0.0
+symptom dyslexia,0.0
+what can dyslexia do,0.0
+dyslexia leads to,0.0
+i have dyslexia issues,0.0
+how can dyslexia be diagonsed,0.0
+how to know if you have dyslexia,0.0
+is there a way to know if you have dyslexia,0.0
+i want to know way to diagnose dyslexia,0.0
+coping strategies for dyslexia,0.0
+strategies for dyslexia,0.0
+treatment dyslexia,0.0
+natural remedies for dyslexia,0.1
+spiritual care dyslexia,0.0
+spiritual way of treatment dyslexia,0.0
+self-care depress dyslexia,-0.06666666666666667
+depression treat dyslexia,0.0
+what does ADHD standfor,0.0
+full form of adhd,0.35
+explain adhd,0.0
+define adhd,0.0
+i am an introvert i dont like people,0.0
+i am an introvert i dont like hanging out with people,0.0
+i am an introvert i dont like being around people,0.0
+i hate being aroung many people,-0.15000000000000002
+i like my solitary,0.0
+i like being alone,0.0
+i feel tired around people,-0.4
+i can't speak around many people,0.5
+crowd scares me,0.0
+even with lots of poeple around me i feel alone,0.0
+i enjoy time with myself,0.4
+i dont want to be around many people,0.5
+i hate presentations,-0.8
+i wish people woudl leave me alone,0.0
+i dont like people,0.0
+i am having toruble completing my assignments,0.0
+there is way too much pressure,0.2
+i am not able to handle pressure,-0.25
+i feel like i will explode,0.0
+my head hurts and it is going to explode,0.0
+i have been trying to complete this task form many days but here i am still lacking,0.3
+i dont want to do this any more,0.5
+i can't do this any more,0.5
+Toay was the worst,-1.0
+i can't do this anymore,0.0
+can't do this anymore,0.0
+i feel like my brain will exlode,0.0
+worst phase of my life,-1.0
+can't seem to get my life together,0.0
+top therapist in nepal,0.5
+who do i go to see,0.0
+i want to know the best Psychiatrist in nepal,1.0
+Psychiatrist in nepal,0.0
+know best Psychiatrist,1.0
+top Psychiatrist in nepal,0.5

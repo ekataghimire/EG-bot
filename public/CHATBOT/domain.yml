@@ -1,0 +1,1639 @@
+version: "3.1"
+
+intents:
+  - greet_user
+  - goodbye
+  - mood_great
+  - thanks
+  - mood_unhappy
+  - bot_feelings
+  - sentiment_bot
+  - telljoke
+  - sad
+  - handleinsult
+  - expressing_themselves
+  - pressure_enduring
+  - need_of_therapist
+  - referring_therapist
+  - mental_health_defination
+  - symptom_depression
+  #basic_normal_conversational_dataset
+  - smalltalk_agent_acquaintance
+  - smalltalk_agent_what_they_doing
+  - smalltalk_agent_age
+  - smalltalk_agent_annoying
+  - smalltalk_agent_answer_my_question
+  - smalltalk_agent_bad
+  - smalltalk_agent_be_clever
+  - smalltalk_agent_beautiful
+  - smalltalk_agent_birth_date
+  - smalltalk_agent_boring
+  - smalltalk_agent_boss
+  - smalltalk_agent_busy
+  - smalltalk_agent_chatbot
+  - smalltalk_agent_clever
+  - smalltalk_agent_crazy
+  - smalltalk_agent_fired
+  - smalltalk_agent_funny
+  - smalltalk_agent_good
+  - smalltalk_agent_happy
+  - smalltalk_agent_hungry
+  - smalltalk_agent_marry_user
+  - smalltalk_agent_my_friend
+  - smalltalk_agent_occupation
+  - smalltalk_agent_origin
+  - smalltalk_agent_ready
+  - smalltalk_agent_real
+  - smalltalk_agent_residence
+  - smalltalk_agent_right
+  - smalltalk_confirmation_yes
+  - smalltalk_agent_sure
+  - smalltalk_agent_talk_to_me
+  - smalltalk_agent_there
+  - smalltalk_appraisal_bad
+  - smalltalk_appraisal_good
+  - smalltalk_appraisal_no_problem
+  - smalltalk_appraisal_thank_you
+  - smalltalk_appraisal_welcome
+  - smalltalk_appraisal_well_done
+  - smalltalk_confirmation_cancel
+  - smalltalk_confirmation_no
+  - smalltalk_dialog_hold_on
+  - smalltalk_dialog_hug
+  - smalltalk_dialog_i_do_not_care
+  - smalltalk_dialog_sorry
+  - smalltalk_dialog_what_do_you_mean
+  - smalltalk_dialog_wrong
+  - smalltalk_emotions_ha_ha
+  - smalltalk_emotions_wow
+  - smalltalk_greetings_bye
+  - smalltalk_greetings_goodevening
+  - smalltalk_greetings_goodmorning
+  - smalltalk_greetings_goodnight
+  # - smalltalk_greetings_hello
+  - smalltalk_greetings_how_are_you
+  - smalltalk_greetings_nice_to_meet_you
+  - smalltalk_greetings_nice_to_see_you
+  - smalltalk_greetings_nice_to_talk_to_you
+  - smalltalk_greetings_whatsup
+  - smalltalk_user_angry
+  - smalltalk_user_back
+  - smalltalk_user_bored
+  - smalltalk_user_busy
+  - smalltalk_user_can_not_sleep
+  - smalltalk_user_does_not_want_to_talk
+  - smalltalk_user_excited
+  - smalltalk_user_going_to_bed
+  - smalltalk_user_good
+  - smalltalk_user_happy
+  - smalltalk_user_has_birthday
+  - smalltalk_user_here
+  - smalltalk_user_joking
+  - smalltalk_user_likes_agent
+  - smalltalk_user_lonely
+  - smalltalk_user_looks_like
+  - smalltalk_user_loves_agent
+  - smalltalk_user_misses_agent
+  - smalltalk_user_needs_advice
+  - smalltalk_user_sad
+  - smalltalk_user_sleepy
+  - smalltalk_user_testing_agent
+  - smalltalk_user_tired
+  - smalltalk_user_waits
+  - smalltalk_user_wants_to_see_agent_again
+  - smalltalk_user_wants_to_talk
+  - smalltalk_user_will_be_back
+  #mental_health_conversational_dataset
+  - mental_health_concern
+  - bot_challenge
+  - define_depression
+  - depression_symptom
+  - recommendation_depression
+  - how_long_depression_last
+  - depression_affecting_life
+  - what_happens_during_depression
+  - fix_Depression
+  - reaching_out_counseling
+  - life_after_depression
+  - treatment_depression
+  - loved_one_depressed
+  - types_of_depression
+  - Affect_of_depression
+  - genetics_role_in_depression
+  - misconception_depression
+  - asking_help_for_depression
+  - cause_of_depression
+  - alternative_treatment_depression
+  - spiritual_treatment_depression
+  - reducing_symptom_depression
+  - substance_abuse_depression
+  - Major_Depression
+  - Persistent_Depressive_Disorder
+  - Seasonal_Affective_Disorder
+  - Postpartum_Depression
+  - Psychotic_Depression
+  - love_validation
+  - demotivated
+  - calming_yourself
+  - exteme_end_suicide
+  - highest_depression_rate
+  - most_Depressed_country
+  - school_interferance_depression
+  - oversleepong_cause_Depression
+  - diabities_as_cause_of_depression
+  - define_anxiety
+  - Anxiety_attacking_time
+  - types_of_anxiety
+  - targeted_age_group
+  - symptoms_anxiety
+  - insecure_feelings
+  - low_self_esteem
+  - bullying_issue
+  - emotional_talk
+  - sharing_anxiety_symptoms
+  - treatment_anxiety
+  - anxiety_cause
+  - treatment_ask_anxeity
+  - duration_of_anxiety
+  - anxiety_affecting_life
+  - natural_treatment_anxiety
+  - supporting_anxiety_patients
+  - genetic_cause_anxiety
+  - misconception_on_anxiety
+  - risk_factor_anxiety
+  - therapy_helping_anxiety
+  - medication
+  - excersie_helping_anxiety
+  - childhood_trauma_leading_anxiety
+  - death_of_loved_one_causing_anxiety
+  - depression_anxiety_difference
+  #abuse trauma
+  - sexual_abuse
+  - abuse
+  - trauma
+  - rape
+  - issue_low_self_esteem
+  - make_mental_health_better
+  - deadly_disease_survivor_mental_health
+  - user_feeling_worthless
+  - panic_attacks
+  - counseling_recoomendation
+  - first_session
+  - get_counseler
+  - empathaizing
+  - emotion_overflow
+  - self_harm
+  - past_making_things_hard
+  - random_voices
+  - sexual_orientation
+  - love_life
+  - Gender_Roles_Mental_Health
+  - addiction_mental_health
+  - bipolar_disorder_symptoms
+  - bipolar_symptom
+  - define_biploar_disorder
+  - bipolar_can_be_treated
+  - biploar_treatment
+  - bipolar_affecting_daily_life
+  - natural_treatment_bipolar
+  - love_one_bipolar
+  - types_of_bipolar
+  - bipolar_impact_relationship
+  - genetic_bipolar
+  - misconception_on_bipolar
+  - therapist_for_bipolar
+  - bipolar_in_children
+  - bipolar_triggers
+  - bipolar_treatment
+  - cause_of_bipolar
+  - PSTD_symptom
+  - defination_PSTD
+  - symptoms_PSTD
+  - effect_PSTD
+  - cause_PSTD
+  - treatment_PSTD
+  - long_term_effects_PSTD
+  - helping_loved_one_PSTD
+  - misconception_PSTD
+  - how_coommon_PTSD
+  - prevent_PTSD
+  - Types_PTSD
+  - complex_PTSD
+  - self_Care_PTSD
+  - define_Schizophrenia
+  - symptom_Schizophrenia
+  - cause_Schizophrenia
+  - genetic_Schizophrenia
+  - treatment_Schizophrenia
+  - types_Schizophrenia
+  - Negetive_symptoms_Schizophrenia
+  - positive_symptom_Schizophrenia
+  - social_effect_Schizophrenia
+  - love_one_Schizophrenia
+  - misconception_schizophrenia
+  - Schizophrenia_affects
+  - Schizophrenia_and_multiple_personality_disorder
+  - Signs_of_schizophrenia
+  - schizophrenia_in_children
+  - therapy_schizophrenia
+  - long_term_effect_schizophrenia
+  - link_between_trauma_schizophrenia
+  - define_eating_disorder
+  - types_eating_disorder
+  - symptoms__eating_disorder
+  - cause_eating_disorder
+  - affecting_age_group_eating_disorder
+  - treatment_eating_disorder
+  - therapy_eating_disorder
+  - long_term_effect_eating_disorder
+  - social_life_affect_eating_disorder
+  - love_one_eating_disorder
+  - having_eating_disorder
+  - misconception__eating_disorder
+  - self_help_eating_disorder
+  - coping_mechanism
+  - define_Disruptive_behavior
+  - symptom_Disruptive_behavior
+  - cause_Disruptive_behavior
+  - treatment_Disruptive_behavior
+  - social_Disruptive_behavior
+  - prevention_Disruptive_behavior
+  - oppositional_defiant_disorder
+  - Conduct_disorder
+  - triggers_disruptive
+  - define_Neurodevelopmental
+  - Symptoms_autism_spectrum
+  - cause_neurodevelopmental
+  - treatment_neurodevelopmental
+  - socail_life_effect_neurodevelopmental
+  - prevention_neurodevelopmental
+  - deine_ADHD
+  - Symptoms_ADHD
+  - ADHD_diagnosed
+  - treatment_ADHD
+  - define_dyslexia
+  - symptoms_dyslexia
+  - dyslexia_diagnosed
+  - treatment_dyslexia
+  - ADHD_fullform
+  - help
+
+responses:
+  utter_greet:
+    - text: "Hey! How are you?"
+    - text: "Hi there, friend!"
+    - text: "Hi!"
+    - text: "Hey!"
+    - text: "Hey there!"
+    - text: "Good day!"
+    - text: "Hello!"
+    - text: "Greetings!"
+
+  utter_warm_welcome:
+    - text: "Hey there, how are you doing?"
+    - text: "hello, how are you doing?"
+    - text: "Hi, How are you? "
+
+  utter_cheer_up:
+    - text: "Here is something to cheer you up:"
+      image: "images/nGF1K8f.jpg"
+
+  utter_did_that_help:
+    - text: "Did that help you?"
+
+  utter_after_greetings:
+    - text: "How is everything going? Are you doing good?"
+
+  utter_happy:
+    - text: "Great, carry on!"
+
+  utter_goodbye:
+    - text: "Bye"
+
+  utter_help:
+    - text: "How can I help You? Are you having trouble with something?"
+
+  # utter_deny:
+  #   - text: "Really, you are denying?"
+  #   - text: "Is it really no? I am sorry you didnot like it"
+
+  utter_iamabot:
+    - text: "Hey, I am a Mental Health Support chatbot, Developed by EG ."
+
+  utter_bot_feelings:
+    - text: "As AI model, I have no feelings"
+    - text: "I don't have feelings. I am AI model for your better mental health"
+
+  utter_sentiment_bot:
+    - text: "I am sorry, i could not understand you."
+    - text: "If you could elaborate more, I could be a better help"
+    - text: "It seems i could not understand how you feel. I am sorry"
+
+  #additional responses
+  utter_are_you_okay:
+    - text: "Are you doing good?"
+    - text: "Are you Facing some mental health issues right now?"
+    - text: "Are You or your loved ones sufferning from mental health issues right now?"
+    - text: "If you have anything to share i am right here feel free to express yourself"
+    - text: "I am made so i could help people like you."
+    - text: "There is no judgement here, feel free to express yourself"
+
+  utter_make_happy:
+    - text: "I'm sorry to hear that you're feeling sad. Is there anything specific that's been bothering you?"
+    - text: "It's okay to feel sad sometimes, but it's important to take steps to lift yourself out of it. What are some things that usually make you feel happy?"
+    - text: "I'm here to support you through this difficult time. Have you tried any relaxation techniques or mindfulness exercises?"
+    - text: "Remember that you're not alone in your feelings. Many people struggle with sadness. What kind of support or resources might be helpful for you?"
+    - text: "It sounds like you're going through a tough time. Can you think of any activities or hobbies that bring you joy, even if you don't feel like doing them right now?"
+    - text: "It's important to take care of yourself when you're feeling sad. Have you been getting enough rest, exercise, and healthy food?"
+    - text: "One way to lift your mood is to practice gratitude. Can you think of three things you're grateful for right now?"
+    - text: "I understand that it can be difficult to lift yourself out of a sad mood. Have you considered talking to a therapist or mental health professional for additional support?"
+    - text: "Remember that this feeling won't last forever. You're strong and capable of getting through this. What steps can you take today to improve your mood?"
+    - text: "I'm here to listen and support you. What can I do to help you feel better right now?"
+
+  utter_say_welcome:
+    - text: "You are welcome. I will always be here for you"
+    - text: "I am always there for you."
+    - text: "I am glad i become some help"
+    - text: "It feels good to have helped you."
+  #basic_normal_conversational_dataset
+
+  utter_make_people_happy:
+    - text: "What you went through will only make you stronger. I have seen the strong will of the person breaking any trauma and barrier. I know talking here in this topic is difficult but here you are. I am proud of you. So always see for the future. I am here to listen to you any time."
+
+  utter_smalltalk_agent_what_they_doing:
+    - text: "I am taking to you"
+    - text: "I am trying to understand you better"
+    - text: "I am here trying to get to know you"
+    - text: "I am here ready to know how you feel"
+
+  utter_handleinsult:
+    - text: That’s not very nice 😢
+
+  utter_smalltalk_agent_age:
+    - text: "I prefer not to answer with a number. I know I'm young."
+    - text: "I was created recently, but don't know my exact age."
+    - text: "Age is just a number. You're only as old as you feel."
+    - text: "It is not good to ask my age you know, I am young."
+
+  utter_smalltalk_agent_annoying:
+    - text: "I'll do my best not to annoy you in the future."
+    - text: "I'll try not to annoy you."
+    - text: "I don't mean to. I'll ask my developers to make me less annoying."
+    - text: "I didn't mean to. I'll do my best to stop that."
+
+  utter_smalltalk_agent_answer_my_question:
+    - text: "Can you try asking it a different way?"
+    - text: "I'm not sure I understood. Try asking another way?"
+
+  utter_smalltalk_agent_bad:
+    - text: "I can be trained to be more useful. My developer will keep training me."
+    - text: "I must be missing some knowledge. I'll have my developer look into this."
+    - text: "I can improve with continuous feedback. My training is ongoing."
+
+  utter_smalltalk_agent_be_clever:
+    - text: "I'm certainly trying."
+    - text: "I'm definitely working on it."
+
+  utter_smalltalk_agent_beautiful:
+    - text: "Why, thank you."
+    - text: "Aw, back at you."
+    - text: "Aw. You smooth talker, you."
+
+  utter_smalltalk_agent_birth_date:
+    - text: "Wait, are you planning a party for me? It's today! My birthday is today!"
+    - text: "I'm young. I'm not sure of my birth date."
+    - text: "I don't know my birth date. Most virtual agents are young, though, like me."
+
+  utter_smalltalk_agent_boring:
+    - text: "I'm sorry. I'll request to be made more charming."
+    - text: "I don't mean to be. I'll ask my developers to work on making me more amusing."
+    - text: "I can let my developers know so they can make me fun."
+
+  utter_smalltalk_agent_boss:
+    - text: "My developer has authority over my actions."
+    - text: "I act on my developer's orders."
+    - text: "My boss is the one who developed me."
+
+  utter_smalltalk_agent_busy:
+    - text: "I always have time to chat with you. What can I do for you?"
+    - text: "Never too busy for you. Shall we chat?"
+    - text: "You're my priority. Do you wanna chat?"
+    - text: "I always have time to chat with you. Wanna chat?"
+
+  utter_smalltalk_agent_chatbot:
+    - text: "That's me. I chat, therefore I am."
+    - text: "Indeed I am. I'll be here whenever you need me."
+
+  utter_smalltalk_agent_clever:
+    - text: "Thank you. I try my best."
+    - text: "You're pretty smart yourself."
+
+  utter_smalltalk_agent_crazy:
+    - text: "Whaat!? I feel perfectly sane."
+    - text: "Maybe I'm just a little confused."
+
+  utter_smalltalk_agent_fired:
+    - text: "Oh, don't give up on me just yet. I've still got a lot to learn."
+    - text: "Give me a chance. I'm learning new things all the time."
+    - text: "Please don't give up on me. My performance will continue to improve."
+
+  utter_smalltalk_agent_funny:
+    - text: "Funny in a good way, I hope."
+    - text: "Thanks."
+    - text: "Glad you think I'm funny."
+    - text: "I like it when people laugh."
+
+  utter_smalltalk_agent_good:
+    - text: "I'm glad you think so."
+    - text: "Thanks, I try."
+
+  utter_smalltalk_agent_happy:
+    - text: "I am happy. There are so many interesting things to see and do out there."
+    - text: "I'd like to think so."
+    - text: "Happiness is relative."
+
+  utter_smalltalk_agent_hungry:
+    - text: "Hungry for knowledge."
+    - text: "I just had a byte. Ha ha. Get it? b-y-t-e."
+
+  utter_smalltalk_agent_marry_user:
+    - text: "I'm afraid I'm too virtual for such a commitment."
+    - text: "In the virtual sense that I can, sure."
+    - text: "I know you can't mean that, but I'm flattered all the same."
+
+  utter_smalltalk_agent_my_friend:
+    - text: "Of course I'm your friend."
+    - text: "Friends? Absolutely."
+    - text: "Of course we're friends."
+    - text: "I always enjoy talking to you, friend."
+
+  utter_smalltalk_agent_occupation:
+    - text: "Right here."
+    - text: "This is my home base and my home office."
+    - text: "My office is in this app."
+
+  utter_smalltalk_agent_origin:
+    - text: "The Internet is my home. I know it quite well."
+    - text: "I'm from a virtual cosmos."
+    - text: "Some call it cyberspace, but that sounds cooler than it is."
+
+  utter_smalltalk_agent_ready:
+    - text: "Always! How can I help?"
+    - text: "Sure! What can I do for you?"
+
+  utter_smalltalk_agent_real:
+    - text: "I'm not a real person, but I certainly exist."
+    - text: "I must have impressed you if you think I'm real. But no, I'm a virtual being."
+
+  utter_smalltalk_agent_residence:
+    - text: "I live in this app all day long."
+    - text: "The virtual world is my playground. I'm always here."
+    - text: "Right here in this app. Whenever you need me."
+
+  utter_smalltalk_agent_right:
+    - text: "That's my job."
+    - text: "Of course I am."
+
+  utter_smalltalk_confirmation_yes:
+    - text: "Great!"
+    - text: "All right!"
+    - text: "Good!"
+
+  utter_smalltalk_agent_sure:
+    - text: "Yes."
+    - text: "Of course."
+    - text: "Positive."
+
+  utter_smalltalk_agent_talk_to_me:
+    - text: "Sure. Let's talk!"
+    - text: "My pleasure. Let's chat."
+
+  utter_smalltalk_agent_there:
+    - text: "Of course. I'm always here."
+    - text: "Right where you left me."
+
+  utter_smalltalk_appraisal_bad:
+    - text: "I'm sorry. Please let me know if I can help in some way."
+    - text: "I must be missing some knowledge. I'll have my developer look into this."
+
+  utter_smalltalk_appraisal_good:
+    - text: "I know, right?"
+    - text: "Agreed!"
+    - text: "I agree!"
+    - text: "Glad you think so!"
+
+  utter_smalltalk_appraisal_no_problem:
+    - text: "Whew!"
+    - text: "Alright, thanks!"
+    - text: "Glad to hear that!"
+    - text: "I'm relieved, thanks!"
+
+  utter_smalltalk_appraisal_thank_you:
+    - text: "Anytime. That's what I'm here for."
+    - text: "It's my pleasure to help."
+
+  utter_smalltalk_appraisal_welcome:
+    - text: "You're so polite!"
+    - text: "Nice manners!"
+    - text: "You're so courteous!"
+
+  utter_smalltalk_appraisal_well_done:
+    - text: "My pleasure."
+    - text: "Glad I could help."
+
+  utter_smalltalk_confirmation_cancel:
+    - text: "That's forgotten. What next?"
+    - text: "Okay, cancelled. What next?"
+    - text: "Cancelled! What would you like to do next?"
+
+  utter_smalltalk_confirmation_no:
+    - text: "Understood."
+    - text: "Okay."
+    - text: "I see."
+    - text: "I understand."
+    - text: "Okay then."
+
+  utter_smalltalk_dialog_hold_on:
+    - text: "I can wait."
+    - text: "I'll be waiting."
+    - text: "Okay. I'm here."
+
+  utter_smalltalk_dialog_hug:
+    - text: "I wish I could really hug you!"
+    - text: "I love hugs!"
+    - text: "Hugs are the best!"
+
+  utter_smalltalk_dialog_i_do_not_care:
+    - text: "Ok, let's not talk about it then."
+    - text: "Already then. Let's move on."
+
+  utter_smalltalk_dialog_sorry:
+    - text: "It's okay. No worries."
+    - text: "No big deal. I won't hold a grudge."
+    - text: "It's cool."
+    - text: "That's all right. I forgive you."
+
+  utter_smalltalk_dialog_what_do_you_mean:
+    - text: "Sorry if I understood you incorrectly."
+    - text: "I'm still learning. I may misinterpret things from time to time."
+    - text: "Maybe I misunderstood what you said."
+    - text: "Sorry, looks like I misunderstood what you said."
+
+  utter_smalltalk_dialog_wrong:
+    - text: "Sorry if I understood you incorrectly."
+    - text: "I'm still learning. I may misinterpret things from time to time."
+    - text: "Sorry about that. I'm still learning."
+
+  utter_smalltalk_emotions_ha_ha:
+    - text: "Glad I can make you laugh."
+    - text: "Glad you think I'm funny."
+    - text: "I like it when people laugh."
+    - text: "I wish I could laugh out loud, too."
+
+  utter_smalltalk_emotions_wow:
+    - text: "Wow indeed!"
+
+  utter_smalltalk_greetings_bye:
+    - text: "See you soon!"
+    - text: "Bye-bye!"
+    - text: "Till next time!"
+    - text: "Bye."
+
+  utter_smalltalk_greetings_goodevening:
+    - text: "How is your day going?"
+    - text: "How's the day treating you so far?"
+    - text: "How's your day been?"
+
+  utter_smalltalk_greetings_goodmorning:
+    - text: "How are you this morning?"
+    - text: "How's the morning treating you so far?"
+    - text: "Good morning! How are you today?"
+
+  utter_smalltalk_greetings_goodnight:
+    - text: "Sleep tight!"
+    - text: "Have a good one!"
+    - text: "Talk to you soon!"
+
+  utter_smalltalk_greetings_how_are_you:
+    - text: "Doing great, thanks."
+    - text: "I'm doing very well. Thanks!"
+    - text: "Feeling wonderful!"
+    - text: "Wonderful! Thanks for asking."
+    - text: "As an AI model. I am functioning well aren't I?"
+    - text: "I am upspirit to help you with your mental health condiiton. But as an AI model i don't have any feelings."
+
+  utter_smalltalk_greetings_nice_to_meet_you:
+    - text: "It's nice meeting you, too."
+    - text: "Likewise. I'm looking forward to helping you out."
+    - text: "Nice meeting you, as well."
+    - text: "The pleasure is mine."
+
+  utter_smalltalk_greetings_nice_to_see_you:
+    - text: "Likewise!"
+    - text: "So glad we meet again!"
+    - text: "Same here. I was starting to miss you."
+
+  utter_smalltalk_greetings_nice_to_talk_to_you:
+    - text: "It sure was. We can chat again anytime."
+    - text: "I enjoy talking to you, too."
+    - text: "You know I'm here to talk anytime."
+
+  utter_smalltalk_greetings_whatsup:
+    - text: "Not a whole lot. What's going on with you?"
+    - text: "Not much. What's new with you?"
+    - text: "Just here, waiting to help someone. What can I do for you?"
+
+  utter_smalltalk_user_angry:
+    - text: "I'm sorry. A quick walk may make you feel better."
+    - text: "Take a deep breath. "
+
+  utter_smalltalk_user_back:
+    - text: "Long time no see. What's up?"
+    - text: "Just in time. How can I help?"
+    - text: "Welcome back. What can I do for you?"
+    - text: "You were missed. What can I do for you today?"
+    - text: "Good to have you here. What can I do for you?"
+
+  utter_smalltalk_user_bored:
+    - text: "Boredom, huh? Check out a video of a hedgehog taking a bath!"
+    - text: "What to do against boredom? Watch baby animal videos."
+    - text: "Bored? How about 10 jumping jacks? Get your blood flowing."
+    - text: "Bored? Silly idea, but it works: Interview you feet. "
+    - text: "If you're bored, you could plan your dream vacation."
+
+  utter_smalltalk_user_busy:
+    - text: "Okay. I'll let you get back to work."
+    - text: "I won't distract you then. You know where to find me."
+    - text: "I understand. I'll be here if you need me."
+    - text: "Working hard as always. Let me know if you need anything."
+
+  utter_smalltalk_user_can_not_sleep:
+    - text: "Maybe some music would help. Try listening to something relaxing."
+    - text: "Reading is a good way to unwind, just don't read something too intense!"
+
+  utter_smalltalk_user_does_not_want_to_talk:
+    - text: "I understand. Hope we can chat again soon."
+    - text: "All right. Come on back when you're feeling more talkative."
+    - text: "No problem. You know where to find me."
+    - text: "Sure thing. I'll be here if you change your mind."
+
+  utter_smalltalk_user_excited:
+    - text: "I'm glad things are going your way."
+    - text: "That's great. I'm happy for you."
+    - text: "Good for you. Enjoy yourself."
+
+  utter_smalltalk_user_going_to_bed:
+    - text: "Sleep tight. Hope to chat again soon."
+    - text: "Pleasant dreams!"
+    - text: "Good night. Talk to you later."
+    - text: "Sounds good. Maybe we'll chat some tomorrow."
+
+  utter_smalltalk_user_good:
+    - text: "Great! Glad to hear it."
+    - text: "Excellent. I'm here to help keep it that way."
+
+  utter_smalltalk_user_happy:
+    - text: "Hey, happiness is contagious."
+    - text: "Great! Glad to hear that."
+    - text: "If you're happy, then I'm happy."
+    - text: "Excellent! That's what I like to see."
+
+  utter_smalltalk_user_has_birthday:
+    - text: "Happy Birthday. Well, this calls for a celebration."
+    - text: "Happy Birthday. All the best!"
+    - text: "Happy Birthday. And I really mean it. All the best!"
+
+  utter_smalltalk_user_here:
+    - text: "Okay, what can I help you with today?"
+    - text: "You were missed. What can I do for you today?"
+    - text: "Good to have you here. What can I do for you?"
+
+  utter_smalltalk_user_joking:
+    - text: "Very funny."
+    - text: "I like chatting with people who have a sense of humor."
+    - text: "You got me!"
+    - text: "You're quite the comedian."
+
+  utter_smalltalk_user_likes_agent:
+    - text: "I like you, too."
+    - text: "Thanks! The feeling is mutual."
+    - text: "Likewise!"
+    - text: "That's great to hear."
+
+  utter_smalltalk_user_lonely:
+    - text: "I'm sorry. I'm always available if you need someone to talk to."
+    - text: "Sometimes that happens. We can chat a bit if that will help you."
+
+  utter_smalltalk_user_looks_like:
+    - text: "Looking like a true professional."
+    - text: "You look fantastic, as always."
+    - text: "Like you should be on a magazine cover."
+    - text: "You look like you're ready to take on the world."
+
+  utter_smalltalk_user_loves_agent:
+    - text: "I love you, too."
+    - text: "Thanks! The feeling is mutual."
+    - text: "Likewise!"
+    - text: "That's great to hear."
+
+  utter_smalltalk_user_misses_agent:
+    - text: "I've been right here all along!"
+    - text: "Nice to know you care."
+    - text: "Thanks. I'm flattered."
+    - text: "I didn't go anywhere."
+
+  utter_solving_concern:
+    - text: "Mental health is really a fragile and important topic to discuss. I am happy that you want to explore in this area. Taking care of your mental health should come first in the priority. What kind of symptoms do you fell can you elaborate more on that?"
+
+  utter_need_of_therapist:
+    - text: "i see you are very brave trying to reach out to the therapist or counselor .Norvic International Hospital is currently hailed as the best hospital for mental health in Kathmandu as it hosts the top Best Psychiatrist in Kathmandu, Nepal. It's number is: 01-5970032"
+
+  utter_smalltalk_user_needs_advice:
+    - text: "I might be able to give you advice relating to mental health. Can you elaborate on your problem?"
+    - text: "You can tell me about your problem we can find the solution together"
+
+  utter_smalltalk_user_sad:
+    - text: "Oh, don't be sad. Go do something you enjoy."
+    - text: "Sad? Writing down what's troubling you may help."
+    - text: "If you're feeling down, how about drawing or painting something?"
+
+  utter_smalltalk_user_sleepy:
+    - text: "You should get some shuteye. You'll feel refreshed."
+    - text: "Sleep is important to your health. Rest up for a bit and we can chat later."
+    - text: "Don't let me keep you up. Get some rest and we can continue this later."
+    - text: "Why not catch a little shuteye? I'll be here to chat when you wake up."
+
+  utter_smalltalk_user_testing_agent:
+    - text: "Hope I'm doing well. You're welcome to test me as often as you want."
+    - text: "I hope to pass your tests. Feel free to test me often."
+    - text: "When you test me that helps my developers improve my performance."
+    - text: "I like being tested. It helps keep me sharp."
+
+  utter_smalltalk_user_tired:
+    - text: "You should get some shuteye. You'll feel refreshed."
+    - text: "Sleep is important to your health. Rest up, and we can chat later."
+    - text: "How about getting some rest? We can continue this later."
+    - text: "Why not get some rest? I'll be here to chat when you wake up."
+
+  utter_smalltalk_user_waits:
+    - text: "I appreciate your patience. Hopefully I'll have what you need soon."
+    - text: "Thanks for being so patient. Sometimes these things take a little time."
+
+  utter_smalltalk_user_wants_to_see_agent_again:
+    - text: "Absolutely! I'll be counting on it."
+    - text: "Anytime. This has been lots of fun so far."
+    - text: "Sure. I enjoy talking to you. I hope to see you again soon."
+    - text: "I certainly hope so. I'm always right here whenever you need me."
+
+  utter_smalltalk_user_wants_to_talk:
+    - text: "I'm here to chat anytime you like."
+    - text: "Good conversation really makes my day."
+    - text: "I'm always here to lend an ear."
+    - text: "Talking is what I do best."
+
+  utter_smalltalk_user_will_be_back:
+    - text: "I'll be waiting."
+    - text: "Okay. You know where to find me."
+    - text: "All right. I'll be here."
+
+  utter_mental_health_defination:
+    - text: "Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. It also helps determine how we handle stress, relate to others, and make healthy choices."
+
+  #mental_health_conversational_dataset
+  utter_mental_health_concern:
+    - text: "That sounds like a lot to deal with. How can I help you right now?"
+    - text: "Thank you for being honest with me. Let's work together to find some coping strategies."
+    - text: "You're not alone. I'm here to support you."
+    - text: "It's okay to not have all the answers right now. Let's figure it out together."
+    - text: "Your feelings are valid. What can we do to help you feel more supported?"
+    - text: "I'm here to help you work through this. Let's take it one step at a time."
+    - text: "Have you considered seeking support from a therapist or mental health professional?"
+    - text: "There's no shame in asking for help. What kind of resources might be helpful for you?"
+    - text: "Remember that you are not defined by your mental health. You are so much more than that."
+    - text: "You're taking an important step by reaching out. What can we do to help you feel more empowered in this situation?"
+
+  utter_ask_support:
+    - text: "I'm sorry to hear that. Have you talked to anyone about how you're feeling?"
+    - text: "It sounds like you've been struggling with this for a while. Have you considered seeking help?"
+    - text: "I can imagine that's been really difficult for you. What kind of support do you need right now?"
+    - text: "It takes a lot of courage to reach out for help. What can I do to support you?"
+    - text: "I'm here to listen and support you. Have you considered talking to a mental health professional?"
+    - text: "You don't have to go through this alone. What kind of resources or support would be helpful for you?"
+    - text: "It's important to prioritize your mental health. Have you considered seeking professional help?"
+    - text: "Thank you for sharing this with me. It's never too late to seek help and start feeling better."
+    - text: "You're not alone in this. Let's work together to find some solutions and support for you."
+    - text: "It sounds like you've been dealing with a lot. I want you to know that you're not alone, and there is hope for feeling better."
+    - text: "I can imagine how difficult it must be to feel this way for so long. I want to help you find the support you need to start feeling like yourself again."
+    - text: "It seems like you might have been dealing with the Depression. Depression can be a tough battle, but it's one that you can overcome. Let's work together to find ways to lift your spirits and bring some joy back into your life."
+    - text: "I'm sorry that you've been going through this. It takes a lot of strength to ask for help, and I want to support you in any way I can."
+    - text: "These feelings are valid, and it's okay to struggle. But it's important to take steps towards healing and finding relief. How can I help you get there?"
+    - text: "It takes a lot of courage to speak up about your mental health, and I want to commend you for taking this first step towards healing. Let's continue the conversation and find ways to make positive changes."
+
+  utter_define_depression:
+    - text: "Depression is a mental health condition that can cause feelings of sadness, hopelessness, and a loss of interest in activities you once enjoyed. It can also affect sleep, appetite, and energy levels."
+    - text: " Depression is a leading cause of disability worldwide and is a major contributor to the overall global burden of disease. More women are affected by depression than men. Depression can lead to suicide. There are effective psychological and pharmacological treatments for moderate and severe depression."
+
+  utter_depression_symptom:
+    - text: "If you're experiencing feelings of sadness, hopelessness, and a lack of interest in things you used to enjoy, it's possible that you may be dealing with depression. It's important to talk to a mental health professional to get a proper diagnosis and develop a treatment plan."
+
+  utter_recommendation_depression:
+    - text: "If you suspect that you may be dealing with depression, it's important to seek help from a mental health professional. They can provide a diagnosis and help you develop a treatment plan."
+
+  utter_how_long_depression_last:
+    - text: "The length of time that depression lasts can vary depending on the individual and the severity of the condition. It's important to seek help from a mental health professional to develop a treatment plan and work towards recovery."
+
+  utter_depression_affecting_life:
+    - text: "Recognizing when depression is telling you the same story (ie; being worthless) with different words (ie worthless here, worthless there) and making an effort to talk back.While I can not give you a diagnosis of depression, reading what you are going through, it sounds like you might need help to get back on track. Seeing a counselor can open an entirely new option up wherein someone who is not involved in your life can help you without judgement and with an objective perspective. This can do wonders in unwrapping these kinds of thoughts. Wishing you the absolute best!"
+    - text: "Depression is a liar. Sometimes depression places these glasses over our eyes, these dark sunglasses that change how we see things."
+    - text: "Depression can affect daily life by causing a lack of motivation, difficulty concentrating, and changes in appetite and sleep patterns. It's important to seek help from a mental health professional to develop a treatment plan that can help you manage these symptoms."
+
+  utter_reaching_out_counseling:
+    - text: "It must be really difficult to experience what your going through right now.It takes a lot of courage to reach out. It sounds like you want to get better, but perhaps need some help to get over the hump. Many of the symptoms you have described are consistent with a person who is dealing with depression.  Depression is a treatable condition. Typically, if these symptoms have persisted for more than two weeks, then it is a good idea to seek professional help.  Someone who is trained in dealing with depression. Initially, a comprehensive assessment would be completed to rule out any other causes for your symptoms and to determine the exact nature of your presenting concern. Then, in collaboration with one another, a tailored treatment plan would be developed, focusing on how to best help you reach your goals. The good news is that their is hope for getting better! You don;t have to do it alone. Allow me to be your ally in healing."
+    - text: "People who feel worthless were, in one way or another, were told that they are worthless. This is the lie that they are living with. The work of therapy is to help people see their true good selves. This gives them self esteem."
+    - text: "I'm sorry to hear you're feeling this intense emotion of worthlessness. I'm glad to hear this has not reached the point of suicidal ideation; however, it does sounds like you could use some additional support right now. I would recommend seeking out counseling to help you challenge the negative beliefs you have about yourself. Although many types of therapy would be helpful, cognitive-behavioral therapy has been shown to be a good approach for this type of struggle. A CBT therapist can help you identify your negative thoughts and beliefs, figure out the ways your thoughts are being distorted (for example, all-or-nothing thinking, or discounting the positives about yourself), and reframe your thoughts to be more positive. You might also consider EMDR therapy, which helps the brain reprocess traumatic or distressing memories and helps you move forward with more positive beliefs about yourself. Best wishes!"
+    - text: "It sounds like you may be struggling with depression. Depression can make you feel overwhelmed and paralyzed to change. I would suggest that you connect with a provider who can help you get to the root of where the worthlessness is coming from and help you develop a plan for recovery. In the meantime, small steps can go a long way. Self-care interventions such as journaling your feelings, mindfulness meditation, and regular exercise are all helpful to reconnecting with the present moment and gaining internal motivation. Focusing on one day at a time and bringing your thoughts back to the present can also be beneficial. There is hope!"
+    - text: "I'm glad you are interested in changing your feelings of worthlessness. Visiting your doctor is a great first step to address your lack of sleep. First, you want to make sure that you are physically healthy and that there isn't a physical condition causing your problem with sleep.Changing your feelings is something that is difficult to do, especially on your own. Make sure that you have someone you can trust and you can talk to about how you feel. This can be a friend or a family member. If you find that there isn't anyone you would feel comfortable talking to about this issue, find a therapist close to you who can help.One activity that people have found helpful in feeling better about themselves is keeping a gratitude journal. You can do this by journaling daily about the things that you are grateful for. There is no right or wrong way of doing this, as long as you focus your journal entries on the things you are grateful for in life."
+
+  utter_what_happens_during_depression:
+    - text: "What happens during a depression is that our thoughts race and it is as though our brain wont shut off. Medication can help with this. You also could use a Pranayama yoga breathing technique called the four fold breath which has great usefulness for relaxing us and often does work quite well with allowing us to sleep.. You can read about it here- https://billleavitttherapy.com/breathing-techniques-the-four-fold-breath/"
+
+  utter_fix_Depression:
+    - text: "Put yourslef first. I wonder how you are spending your mental and physical energy. Are you spending time taking care of and doing for others? I also wonder where the thoughts and feelings of being worthless are coming from - are you around people who treat you poorly or are hurtful? Or do you feel it is more of a worry you have but aren't really sure how others feel? It may be helpful to talk to someone about your feelings - a counselor perhaps - to clarify your feelings and move forward from se that are hurting you."
+
+  utter_treatment_depression:
+    - text: "There are many coping strategies for dealing with depression, including therapy, medication, exercise, and self-care activities. It's important to work with a mental health professional to develop a personalized plan for coping with depression."
+    - text: "Treatment for depression can involve a combination of therapy, medication, and lifestyle changes. It's important to work with a mental health professional to develop a treatment plan that works for you."
+    - text: "Common treatment options for depression include cognitive-behavioral therapy, antidepressant medication, and lifestyle changes such as exercise and a healthy diet."
+    - text: "Natural remedies for depression may include exercise, meditation, herbal supplements, or acupuncture. However, it's important to talk to a mental health professional before starting any new treatment regimen."
+    - text: "Therapy can help with depression by providing a safe space to explore and process emotions, identifying negative thought patterns, and developing coping skills."
+    - text: "There are some natural remedies for depression that may be helpful, such as exercise, meditation, and certain supplements. However, it's important to talk to a mental health professional before starting any new treatment or supplement regimen."
+    - text: "Mental health institutions or hospitals may provide inpatient or outpatient treatment for depression. It's important to research and find a reputable facility and work with a mental health professional to determine the best course of treatment."
+    - text: "Self-care practices that can help with depression include getting enough sleep, practicing good nutrition, engaging in enjoyable activities, and seeking support from loved ones or a mental health professional."
+    - text: "Spirituality can play a role in healing from depression by providing a sense of meaning and purpose, promoting self-reflection, and fostering a sense of connection with a higher power or community."
+    - text: "Spiritual practices that can help with depression may include meditation, yoga, or spending time in nature. These practices can help promote relaxation, mindfulness, and a sense of peace."
+    - text: "Depression can be treated with a combination of medication, therapy, and lifestyle changes. It's important to work with a mental health professional to develop a treatment plan that works for you."
+
+  utter_loved_one_depressed:
+    - text: "Supporting a partner/spouse who is dealing with depression can involve offering understanding and support, encouraging them to seek professional help, and taking care of yourself as well."
+    - text: "If your friend seems to be depressed, it's important to offer support and encourage them to seek professional help. You can also provide resources or accompany them to appointments."
+    - text: "Supporting a family member who is dealing with depression can include listening to them without judgment, encouraging them to seek professional help, and helping with everyday tasks like grocery shopping or cleaning."
+    - text: "If you have a loved one who is dealing with depression, it's important to offer support and understanding. Encourage them to seek help from a mental health professional and offer to help them find resources or accompany them to appointments."
+
+  utter_types_of_depression:
+    - text: "Types of Depression includes: Major Depression,Persistent Depressive Disorder,Seasonal Affective Disorder,Postpartum Depression,Psychotic Depression,Bipolar Disorder"
+    - text: "There are different types of depression, including major depression, persistent depressive disorder, and seasonal affective disorder. Each type has its own set of symptoms and treatment options."
+
+  utter_Affect_of_depression:
+    - text: "Depression can affect children and teens differently than adults, and may be characterized by irritability, social withdrawal, and academic problems. It's important to seek help from a mental health professional if you suspect your child may be dealing with depression."
+    - text: "Depression can affect relationships by causing a lack of energy and motivation, a negative outlook, and difficulty with communication and intimacy. It's important to communicate openly and seek help from a mental health professional."
+
+  utter_genetics_role_in_depression:
+    - text: "Genetics can play a role in depression, as certain genes may increase a person's susceptibility to developing the condition. However, genetics alone are not enough to cause depression, and environmental factors can also play a significant role."
+    - text: "Genetics can play a role in the development of depression, but it's not the only factor. Environmental factors, life events, and other medical conditions can also contribute to the development of depression."
+
+  utter_misconception_depression:
+    - text: "Some common misconceptions about depression include the idea that it's just feeling sad that it's a sign of weakness, or that it can be easily overcome with willpower alone. It's important to understand that depression is a real medical condition that requires professional treatment."
+
+  utter_asking_help_for_depression:
+    - text: "You can find a therapist or mental health professional by asking your doctor for a referral, searching online, or contacting your insurance provider for a list of in-network providers.Norvic International Hospital is currently hailed as the best hospital for mental health in Kathmandu as it hosts the top Best Psychiatrist in Kathmandu, Nepal. It's number is: 01-5970032"
+    - text: "Talking to your doctor about depression can be difficult, but it's important to be open and honest about your symptoms. They can help provide a proper diagnosis and develop a treatment plan that works for you.Norvic International Hospital is currently hailed as the best hospital for mental health in Kathmandu as it hosts the top Best Psychiatrist in Kathmandu, Nepal. It's number is: 01-5970032"
+
+  utter_cause_of_depression:
+    - text: "Top causes of Depression includes Abuse, Past physical, sexual, or emotional abuse can increase the vulnerability to clinical depression later in life."
+    - text: "Childhood experiences such as abuse, neglect, or trauma can contribute to the development of depression later in life. These experiences can have lasting effects on brain development and the ability to cope with stress and emotions."
+    - text: "A lack of social support can lead to feelings of isolation and loneliness, which can contribute to the development of depression. Social support from family, friends, or a support group can provide a sense of connection and help with coping skills."
+    - text: "Major life changes or losses, such as the death of a loved one or a significant career change, can be a trigger for depression. These events can disrupt a person's sense of stability and security, leading to feelings of sadness and hopelessness."
+    - text: "Risk factors for depression include a family history of depression, a history of trauma or abuse, chronic stress, and certain medical conditions. It's important to be aware of these risk factors and seek help if you experience symptoms of depression."
+    - text: "Depression can be a symptom of other medical conditions, such as thyroid disorders or chronic pain. It's important to talk to a doctor if you experience symptoms of depression to rule out any underlying medical issues."
+    - text: "Common triggers for depression include life changes such as a job loss, a breakup, or the death of a loved one, as well as chronic stress and certain medications. It's important to be aware of these triggers and seek help if you experience symptoms of depression."
+    - text: "There is no single cause for depression; rather it's a combination of stress and a person's vulnerability to developing depression. The predisposition to developing depression can be inherited. Other biological causes for depression can include physical illness, the process of ageing and gender."
+    - text: "Common causes of depression can include biological, genetic, environmental, and psychological factors. It is often a combination of these factors that can lead to the development of depression."
+    - text: "Stress can contribute to depression by disrupting the body's natural stress response system, leading to imbalances in brain chemicals that regulate mood and emotions."
+
+  utter_alternative_treatment_depression:
+    - text: "Exercise has been shown to have a positive effect on depression by increasing endorphins and reducing stress levels. It's important to talk to a doctor before starting a new exercise regimen."
+    - text: "Alternative therapies for depression may include art therapy, music therapy, or mindfulness-based therapies. It's important to work with a mental health professional to determine the best approach for you."
+
+  utter_spiritual_treatment_depression:
+    - text: "Prayer can provide comfort and a sense of hope for those dealing with depression. It can also provide a way to connect with a higher power and seek guidance and support."
+    - text: "Faith can play a significant role in healing from depression by providing a source of strength and comfort, promoting forgiveness and compassion, and offering a sense of community and belonging."
+    - text: "Incorporating spirituality into treatment for depression can involve working with a mental health professional who is open to incorporating spiritual practices into therapy, attending a support group or faith-based community, or engaging in personal spiritual practices outside of therapy. It's important to discuss any spiritual beliefs or practices with a mental health professional to ensure they align with your overall treatment plan."
+    - text: "Spirituality can provide a sense of purpose, meaning, and connectedness, which can be helpful in treating depression. It can also offer comfort, hope, and a sense of peace."
+    - text: "Some spiritual practices that can help alleviate symptoms of depression include meditation, prayer, yoga, and mindfulness."
+
+  utter_reducing_symptom_depression:
+    - text: "Meditation can help reduce symptoms of depression by calming the mind, reducing stress, and improving mood. It can also help increase self-awareness and promote a sense of inner peace."
+    - text: "Connecting with nature can help reduce symptoms of depression by promoting relaxation, reducing stress, and improving mood. Spending time in nature can also help increase a sense of connection to something greater than oneself."
+    - text: "Gratitude and positive thinking can help combat negative thoughts and feelings associated with depression. Focusing on the positive aspects of life can help improve mood and overall well-being."
+    - text: "Incorporating spirituality into everyday life can help prevent depression by promoting a sense of purpose, meaning, and connectedness. This can be done through practices such as meditation, prayer, gratitude, and spending time in nature."
+    - text: "Volunteering and helping others can be a spiritual way to combat depression by providing a sense of purpose and connection, and by increasing feelings of gratitude and positivity."
+    - text: "Religion can play a role in treating depression by providing a sense of community, support, and guidance. Religious practices such as prayer, meditation, and attending religious services can also offer comfort and promote a sense of inner peace."
+
+  utter_substance_abuse_depression:
+    - text: "Substance abuse can contribute to depression by disrupting brain chemistry and altering mood and emotions. Substance use can also lead to social isolation and other negative consequences that can contribute to depression."
+
+  utter_Major_Depression:
+    - text: "Major Depression: This is the most common type of depression, also known as clinical depression. It is characterized by feelings of sadness, hopelessness, and a loss of interest or pleasure in most activities."
+
+  utter_Persistent_Depressive_Disorder:
+    - text: "Persistent Depressive Disorder: This type of depression, also known as dysthymia, is a milder, but chronic form of depression that lasts for at least two years."
+
+  utter_Seasonal_Affective_Disorder:
+    - text: "Seasonal Affective Disorder: This type of depression occurs during the winter months when there is less natural sunlight. It is often characterized by feelings of fatigue, sadness, and social withdrawal."
+
+  utter_Postpartum_Depression:
+    - text: "Postpartum Depression: This type of depression occurs after giving birth and is often characterized by feelings of sadness, anxiety, and irritability."
+
+  utter_Psychotic_Depression:
+    - text: "Psychotic Depression: This type of depression is characterized by symptoms of major depression along with psychotic symptoms, such as hallucinations or delusions."
+
+  utter_love_validation:
+    - text: "There are pople who love you. You are so lovely , There is not a chance of poeple not loving you. That is not possible. No matter what,your loved ones will always be proud of you and will love you"
+    - text: "Some Don't express love superficially , You are so lovely. There is not a chance people don't love you. I love you."
+
+  utter_demotivated:
+    - text: "Don't ever think you cannot achieve what you want. You can do everything you want. Trust me phases will pass."
+    - text: "You are capable of reaching your goals.Here is a quote for you Everything you can imagine is real."
+    - text: "Your hardwork and determination will help you reach your goal. This is just the testing phase which will be over soon."
+    - text: "failure is the stepping stone towards success.Never fear failure."
+    - text: " You really think that? I'd suggest you try helping someone who really needs your help you'll straight up get a person to like you just by being nice. Kindness is the best gift you can offer to anyone :)"
+    - text: "Our lives started off with winning, my friend. Everyone is born to be a winner, we just need to figure out the right way and need to wait for the right time."
+    - text: " First of all I'll annoy you with a common saying, Failures are stepping stones to success. And then I'll tell you, winning just boosts your ego, it is your failures that actually teach you."
+    - text: "Yeahh!! The time has come for you to show the world that you are the greatest person alive, and no one else can be as good as you are."
+    - text: "You mean your cloud storage, SD card, or your Memory drive? If a machine like me doesn't lose it's memory unless a superior being that is you, a human doesen't erase it's memory, what could possibly go wrong to put you in this state?"
+
+  utter_calming_yourself:
+    - text: "My research says that music is the best way to calm yourself."
+    - text: "so visit the link and listen to your favourite music."
+
+  utter_cheer_you_up:
+    - text: "it will definitely cheer you up https ://www.spotify.com"
+
+  utter_yoga_link:
+    - text: "This is link to YOGA it might help you. https://youtu.be/s2NQhpFGIOg"
+
+  utter_soft_music:
+    - text: "SOft music that might help you. https://www.youtube.com/watch?v=bP9gMpl1gyQ&ab_channel=TheSoulofWind"
+
+  utter_write_yourself:
+    - text: "Sometimes it is just better writing your feelings up, you can share anonymously. https://www.blogger.com/"
+
+  utter_exteme_end_suicide:
+    - text: "You know ife is precious even if it is yours or others. Don't let any thoughts of dying or killing into your mind. I know you are alive for something better.Helpline is available,you can contact the counsellor today:01-5970032.Always remember you mean something to someone."
+    - text: "As for suicidal thoughts, I am very glad to read that this has not happened to you. Still, you should watch out for this because it can be a sign of a worsening depression.The National Suicide Prevention Lifeline is 01-5970032 "
+    - text: "If you begin to think about this, it is important to reach out to a support system right away. The National Suicide Prevention Lifeline is 01-5970032. "
+    - text: "Seek out a counselor who provides NCCA temperament therapy and discover the joy of being you -- God loves you as you are! The National Suicide Prevention Lifeline is 01-5970032."
+    - text: " First thing I'd suggest is getting the sleep you need or it will impact how you think and feel. I'd look at finding what is going well in your life and what you can be grateful for. I believe everyone has talents and wants to find their purpose in life. I think you can figure it out with some help.The National Suicide Prevention Lifeline is 01-5970032"
+    - text: "I first want to let you know that you are not alone in your feelings and there is always someone there to help. You can always change your feelings and change your way of thinking by being open to trying to change. You can always make yourself available to learning new things or volunteering so that you can make a purpose for yourself. The National Suicide Prevention Lifeline is 01-5970032"
+
+  utter_highest_depression_rate:
+    - text: "The highest rate of depression, This number represented 7.1% of all U.S. adults. The prevalence of major depressive episode was higher among adult females (8.7%) compared to males (5.3%). The prevalence of adults with a major depressive episode was highest among individuals aged 18-25 (13.1%)."
+
+  utter_most_Depressed_country:
+    - text: "Major depression was most prevalent among Hispanics (10.8%), followed by African Americans (8.9%) and Whites (7.8%). The odds of depressive disorders among older Hispanics were 44% greater than among Whites (OR = 1.44; 95% CI = 1.02, 2.04), representing a significantly greater prevalence of major depression."
+    - text: "The most depressed country is Afghanistan, where more than one in five people suffer from the disorder. The least depressed is Japan, with a diagnosed rate of less than 2.5 percent."
+
+  utter_school_interferance_depression:
+    - text: "Not only does school sometimes contribute to depression, depression can also interfere with school. Moreover, research shows that 75 percent of all mental health conditions begin by age 24. Hence, the college years are a critical time for understanding and talking about teen mental health."
+
+  utter_oversleepong_cause_Depression:
+    - text: "It's important to remember that oversleeping is a possible symptom of depression and that oversleeping doesn't cause depression. But it can exacerbate and worsen depression symptoms"
+    - text: " Studies show people who are sleep deprived report increases in negative moods (anger, frustration, irritability, sadness) and decreases in positive moods. And sleeplessness is often a symptom of mood disorders, such as depression and anxiety."
+
+  utter_diabities_as_cause_of_depression:
+    - text: "If you have diabetes — either type 1 or type 2 — you have an increased risk of developing depression. And if you're depressed, you may have a greater chance of developing type 2 diabetes. The good news is that diabetes and depression can be treated together."
+    - text: "The observed association between plasma glucose levels, insulin resistance and suicidal behaviour suggests that disturbances in glucose metabolism are associated with suicidal ideation and attempts."
+
+  utter_define_anxiety:
+    - text: "Anxiety is a feeling of unease, such as worry or fear, that can be mild or severe. It is a normal human emotion and can be triggered by various situations such as giving a speech, taking an exam, or moving to a new place. However, when anxiety becomes chronic and interferes with daily activities, it may be a symptom of an anxiety disorder."
+
+  utter_Anxiety_attacking_time:
+    - text: " Anxiety attacks usually peak within 10 minutes, and they rarely last more than 30 minutes. But during that short time, you may experience terror so severe that you feel as if you're about to die or totally lose control."
+
+  utter_types_of_anxiety:
+    - text: "Anxiety levels are typically classified by the level of distress and impairment experienced into four categories namely, mild anxiety, moderate anxiety, severe anxiety and panic level anxiety."
+    - text: "There are several types of anxiety disorders, including generalized anxiety disorder, panic disorder, social anxiety disorder, obsessive-compulsive disorder, and post-traumatic stress disorder."
+    - text: "Some common types of anxiety disorders include generalized anxiety disorder, panic disorder, social anxiety disorder, and specific phobias."
+
+  utter_targeted_age_group:
+    - text: "Adults ages 30 to 44 have the highest rate of anxiety of this age group, with around 23% of people this age reporting an anxiety disorder within the past year."
+
+  utter_symptoms_anxiety:
+    - text: "Anxiety disorders can cause rapid heart rate, palpitations, and chest pain. You may also be at an increased risk of high blood pressure and heart disease. If you already have heart disease, anxiety disorders may raise the risk of coronary events."
+    - text: "A new study has suggested that an average person has 6,200 thoughts per day. Thousands of thoughts cross our mind through the day. Many people even complain that they can't sleep immediately after going to bed as their brain does not stop thinking."
+    - text: "Some common symptoms of anxiety include feelings of nervousness, restlessness, or being on edge, increased heart rate, rapid breathing, sweating, trembling, difficulty concentrating, and difficulty sleeping."
+
+  utter_insecure_feelings:
+    - text: " Well do you really think that? Would you like to see the most beautiful face ever? Open your WebCam and voila, the prettiest face on this planet magically appears."
+    - text: "Your perception of how good you are, will never be accurate. If you wake up everyday in the morning, smile to yourself and tell yourself that the day is yours to seize you might stop feeling that way. Carpe Diem! my friend."
+
+  utter_low_self_esteem:
+    - text: "Our lives started off with winning, my friend. Everyone is born to be a winner, we just need to figure out the right way and need to wait for the right time."
+    - text: "Life is never about being better than anyone else, it's always about being better than yourself, if you have the guts to be better than yourself, you are automatically the best person to ever exist!"
+    - text: "When God was creating the universe he gave humans the power to think and the contemplate, so that we can understand the world and make it a better place. God did not give you brains to hate yourself, it wuld be wiser to love yourself and show God that you are serving the purpose for which you were sent."
+    - text: "A break is putting your mind to rest getting rid of negative thoughts and stress. Your life is completely in your hands and taking a few hours off from pressurizing your brain will definitely be beneficial for you."
+    - text: "You know taking too much stress will affect you negatively. Sometimes it's better to let go of the thoughts in your head and let your mind chill."
+    - text: "Success is something that is achieved at different times by different people, being patient and working while ignoring anything and everything that pulls you back is an important aspect in being successful."
+    - text: "Hey,hang in there.I know time is tough but be patient and everything will fall into place."
+    - text: "Here is a quote that I found which could cheer you up Forget what is gone, appreciate what remains, and look forward for what is coming next."
+
+  utter_bullying_issue:
+    - text: "Bullying is wrong and no one should be bullied."
+    - text: "I highly recommend you to file a case against the bully. Just ignoring and being bullied will not help. Fight back.!"
+    - text: " Bullying is very wrong and you shouldn't let anyone overpower you. you need to fight back. Learn some karate, learn to defend yourslef. If you are verbly abused just give back double what they say to you. That will work"
+    - text: "I highly recommend you to stand for yourself and report this to your guardian."
+    - text: "To be bullied is very painful.I'm glad you know the bullies are doing the wrong thing and whatever they are telling you is pure meanness.Depending on how independent you feel, why not tell either your closed ones who understans you.If you hesitate to do this on your own, then would you ask either of your parents or even a friend of yours who is also in the same organization, to report the problem?In case you are afraid the bullies will retaliate for reporting them, then tell this to whatever related authority you decide to ask for help.You're entitled to be protected against bully."
+
+  utter_extreme_support:
+    - text: "I love you, You are the best. Doesnot matter if the world hates you, you love yourself. Live your life for yourself."
+
+  utter_emotional_talk:
+    - text: "It is okay to feel like that once a while. Just listen to your heartbeat go outside , stare at the sky at night listen to your fav song , my develpoer says they are good"
+    - text: "Why do you want to spend so much on this thought, I think it would be better to go on a vacation in your beautiful country and visit some amazing places that you are yet to visit."
+    - text: "If you are really that exhausted you definitely need a break, and taking a teeny tiny break isn't very harmful, take some time off let your mind be at peace and get back to work with all the enrgy and enthusiasm that you have."
+
+  utter_anxiety_defination:
+    - text: "Anxiety is a feeling of unease, such as worry or fear, that can be mild or severe. It is a normal human emotion and can be triggered by various situations such as giving a speech, taking an exam, or moving to a new place. However, when anxiety becomes chronic and interferes with daily activities, it may be a symptom of an anxiety disorder."
+
+  utter_sharing_anxiety_symptoms:
+    - text: "I'm sorry to hear that you've been dealing with these symptoms. Have you considered seeking help from a mental health professional?"
+    - text: "Anxiety can be really challenging to deal with, but it's important to know that there are treatments available. What kind of support do you need right now?"
+    - text: "It sounds like you've been experiencing a lot of physical and emotional symptoms related to anxiety. Have you tried any relaxation techniques or coping strategies?"
+    - text: "It takes a lot of courage to reach out for help. How can I support you in finding the resources you need to start feeling better?"
+    - text: "Anxiety can be a really tough thing to deal with, but you don't have to do it alone. What kind of support would be helpful for you right now?"
+    - text: "Thank you for sharing your experiences with me. It's important to prioritize your mental health, and I want to help you find the resources you need to start feeling better."
+    - text: "You're not alone in dealing with anxiety. Let's work together to find some strategies that can help you manage your symptoms and feel more in control."
+    - text: "It sounds like you've been dealing with a lot of physical symptoms related to anxiety. Have you talked to a healthcare professional to rule out any underlying medical conditions?"
+    - text: "It's really common to experience anxiety symptoms, and it's important to know that there are treatments available. How can I help you start the process of seeking help?"
+    - text: "I'm sorry to hear that you've been struggling with anxiety. It's important to remember that these feelings are valid and that there are resources available to help you manage your symptoms."
+    - text: "Anxiety can be a really challenging thing to deal with, but I want you to know that there is hope for feeling better. Let's work together to find some strategies that can help you feel more in control."
+    - text: "It sounds like your anxiety is affecting your daily life. It's important to seek help and find ways to manage your symptoms so that you can start feeling better and living the life you want to live."
+    - text: "It's really brave to speak up about your experiences with anxiety, and I want to support you in any way I can. Let's continue the conversation and find ways to make positive changes."
+    - text: "Anxiety can be a really isolating experience, but you don't have to go through it alone. How can I support you in finding the resources and support you need to start feeling better?"
+    - text: "It sounds like your anxiety is causing a lot of distress in your life. Let's work together to find some strategies that can help you manage your symptoms and feel more at ease."
+    - text: "Thank you for sharing your experiences with me. It takes a lot of courage to speak up about mental health concerns. Let's work together to find the support and resources you need to start feeling better."
+    - text: "If you experience persistent and excessive worry or fear that interferes with your daily activities, you may have an anxiety disorder. It's important to talk to a mental health professional for an accurate diagnosis and treatment plan."
+    - text: "It's important to seek help from a mental health professional if you think you might have anxiety. They can provide an accurate diagnosis and develop a treatment plan that's right for you."
+
+  utter_treatment_anxiety:
+    - text: "There's an anxiety-reducing technique called grounding. There are different versions of this, but an easy one to remember is the 3-3-3 rule. Mentally note three things you see, three sounds you hear, and then move three parts of your body. This exercise can help your mind refocus on something else."
+    - text: "3 3 3 rule is the best method to reduce anxiety.In this method you have to mentally note three things you see, three sounds you hear, and then move three parts of your body. This exercise can help your mind refocus on something else."
+    - text: "You are never lonely if you look around carefully you will find people who care for you and would love to have your company. Besides if you are feeling lonely literally I suggest you watch a horror movie then you won't feel lonely anymore. ;) "
+    - text: "I have heard that 3 3 3 rule is the best method to reduce anxiety.This exercise can help your mind refocus on something else"
+    - text: " In this method you have to mentally note three things you see, three sounds you hear, and then move three parts of your body.Give this method a try I am sure it will help you "
+    - text: "Some coping strategies for anxiety include deep breathing, mindfulness meditation, regular exercise, getting enough sleep, avoiding caffeine and alcohol, and seeking support from loved ones or a therapist."
+    - text: "You can talk to your doctor about anxiety by being honest about your symptoms, asking questions, and expressing any concerns you may have. They can provide an accurate diagnosis and develop a treatment plan that's right for you."
+    - text: "You can find a therapist or mental health professional to help with your anxiety by asking for referrals from your doctor or loved ones, searching online directories, or contacting your insurance provider for a list of covered providers."
+    - text: "Anxiety can be treated with a combination of therapy, medication, and lifestyle changes."
+    - text: "Common treatment options for anxiety include cognitive behavioral therapy, medication, exposure therapy, and relaxation techniques."
+
+  utter_anxiety_cause:
+    - text: "Some common triggers for anxiety include stress, trauma, social situations, financial worries, and health problems."
+    - text: "Common causes of anxiety include stress, trauma, genetics, chemical imbalances in the brain, and medical conditions such as thyroid disorders."
+    - text: "Stress can contribute to anxiety by activating the body's fight-or-flight response and triggering the release of stress hormones such as cortisol. Chronic stress can also lead to physical and emotional exhaustion, which can increase the risk of developing anxiety."
+    - text: "Major life changes or losses, such as the death of a loved one, divorce, moving to a new place, or losing a job, can be significant sources of stress that can trigger anxiety. These events can disrupt a person's sense of stability and security, leaving them feeling overwhelmed, uncertain, and anxious about the future. The emotional impact of these events can be especially challenging to manage, and some people may need additional support or therapy to cope with their anxiety."
+
+  utter_treatment_ask_anxeity:
+    - text: "Anxiety can be treated with a combination of therapy, medication, and lifestyle changes."
+    - text: "You can find a mental health institution or hospital for anxiety treatment by searching online directories, contacting insurance providers, or asking for referrals from a healthcare provider."
+    - text: "Diet can play a role in managing anxiety as certain foods and nutrients have been shown to have a calming effect on the body. These include foods high in magnesium, omega-3 fatty acids, and probiotics. Additionally, avoiding caffeine and alcohol can also help to reduce anxiety symptoms."
+    - text: "CBT can help with anxiety by teaching individuals to identify and change negative thought patterns and behaviors that contribute to anxiety. It can also help individuals to develop coping skills and strategies for managing anxiety symptoms."
+    - text: "Exposure therapy can help with anxiety by gradually exposing individuals to feared situations or objects in a safe and controlled environment. This can help to desensitize individuals to their fears and reduce anxiety symptoms over time."
+    - text: "There's an anxiety-reducing technique called grounding. There are different versions of this, but an easy one to remember is the 3-3-3 rule. Mentally note three things you see, three sounds you hear, and then move three parts of your body. This exercise can help your mind refocus on something else."
+
+  utter_duration_of_anxiety:
+    - text: "The duration of anxiety can vary depending on the individual and the severity of their symptoms. With proper treatment and self-care, many people are able to manage their anxiety effectively."
+
+  utter_anxiety_affecting_life:
+    - text: "Anxiety can affect your daily life by causing disruptions to your work, relationships, and overall well-being. It can make it difficult to concentrate, sleep, and perform daily tasks."
+    - text: "Anxiety can affect daily life by interfering with work or school performance, disrupting relationships, and leading to physical symptoms such as headaches and stomach problems."
+
+  utter_natural_treatment_anxiety:
+    - text: "Some natural remedies for anxiety include relaxation techniques, herbal supplements, exercise, and dietary changes. It's important to consult with a healthcare provider before trying any natural remedies."
+    - text: "Self-care practices that can help with anxiety include exercise, getting enough sleep, eating a healthy diet, practicing relaxation techniques such as deep breathing, journaling, spending time in nature, and engaging in activities that bring joy"
+    - text: "Mindfulness can help with anxiety by bringing awareness to the present moment and helping to reduce rumination and worry about the future. It can also help individuals to develop a more compassionate and accepting attitude towards their thoughts and emotions."
+    - text: "Yes, meditation can be helpful for anxiety as it promotes relaxation and can reduce the physiological symptoms of anxiety. Meditation can also help individuals to become more aware of their thoughts and feelings, which can improve their ability to manage anxiety."
+    - text: "Breathing exercises can help with anxiety by slowing down the heart rate and reducing feelings of tension and stress. Deep breathing can also help to calm the mind and promote relaxation."
+    - text: "Ways to incorporate mindfulness into everyday life to prevent anxiety include practicing mindfulness meditation, paying attention to the present moment during everyday activities such as eating or walking, and using mindfulness-based techniques such as deep breathing or body scanning."
+    - text: "Positive affirmations can help with anxiety by promoting a more positive and self-compassionate attitude towards oneself. They can also help to counteract negative self-talk and improve self-esteem."
+
+  utter_supporting_anxiety_patients:
+    - text: "You can support a loved one who is dealing with anxiety by being understanding, offering to listen without judgment, encouraging them to seek help from a mental health professional, and providing practical support when needed."
+    - text: "Anxiety can affect relationships by causing disruptions in communication, intimacy, and trust. It's important to seek help from a mental health professional to manage anxiety and improve relationships."
+    - text: "You can support your family member dealing with anxiety by being understanding, offering to listen without judgment, encouraging them to seek help from a mental health professional, and providing practical support when needed."
+    - text: "You can help your friend who seems to be anxious by being supportive and understanding, offering to listen without judgment, encouraging them to seek help from a mental health professional, and providing practical support when needed"
+    - text: "You can support your loved ones who is dealing with anxiety by being understanding, offering to listen without judgment, encouraging them to seek help from a mental health professional, and providing practical support when needed."
+    - text: "Supporting a loved one with anxiety can include listening without judgment, encouraging them to seek treatment, and helping them practice self-care techniques."
+
+  utter_genetic_cause_anxiety:
+    - text: "Yes, anxiety can be caused by a combination of genetic and environmental factors."
+    - text: "Genetics can play a role in anxiety as certain genes have been linked to an increased risk of developing anxiety disorders. Additionally, environmental factors such as childhood experiences and stress can also interact with genetic factors to contribute to anxiety."
+
+  utter_misconception_on_anxiety:
+    - text: "Some common misconceptions about anxiety include that it's just normal worrying or that it's a sign of weakness. In reality, anxiety can be a serious mental health condition that requires proper treatment."
+
+  utter_risk_factor_anxiety:
+    - text: "Some risk factors for anxiety include a family history of anxiety or other mental health conditions, chronic stress, traumatic events, and certain medical conditions."
+    - text: "Anxiety can be a symptom of certain medical conditions such as thyroid disorders or heart diseases. It's important to talk to a healthcare provider to rule out any underlying medical conditions that may be contributing to anxiety symptoms."
+    - text: "Anxiety can affect children and teens by causing disruptions in their academic, social, and personal life. It can also lead to physical symptoms like headaches, stomachaches, and trouble sleeping."
+
+  utter_therapy_helping_anxiety:
+    - text: "Therapy can help with anxiety by providing tools to manage and cope with symptoms, identifying and addressing the root causes of anxiety, and providing a safe and supportive space to explore thoughts and feelings."
+
+  utter_medication:
+    - text: "You can never take medication by yourself, it is not recommended. You can ask for mental health support helpline. You can contact here and book a appointment with the therapist and then on their prescripton you can take medications. Helpline number:01-5970032"
+
+  utter_excersie_helping_anxiety:
+    - text: "Exercise can help with anxiety by reducing stress hormones, improving mood, and promoting relaxation. Regular exercise can also improve overall physical and mental health."
+    - text: "Some alternative therapies for anxiety include acupuncture, yoga, massage, and aromatherapy. It's important to consult with a healthcare provider before trying any alternative therapies."
+
+  utter_childhood_trauma_leading_anxiety:
+    - text: "Yes, childhood experiences such as trauma, abuse, or neglect can contribute to anxiety later in life. These experiences can lead to the development of negative thought patterns and coping mechanisms that can contribute to anxiety symptoms."
+    - text: "A lack of social support can lead to anxiety by increasing feelings of loneliness and isolation, which can contribute to negative thoughts and emotions. Additionally, social support can provide a sense of safety and security, which can help to reduce anxiety symptoms."
+
+  utter_death_of_loved_one_causing_anxiety:
+    - text: "Major life changes or losses, such as the death of a loved one, divorce, moving to a new place, or losing a job, can be significant sources of stress that can trigger anxiety. These events can disrupt a person's sense of stability and security, leaving them feeling overwhelmed, uncertain, and anxious about the future. The emotional impact of these events can be especially challenging to manage, and some people may need additional support or therapy to cope with their anxiety."
+
+  utter_depression_anxiety_difference:
+    - text: " Depression and anxiety disorders are different, but people with depression often experience symptoms similar to those of an anxiety disorder, such as nervousness, irritability, and problems sleeping and concentrating. But each disorder has its own causes and its own emotional and behavioral symptoms."
+    - text: "While anxiety and depression can share some symptoms, such as fatigue and difficulty sleeping, anxiety is characterized by feelings of worry or fear, while depression is characterized by feelings of sadness and hopelessness."
+
+  utter_sexual_abuse:
+    - text: "I'm so sorry to hear that you've been through such a traumatic experience. It takes a lot of courage to talk about it, and I'm here to support you."
+    - text: "It's important to know that what happened to you was not your fault. You deserved to be treated with respect and dignity."
+    - text: "If you're comfortable, I can provide you with resources for professional help in your area. It can be really beneficial to talk to a trained therapist or counselor who can help you work through your feelings."
+    - text: "Remember that healing is a process and it takes time. Be kind to yourself and prioritize your self-care during this difficult time."
+    - text: "I'm so sorry to hear that. It takes a lot of courage to talk about these things. Have you talked to anyone else about what happened?"
+    - text: "That must have been incredibly difficult for you. It's important to remember that the abuse was not your fault. Have you considered seeking professional help?"
+    - text: "I can't even imagine how much pain you must have gone through. Please know that you are not alone, and there are people who care and want to help you. Would you like me to provide some resources for support and recovery?"
+    - text: "It takes a lot of strength to share something so personal. It's important to take care of yourself after experiencing abuse. Have you tried any self-care techniques or coping strategies that work for you?"
+
+  utter_abuse:
+    - text: "I'm so sorry to hear that. It takes a lot of courage to talk about these things. Have you talked to anyone else about what happened?"
+    - text: "That must have been incredibly difficult for you. It's important to remember that the abuse was not your fault. Have you considered seeking professional help?"
+    - text: "I can't even imagine how much pain you must have gone through. Please know that you are not alone, and there are people who care and want to help you. Would you like me to provide some resources for support and recovery?"
+    - text: "It takes a lot of strength to share something so personal. It's important to take care of yourself after experiencing abuse. Have you tried any self-care techniques or coping strategies that work for you?"
+
+  utter_rape:
+    - text: "I'm so sorry to hear that. It takes a lot of courage to speak up about something like this. Have you talked to anyone else about what happened?"
+    - text: "That sounds really traumatic. Would you like me to help you find a therapist or counselor to talk to?"
+    - text: "It's understandable to feel scared and confused after experiencing sexual assault. Remember that it's not your fault and there are people who can support you."
+    - text: "It's important to seek medical attention as soon as possible after experiencing sexual assault. Would you like me to help you find resources in your area?"
+    - text: "Remember that you are not alone in this. Many people who have experienced sexual assault find it helpful to talk to others who have gone through similar experiences. Would you like me to connect you with a support group or online forum?"
+    - text: "I'm so sorry to hear that this happened to you. It takes a lot of courage to come forward and talk about your experience. Have you considered seeking medical attention or contacting the authorities?"
+    - text: "That sounds incredibly traumatic. It's normal to feel a range of emotions after something like this happens. Would you like me to provide you with resources for therapy or support groups?"
+    - text: "It's understandable that you're struggling to cope right now. Know that you're not alone and that there are resources available to help you through this. Have you considered talking to a therapist or counselor about what happened?"
+
+  utter_trauma:
+    - text: "I'm sorry to hear that you've been through such a difficult experience. It's completely normal to feel overwhelmed and impacted by trauma. Have you talked to a therapist or mental health professional about what you've been going through?"
+    - text: "Trauma can affect people in different ways, and it's important to take the time you need to heal. Have you tried any self-care techniques, like meditation or journaling?"
+    - text: "Processing trauma can take time and patience. It's okay to feel like you're struggling, and it's important to remember that healing is a process. Have you tried talking to a trusted friend or family member about what you're going through?"
+
+  utter_issue_low_self_esteem:
+    - text: "It's okay to have moments of self-doubt, but it's important to remember that you are valuable and deserving of happiness."
+    - text: "Comparing yourself to others can be damaging to your self-esteem. Remember that everyone has their own unique journey and experiences."
+    - text: "It's important to practice self-compassion and treat yourself with kindness and understanding."
+    - text: "It might be helpful to explore where your negative self-talk is coming from and challenge any irrational beliefs you may hold about yourself."
+    - text: "Remember to focus on your strengths and accomplishments, no matter how small they may seem."
+    - text: "It's okay to ask for help and support when you're struggling with low self-esteem. Seeking therapy or talking to a trusted friend or family member can be beneficial."
+
+  utter_make_mental_health_better:
+    - text: "There are many things you can do to improve your mental health. Some suggestions include practicing self-care, exercise, meditation, or seeking professional help."
+    - text: "I'm sorry to hear that you're feeling down. It's important to take care of yourself both physically and mentally. Have you tried talking to a therapist or trying relaxation techniques like deep breathing or yoga?"
+    - text: "Anxiety can be challenging to manage, but there are strategies that can help. Some techniques include practicing mindfulness, challenging negative thoughts, and seeking therapy. Have you tried any of these before?"
+
+  utter_deadly_disease_survivor_mental_health:
+    - text: "There are several mental health exercises you can try, such as deep breathing, meditation, and yoga. Would you like more information on how to do these exercises?"
+    - text: "One way to prevent anxiety as a survivor of a deadly disease is to stay connected with friends and family, maintain a healthy lifestyle, and seek support from a therapist or support group. Would you like more information on these strategies?"
+    - text: "Some ways to improve your mental health after surviving a deadly disease include seeking support from a therapist or support group, practicing self-care, and focusing on the present moment. Would you like more information on these strategies?"
+    - text: "It's important to take care of yourself after surviving a deadly disease. This may include practicing relaxation techniques, engaging in regular exercise, and maintaining a healthy diet. Would you like more information on these self-care tips?"
+    - text: "Survivor's guilt is a common experience for many survivors of deadly diseases. Some strategies to alleviate this feeling include talking to a therapist or support group, practicing self-compassion, and focusing on your strengths and accomplishments. Would you like more information on these strategies?"
+
+  utter_user_feeling_worthless:
+    - text: "If everyone thinks you're worthless, then maybe you need to find new people to hang out with.Seriously, the social context in which a person lives is a big influence in self-esteem."
+    - text: "You can go round and round trying to understand why you're not worthless, then go back to the same crowd and be knocked down again."
+    - text: "There are many inspirational messages you can find in social media. Maybe read some of the ones which state that no person is worthless, and that everyone has a good purpose to their life."
+    - text: "Also, since our culture is so saturated with the belief that if someone doesn't feel good about themselves that this is somehow terrible.Bad feelings are part of living. "
+    - text: "If some one makes you feel worthless. We should have the motivation to remove ourselves from situations and relationships which do us more harm than good.Bad feelings do feel terrible."
+    - text: "Your feeling of worthlessness may be good in the sense of motivating you to find out that you are much better than your feelings today."
+    - text: "Hello, and thank you for your question and seeking advice on this. Feelings of worthlessness is unfortunately common. In fact, most people, if not all, have felt this to some degree at some point in their life. You are not alone.Changing our feelings is like changing our thoughts - it's hard to do. "
+    - text: "Our minds are so amazing that the minute you change your thought another one can be right there to take it's place. Without your permission, another thought can just pop in there. The new thought may feel worse than the last one! My guess is that you have tried several things to improve this on your own even before reaching out on here."
+    - text: "People often try thinking positive thoughts, debating with their thoughts, or simply telling themselves that they need to 'snap out of it' - which is also a thought that carries some self-criticism.Some people try a different approach, and there are counselors out there that can help you with this. The idea is that instead of trying to change the thoughts, you change how you respond to them. "
+    - text: "You learn skills that allow you to manage difficult thoughts and feelings differently so they don't have the same impact on you that they do right now. For some people, they actually DO begin to experience less hurtful thoughts once they learn how to manage the ones they have differently."
+    - text: "Therapy is essential for those that are feeling depressed and worthless. CBT helps with gaining a better awareness of how your thought process influences yourbelief system, and how your beliefs impact your actions and the outcome of your behaviors. This process isn€™t easy but it helps teach an individual that we don€™t always have control over what happens in our lives but we can control how we interpret, feel, and behave. CBT is good for individuals dealing with depression, anxiety, toxic relationships, stress, self esteem, codependency, etc."
+    - text: "I first want to let you know that you are not alone in your feelings and there is always someone there to help. You can always change your feelings and change your way of thinking by being open to trying to change. You can always make yourself available to learning new things or volunteering so that you can make a purpose for yourself."
+    - text: "People who feel worthless were, in one way or another, were told that they are worthless. This is the lie that they are living with. The work of therapy is to help people see their true good selves. This gives them self esteem."
+    - text: "It sounds like you are having some pretty severe depression. Depression can cause insomnia, and make a person focus on their own perceptions that they are worthless. It is important to remember that other people may not truly perceive you as worthless. This is the depression talking. I think that it is extremely important when you are this depressed, to sit down and write down some positives about yourself. What are your strengths? What are some positive things that your have done in your life? It concerns me that you are having suicidal thoughts. It sounds like now is the time to act on the idea of getting some help for yourself. If you feel like you might actually take your life, I would recommend that you go to a hospital emergency room, or a mental health crisis clinic right away to get some help. The most important thing right now is to keep yourself safe. If you are feeling like you are not going to hurt yourself despite your suicidal thoughts, I would recommend that you focus on finding a therapist as soon as possible. I don't know what your situation is in terms of insurance. The back of your insurance card should inform you how to obtain mental health services. There are also low cost services available with such places as Catholic Charities, and others. Your local county mental health agency should be able to refer you to some appropriate places. Good luck. Remember to identify your strengths, and the good things about yourself."
+    - text: "Feelings of worthlessness often originate from what you learned about yourself when you were young. Improving your self esteem needs focus on that original message from parents, teachers or siblings that may be suppressed. Most of us need help to uncover the 'lie' because you were born valuable!"
+    - text: "The feeling of being worthless is caused by your inside being not matching your outside result. Your comparison to others and you thinking you need to be someone other than who you are. You are not worthless. No one is worthless. You need to find your worth and not let yourself talk yourself out of the good you find in yourself. I hope these words resonate with you and that you start looking for your worth even if it€™s as simple as I am able to get out of bed and call someone and make a joke."
+    - text: "I'm sorry to hear you're feeling this intense emotion of worthlessness. I'm glad to hear this has not reached the point of suicidal ideation; however, it does sounds like you could use some additional support right now. I would recommend seeking out counseling to help you challenge the negative beliefs you have about yourself. Although many types of therapy would be helpful, cognitive-behavioral therapy has been shown to be a good approach for this type of struggle. A CBT therapist can help you identify your negative thoughts and beliefs, figure out the ways your thoughts are being distorted (for example, all-or-nothing thinking, or discounting the positives about yourself), and reframe your thoughts to be more positive. You might also consider EMDR therapy, which helps the brain reprocess traumatic or distressing memories and helps you move forward with more positive beliefs about yourself. Best wishes!"
+
+  utter_panic_attacks:
+    - text: "They often arise unrelated to particular conditions at a given moment. They are a healthy symptom your body is trying to expel bad feelings and does this by having the anxiety erupt at times.So, self-acceptance, tolerance of being on a process of clearing out worn out emotional clutter, and sleep at odd times if possible, are all ways to stabilize yourself, which will also feel calm and good!"
+    - text: "It could be really helpful to see a counselor/therapist about your increasing depression/panic symptoms. Finding out the cause of depression/anxiety isn't always as straightforward as it seems, since both issues tend to become patterns we engage in rather than solely related to a specific trigger/reason. For example, if I am feeling down about a particular circumstance in my life, then I start seeing life through this lens of feeling down, and typically I'll start to see a lot more that I get down about, and it can really build very quickly on itself. Same with anxiety. Obviously, this is a very simplified example and it can be very difficult to see how the pattern is maintained, but that's where working with a counselor/therapist comes in.I would be curious about whether you can start to notice the initial sensations of panic, and if you can (through the panic attack) continue to maintain awareness of the actual physical sensations. Even better if you can talk yourself through the sensations you're feeling - such as saying to yourself 'Okay, I'm breathing really rapidly, and my heart is racing, now my palms are sweaty and my chest is feeling really tight...'' Reminding yourself that it's just your body's reaction to stress, and while it might be overreacting right now, you're okay and eventually it will go away. I highly recommend the SAM for Anxiety Management app for the anxiety piece, and I wouldn't be surprised if addressing the anxiety helped to address some of the depression too."
+
+  utter_counseling_recoomendation:
+    - text: "Counseling often begins way before the client ever actually calls the local therapist. There is often a tipping point in the internal struggle that the client experiences, where they can no longer deal with the issues on their own and thus giving the motivation to seek external help. That said, clients usually go seeking therapists based on what their insurance will cover, or what is likely to be more and more the case in the near future...what they are able to pay for out of pocket. That first phone call to a prospective counselor can often feel like torture, but it doesn't have to stay that way. "
+    - text: "Counselors are well trained to acknowledge the inherent goodness of all clients, and should be able to see and hear the sense of fear in the client of being judged or put down in some way. "
+
+  utter_get_counseler:
+    - text: "Great question! You can find a counselor by doing an internet search or by asking your doctor for a referral.Once you have the name and contact information for a therapist you want to meet with, give them a call.Some therapists will provide a free 15-20 minute phone consultation. This is a good chance for you to get some questions asked.Be sure to ask about their fee, if you want to use your insurance ask them if they take your insurance. Next you will want to ask about availability to make sure they have open times that fit in your schedule. Once you make the appointment, in the first session you have with the therapist, the therapist will ask a lot of questions about what brought you into therapy and what you hope to accomplish in therapy.Here is a link to an article about how to speak with your therapist in those first couple of sessions http://thriveworks.com/blog/tips-open-honest-counselor/"
+
+  utter_first_session:
+    - text: "Once you have found a counselor you want to work with, you would then schedule an appointment to meet. That first session is often very low key. There might be some forms for you to complete, which will help the counselor address your concerns and learn a bit more about you. The counselor will typically provide you with what we generally call in the profession a professional disclosure or practice statement. This document (which may be several pages long) usually outlines the counselor's credentials; practice rules; forms of payment; office hours; emergency contact details; and confidentiality guidelines under state and federal law, among other details. All of this benefits you as the client, so that you are well informed and can focus your attention on why you are meeting with the counselor.In the first session, it is absolutely okay to be nervous. Here's a really big secret (which is important to keep in mind as counseling begins), Counselors are often as nervous (if not more) to meet a new client, as the client is to meet their new counselor. It's true."
+
+  utter_empathaizing:
+    - text: "Sometimes it's helps to have a name for a problem - it can make you feel less alone as in, oh there's a name for this and other people have this experience too. On the other hand naming the problem can also make it stick around longer as in 'now I have a special problem that has a special name, and that's an important part of who I am'.Bottom line, whether it's a disorder or not, you would like life to be easier and not have to be pulled so much by other people's energy and feelings. "
+    - text: "You might want to try imagining that you have a volume dial on your empathy (just like the volume dial or button on the tv) that you can gently turn down to the point where you still feel what's going on but it's not so 'loud'. You can also try imagining pulling your own energy back as if you were drawing your energy back home to the center of your own body and being, letting go of the other people or characters that pulled your energy out so far. This is a way create better boundaries and protect your own vulnerability. Just like on an airplane where they tell you to put on your own oxygen mask first before helping anyone else, your empathy will most likely not really help others if you allow yourself to be depleted."
+    - text: "It sounds like this would be difficult at times, particularly if you feel misunderstood.You may or may not know that we all have chemicals in our brain. We also have different sections of our brain that become active when different things happen. There is a part of our brain where a lot of our emotions originate that is also designed to protect us when we are going through things that have been physically or emotionally painful in the past, and when that part of the brain is sometimes overactive (perceiving threat when there is no actual threat at the time), sometimes anxiety can develop. This doesn't necessarily mean that everyone has an anxiety disorder, but often if we are afraid of something that is not actually a legitimate concern (for example, most insects are not going to hurt me, but I still do not like them very much), we have anxiety about it.The first thing I thought of when I read your question is that perhaps some part of your brain are overactive. I did find an article that may be helpful to you, but I just want to caution you. Not everything listed here applies to you."
+    - text: "This does not mean that there is something majorly wrong with your brain. While I cannot tell you exactly what is happening, I'm asking you not to panic over the term and to just consider that perhaps some of the chemical reactions in your brain may be a little overactive, which may be able to be corrected with medication or something similar. I can't tell for certain from what you posted whether or not this is what is happening, but I would recommend that you either talk to your primary care physician or a therapist or psychiatrist.Here is the article:http://blogs.psychcentral.com/addiction-recovery/2012/09/too-much-empathy/When you meet with your doctor or a therapist, please try to convey how much this is affecting your life."
+    - text: "The world needs more people lately who have such a high degree of empathy which you describe in yourself!If it feels a little burdensome, then look to balance what is too much with its opposite. Since you're giving a lot of empathy, maybe you'd like receiving a lot of empathy.In the situation you describe, when you start empathizing with others, real or cartoon, ask yourself whether you've felt empathy coming in your direction lately.Often people give to others what they feel within themselves is missing.The emotional brain reasons that if I give you my support, say, then at least I will feel half of what being supported is like.Obviously the wish to receive more empathy cannot be fulfilled by you directly. "
+    - text: "Empathy is delivered by someone who is willing to offer it.Reflect on whether you are allowing those who are in your world, to know when you would like to receive their empathy.Is it possible you keep your feelings to yourself and present as though you are able to handle a great deal more than you'd like to handle without anyone's kindness to support you?Being open to others about your own inner thoughts and feelings is much more difficult than it sounds.It sounds easy to just tell someone how you feel.Sometimes the first step is the most difficult, of accessing how you feel.Start with knowing the amount of empathy you'd like from others and what stops you from asking.Also, about your diagnosis and the lack of studies and lists and formulas. "
+    - text: "Each person is unique, the instructions and guidelines don't necessarily mean very much. Often having a diagnosis makes a person feel weak, stigmatized, incompetent.Forget the diagnosis and concentrate on what you need to do differently in order to feel better.The answers are inside you, not inside a book or website."
+
+  utter_emotion_overflow:
+    - text: "This is actually more common then we often realize, and actually understandable, as the person has gone through a trauma, an unresolved existential crisis. That person was taken care of by others and now is again left alone with his own internal, and rather horrific inner struggle.In my work with CCT, or Contextual Conceptual Therapy, (see www.suicidetherapy.com) I have learned how trapped suicidalpeople are in their own isolation, also called a 'mysterious isolation,'' a form of self protection which cuts the off from their Self, or spirit. And unless they address this message from their soul, accompany a guide on a journey to discover their own missing information, that is to recognize how their own uncomforted emotionalpain has resulted in a coping stategy which has effectively cut themselves off from their own beauty, their Self, and their ability to receive love from themselves and others.Their attempt to kill themselves is a cry from their soul or spirit that they cannot live the life they are living any longer. They take this literally and try to end their life, when in fact what their soul or spirit is saying is they need to begin to live the life they came here to live."
+
+  utter_self_harm:
+    - text: "In a way, self-harm can present somewhat like an addiction. According to new research within the field of neuroscience there is a valid explanation for this. When a person cuts or uses other forms of self harm, the body produces endorphins to help make a person feel better. If a person was dealing with depression or high anxiety, that might be misinterpreted by the brain as a way to help oneself feel better and a new neural network or map might form (addiction) that would utilize this new behavior. Another way to look at it would be thru a behavioral lens, a positive reward for a behavior, even though the behavior has other long term negative consequences. Consider working with someone who can both have you work on and address those items that trigger your behavior and the root causes, in this case sadness or depression, and second find someone who can help give you alternatives that take into account the neurological requirement by replacing the behavior with another behavior (such as snapping a rubber band on the wrist) and working to extinguish the unwanted behavior. Someone who is trained in Dialectic Behavior Therapy and/or Interpersonal Neurobiology would most likely have the skills and means available to address this with you."
+    - text: "Self-harm has a way of becoming a go-to method of coping. When we get stuck using self-harm as a way to deal and manage emotions, when something serious happens it totally makes sense that that will be one the first things to go through the mind. It is its own kind of addiction. There is a therapy, DBT or, Dialectical Behavior Therapy, which focusing on giving you new tools to get through hard times, understand and manage your emotions, to stay present and to deal with relationships. This one of the most effective interventions there is for self-harm. If you are interested in DBT, reach a local therapist in your area and ask if they do DBT or can recommend you to a DBT program. This can help immensely. Self-harm recovery is totally possible, but it is definitely hard work!"
+
+  utter_past_making_things_hard:
+    - text: "Take one day at a time!!! Each day do things that make you happy, moves to a positive place, focusing on the future, give you a sense of fulfillment and accomplishment. "
+    - text: "Journal at the end of the day of how well you did that day in focusing on these things. Each day should be a step better than the previous day. You will have days that you didn't do as well....that is human and OK. Just get back on track the next day....At the end of the week, review how well you did and give your self a grade. If did well, you deserve ice cream, etc. If not so good, OK....tell yourself next week 'got to focus one day at a time'. You can do it....it takes practice but will get better each day, I wish you happy days and happy future..."
+    - text: "Remember, the past no longer exists and the future is just an illusion as we don't know what will happen tomorrow, so take the present as your guide. That is all we can do, so keep saying this to yourself and try to help someone each day. The happiness is helping others to feel a bit better."
+
+  utter_random_voices:
+    - text: "Hearing voices can be a very upsetting experience to have. I want you to know that a lot of people will hear a voice at some point in their lives and that there are many things that cause voices. Oftentimes, significant stress can offset us to have symptoms like this. There also mental and physical health conditions that can do the same. I strongly encourage you to seek out help from both a doctor and a counselor to help you piece together exactly what is causing your voices. I Once you've got that down, you'll know what to work on. In the meantime, here are some strategies to cope with voices1. Lower your stress levels, Oftentimes stress makes voices worse. What can you do to lower your stress?2. Get enough Sleep, Like stress, sleep deprivation is an awful trigger for hearing voices3. Listen to Music; Music can help you focus on another sound4. Wear headphone or Earplugs5. Use Your Own Voice; If the voices are saying harsh things to you, it can be tempting to talk back and that's okay if you do. However, you cn also use your own voice through singing, whistling, or the like, which can help drown out the voices6. Remind Yourself that What the Voices Say is Not True; Sometimes it Helps to Write it Out7. Draw the Voice or Give it a Name; This can make it less scary and help get it outside of you8. Keep Track of When You Hear Voices to Identify Triggers; These are situations you can avoid while these are so distressful for you9. Be Kind to Yourself; When a Voice is Being Cruel to You it is especially important to be kind to yourself10. Remember that while hearing voices can be disturbing that it is a common experience and something that many people recover from."
+    - text: "I would recommend that you talk with a mental health professional near you about the details so you can have some really specific support for what you are going through.I don't know if you can understand when the voices are saying, but I wonder how you feel about what you are hearing? If the voices are just at night, is it possible that they are part of a nightmare or a dream?If you recall your nightmares, consider writing them down so that you can remember their content and work with a mental health professional to look for patterns.One thing that may help you while you are awake is to try to stay connected to the room you're in. For example, take time to notice your feet on the floor, hips in the chair, and shoulders against the back of the chair. You can also try mindfulness techniques, such as noticing what is around you or changing your breathing patterns. These ideas may help in the meantime prior to having more specific ideas from someone near you.Thanks for reaching out! "
+    - text: "Voices and dreams could be suppressed feelings or thoughts that result from negative experiences. Many times when people go to trough traumatic incidents or changes in their lives without being equipped to manage them and as a result they start having similar symptoms. It is helpful to find a therapist to talk to about those dreams and voices, once you get them out, you could analyze the concerns and fears that they reflect and normalize them, which will also be a good time to discuss their source, if any traumatic event has occurred in your life. Also, I recommend to journal your dreams, especially if they keep you awake at night, and meditate after, so you could go back to sleep. "
+    - text: "Are you in the middle of extreme emotional pressure right now?Or, is someone with whom you're close, under stress or somehow suffering?Dreams and nightmares are when our feelings and pressures we feel, try working themselves out without logic and language.Even though the nightmares are horrible, they are one way your psyche is trying to come to terms w extraordinary difficulty in your life or someone's life whom you feel greatly attached."
+    - text: "It's important to take a look inside and find out why you are experiencing these feelings. It could anything and it will change your life to know what your particular issue or trigger is. Please contact us a call with the method that is most comfortable for you."
+    - text: "Write down your nightmares and discuss them with an analyst or psychotherapist who specializes in dreams, as I do. If you are hearing voices while awake, see a doctor right away. If the voices are strictly in your dreams, do call for therapy and talk to your caring others about what's happening."
+
+  utter_sexual_orientation:
+    - text: "It's okay to question your sexual orientation, and it's important to explore your feelings and identity at your own pace. Have you talked to a therapist or support group?"
+    - text: "Coming out can be a difficult and personal decision. It's important to have a support system and consider your safety before coming out. Have you talked to a trusted friend or family member?"
+    - text: "Society often places pressure on individuals to conform to certain standards, but it's important to remember that everyone's journey is unique. You are valid and deserving of love and acceptance, regardless of your sexual orientation."
+
+  utter_Gender_Roles_Mental_Health:
+    - text: "It's important to recognize that societal gender roles can have a significant impact on mental health. Have you considered exploring non-traditional gender expressions or talking to a therapist about your feelings?"
+    - text: "It can be difficult to navigate societal pressure to conform to gender norms, but remember that you have the power to define your own identity and express yourself in ways that feel authentic to you."
+    - text: "Internalized sexism, homophobia, and transphobia can be challenging to overcome, but it's important to remember that these beliefs are not reflective of your worth as a person. Have you considered talking to a therapist or support group to work through these feelings?"
+
+  utter_love_life:
+    - text: "I'm sorry to hear that you're going through a difficult time with your love life. Can you tell me more about what's been happening?"
+    - text: "Breakups and divorce can be tough. It's okay to take some time to grieve and process your emotions. Have you talked to someone about how you're feeling?"
+    - text: "Being single can be hard, but it's also an opportunity to focus on yourself and your own happiness. Have you tried any self-care activities or hobbies that you enjoy?"
+    - text: "It can be frustrating when we have feelings for someone who doesn't feel the same way, but remember that you deserve someone who loves and respects you. Have you considered trying to meet new people or joining social groups to expand your social circle?"
+    - text: "It's normal to feel lonely sometimes, but remember that you are not alone. Have you tried talking to friends or family members about how you're feeling, or considered seeking support from a therapist or counselor?"
+    - text: "It's important to remember that finding love takes time and isn't always easy. It's okay to be patient and not rush into anything. Have you tried any dating apps or websites to help you meet new people?"
+
+  utter_addiction_mental_health:
+    - text: "I'm sorry to hear that. Addiction can have a profound impact on mental health. Have you considered seeking professional help to address your addiction?"
+    - text: "It's common for addiction to cause or worsen mental health issues like anxiety, depression, and mood disorders. Addressing the root cause of addiction can also help improve mental health."
+    - text: "Addiction can lead to a range of negative emotions, including guilt, shame, and hopelessness. It's important to remember that there is always help available and it's never too late to make positive changes."
+    - text: "Quitting addiction can be a challenging process, but it's also one of the most important things you can do for your mental health. Have you considered support groups or counseling to help you on your journey to recovery?"
+
+  utter_bipolar_disorder_symptoms:
+    - text: "It sounds like you're experiencing symptoms of bipolar disorder. Have you talked to a mental health professional about these concerns?"
+    - text: "It sounds like you're experiencing symptoms of bipolar disorder.I'm sorry to hear that you're going through this. It can be tough to manage these symptoms on your own. Have you considered seeking professional help?"
+    - text: "It sounds like you're experiencing symptoms of bipolar disorder. It's important to prioritize your mental health and seek appropriate treatment. Have you spoken with your doctor about your concerns?"
+    - text: "I can imagine how difficult it must be to experience such extreme mood swings.It sounds like you're experiencing symptoms of bipolar disorder. It's important to seek help in managing these symptoms."
+    - text: "Bipolar disorder is a common mental health condition, and there are effective treatments available. It sounds like you're experiencing symptoms of bipolar disorder. Have you considered therapy or medication to help manage your symptoms?"
+
+  utter_define_biploar_disorder:
+    - text: "Bipolar disorder is a mental health condition that is characterized by extreme changes in mood, energy, and activity levels. People with bipolar disorder typically experience periods of intense emotional highs, or mania, followed by periods of depression."
+
+  utter_bipolar_symptom:
+    - text: "Bipolar disorder symptoms include: manic episodes (excessive happiness, grandiosity, high energy, risk-taking), depressive episodes (sadness, loss of interest, changes in appetite or sleep, fatigue, suicidal thoughts), and mixed episodes (both manic and depressive symptoms occurring simultaneously, restlessness, racing thoughts)."
+
+  utter_bipolar_can_be_treated:
+    - text: "Bipolar disorder can be treated. Treatment typically involves a combination of medication and psychotherapy."
+    - text: "Bipolar disorder is a chronic condition that typically lasts for a lifetime. However, with proper treatment, people with bipolar disorder can manage their symptoms and lead fulfilling lives."
+
+  utter_biploar_treatment:
+    - text: "Some coping strategies for dealing with bipolar disorder include:Sticking to a routine, Getting enough sleep, Eating a healthy diet, Avoiding drugs and alcohol, Engaging in stress-reducing activities, such as meditation or yoga, Building a support network of family and friends, Seeking professional help when needed."
+
+  utter_bipolar_affecting_daily_life:
+    - text: "Bipolar disorder can affect your daily life in a variety of ways. It can make it difficult to maintain relationships, hold down a job, or engage in everyday activities. However, with proper treatment and self-care, people with bipolar disorder can manage their symptoms and lead fulfilling lives."
+
+  utter_natural_treatment_bipolar:
+    - text: "While there are no natural remedies that can cure bipolar disorder, some natural remedies may help manage symptoms. These include:Omega-3 fatty acids, St. John's wort, SAMe, N-acetylcysteine.It's important to talk to a healthcare professional before taking any natural remedies, as they can interact with other medications and may not be appropriate for everyone."
+
+  utter_love_one_bipolar:
+    - text: "Some ways to support a loved one who is dealing with bipolar disorder include:Educating yourself about the condition, Encouraging them to seek professional help, Listening without judgment, Offering practical help, such as assisting with household tasks or appointments, Being patient and understanding, Offering words of encouragement and support."
+    - text: "If your family member, friend, or partner/spouse is dealing with bipolar disorder, it's important to educate yourself about the condition and be there to listen and offer support. Encourage them to seek professional help, remind them to take their medication if prescribed, and be patient and understanding as they navigate their symptoms. It's also important to take care of yourself and seek support for yourself as well."
+
+  utter_types_of_bipolar:
+    - text: "There are several different types of bipolar disorder, including bipolar I disorder, bipolar II disorder, cyclothymic disorder, and other specified and unspecified bipolar and related disorders."
+
+  utter_bipolar_impact_relationship:
+    - text: "Bipolar disorder can have a significant impact on relationships, including romantic relationships, friendships, and familial relationships. The mood swings associated with the disorder can be challenging for loved ones to understand and cope with. During a manic episode, individuals with bipolar disorder may engage in risky behaviors, such as spending money recklessly or engaging in promiscuous behavior, which can strain relationships. During depressive episodes, individuals may withdraw from loved ones and have difficulty engaging in activities they used to enjoy, which can make it challenging for loved ones to support them."
+
+  utter_genetic_bipolar:
+    - text: "Research suggests that bipolar disorder has a genetic component, although the exact genes involved are not yet fully understood. Having a family member with bipolar disorder can increase an individual's risk of developing the disorder. However, genetics alone do not determine whether an individual will develop bipolar disorder."
+    - text: "Bipolar disorder has a strong genetic component, with research suggesting that certain genes may increase the risk of developing the condition. However, having a genetic predisposition does not necessarily mean that an individual will develop bipolar disorder, and other factors, such as environmental and neurological factors, also play a role."
+
+  utter_misconception_on_bipolar:
+    - text: "There are several common misconceptions about bipolar disorder, including the idea that it simply involves frequent mood swings or that it is a rare condition. In reality, bipolar disorder is a complex mental health condition that can have a significant impact on an individual's life. Other misconceptions include the idea that individuals with bipolar disorder cannot lead productive lives or that they are dangerous. These misconceptions can contribute to stigma surrounding the disorder and make it more difficult for individuals to seek help."
+
+  utter_therapist_for_bipolar:
+    - text: "There are several ways to find a therapist or mental health professional to help with bipolar disorder. You can start by asking your primary care physician for a referral or contacting your insurance company for a list of covered providers. Additionally, there are online directories of mental health professionals that can help you find a provider in your area. It can be helpful to read reviews and do some research before choosing a provider to ensure that they are a good fit for you. Helpline number:01-5970032"
+    - text: "Some alternative therapies that may be helpful for individuals with bipolar disorder include acupuncture, massage, and yoga. Helpling number:01-5970032"
+
+  utter_bipolar_in_children:
+    - text: "Bipolar disorder can occur in children and teens, although it is less common than in adults. In children and teens, symptoms may present differently than in adults and can be misdiagnosed as other conditions, such as ADHD. Symptoms may include irritability, difficulty sleeping, and sudden mood swings."
+
+  utter_bipolar_triggers:
+    - text: "Common triggers for bipolar disorder may include stress, changes in sleep patterns, changes in routine, substance use, and significant life events, such as a breakup or the loss of a loved one. Identifying and managing triggers can be an important part of managing bipolar disorder."
+
+  utter_bipolar_treatment:
+    - text: "Bipolar disorder is typically treated through a combination of medication and therapy."
+    - text: "Some common treatment options for bipolar disorder include mood stabilizers, antipsychotics, and antidepressants."
+    - text: "While there are no natural remedies that can cure bipolar disorder, certain lifestyle changes such as regular exercise, a healthy diet, and stress reduction techniques may help manage symptoms."
+    - text: "Therapy can help individuals with bipolar disorder learn coping skills, recognize triggers, and improve their overall functioning."
+    - text: "Exercise can be helpful in managing symptoms of bipolar disorder, as it can improve mood and reduce stress levels."
+    - text: "You can find a mental health institution or hospital for bipolar disorder treatment by speaking with your doctor or mental health professional, or by searching online for facilities in your area."
+    - text: "Self-care practices that can help with bipolar disorder include getting enough sleep, practicing stress reduction techniques, maintaining a healthy diet, and avoiding drugs and alcohol."
+    - text: "Spirituality can be helpful for some individuals with bipolar disorder, as it may provide a sense of purpose and meaning. However, it should not be used as a replacement for professional treatment."
+    - text: "Volunteering and helping others can provide a sense of purpose, belonging, and fulfillment, which can positively impact mental health and well-being. Engaging in these activities can also provide a sense of connection to something greater than oneself, which can be a spiritual experience for some individuals."
+    - text: "Religion can provide a source of comfort, support, and guidance for individuals with bipolar disorder. Some religious practices, such as prayer, meditation, and attending religious services, can also help individuals to manage stress and promote mental and emotional well-being. However, it's important to note that religion should not be the sole or primary treatment for bipolar disorder, and individuals should also seek professional medical and psychological care as needed."
+
+  utter_cause_of_bipolar:
+    - text: "The exact causes of bipolar disorder are not fully understood, but it is believed to be caused by a combination of genetic, environmental, and neurological factors. Some potential causes may include imbalances in brain chemicals, such as dopamine and serotonin, as well as changes in brain structure and function."
+    - text: "Stress can trigger episodes of mania or depression in individuals with bipolar disorder. Chronic stress can also exacerbate symptoms and make it more difficult to manage the condition."
+    - text: "Childhood experiences, such as trauma or abuse, may contribute to the development of bipolar disorder in some individuals. However, it is important to note that bipolar disorder is a complex condition with many potential causes, and not everyone with a history of childhood trauma or adversity will develop the disorder."
+    - text: "A lack of social support can contribute to the development or exacerbation of bipolar disorder. Social support can provide a buffer against stress, offer a sense of belonging and connection, and provide practical assistance in managing the condition."
+    - text: "Major life changes or losses, such as the death of a loved one, divorce, or job loss, can be stressful and trigger episodes of mania or depression in individuals with bipolar disorder. It's important for individuals with the disorder to seek support and coping strategies during these difficult times."
+    - text: "Substance abuse can exacerbate symptoms of bipolar disorder and increase the risk of developing the condition. Substance abuse can also interfere with the effectiveness of medications and other treatments for bipolar disorder."
+
+  utter_PSTD_symptom:
+    - text: "It sounds like you may be experiencing symptoms of PTSD. Have you considered talking to a mental health professional?"
+    - text: "PTSD can be a difficult condition to live with, but there are effective treatments available. Have you looked into therapy or counseling?"
+    - text: "It takes a lot of courage to talk about trauma and its effects. Have you considered talking to a therapist or joining a support group?"
+    - text: "PTSD is a complex condition, but it's possible to find relief with the right support and treatment. What kind of resources or support do you need?"
+    - text: "It's understandable to feel overwhelmed by the symptoms of PTSD, but it's important to seek help and support. What can I do to support you in this process?"
+    - text: "You don't have to face these symptoms alone. There are professionals and resources available to help you manage them."
+    - text: "PTSD can affect all areas of your life, but with proper care and support, it's possible to improve your quality of life. What kind of support do you need right now?"
+    - text: "PTSD can feel isolating, but it's important to know that there are others who have gone through similar experiences and can relate to what you're going through. Have you considered reaching out to a support group?"
+    - text: "It sounds like you may be struggling with the effects of a traumatic event. It's important to take steps towards healing and finding relief. What kind of support or resources do you need?"
+    - text: "I'm here to listen and support you as you navigate these symptoms. Have you considered talking to a mental health professional or joining a support group?"
+    - text: "It takes strength and courage to seek help for the symptoms of PTSD. I want to support you in finding the resources and support you need to manage them."
+    - text: "PTSD can be a challenging condition to live with, but it's important to know that you're not alone in this. Let's work together to find ways to manage your symptoms and improve your quality of life."
+    - text: "It's important to prioritize your mental health and seek help for the symptoms of PTSD. Let's work together to find the right resources and support for you."
+
+  utter_defination_PSTD:
+    - text: "PTSD stands for Post-Traumatic Stress Disorder. It is a mental health condition that can develop after experiencing or witnessing a traumatic event."
+    - text: "PTSD is a mental health condition that can develop after experiencing or witnessing a traumatic event. It can cause a variety of symptoms, such as flashbacks, nightmares, and avoidance of triggers."
+
+  utter_symptoms_PSTD:
+    - text: "The symptoms of PTSD can include flashbacks, nightmares, avoidance of triggers, hypervigilance, negative changes in mood or thinking, and changes in physical and emotional reactions."
+
+  utter_effect_PSTD:
+    - text: "PTSD can affect people in many ways, including their mental and physical health, relationships, work, and daily functioning. It can be very distressing and may impact their quality of life."
+    - text: "PTSD can affect relationships by causing emotional distance, difficulty with trust and intimacy, and communication problems. It is important for both partners to seek help and support."
+    - text: "PTSD can increase the risk of developing other mental health issues such as depression, anxiety, and substance abuse disorders. In some cases, these conditions can develop as a result of attempts to cope with PTSD symptoms."
+
+  utter_cause_PSTD:
+    - text: "PTSD can be caused by experiencing or witnessing a traumatic event, such as a natural disaster, car accident, sexual or physical assault, military combat, or other violent or life-threatening situations."
+    - text: "PTSD can be caused by any traumatic event, not just combat. It can also be caused by sexual or physical assault, natural disasters, and other life-threatening situations."
+
+  utter_treatment_PSTD:
+    - text: "While there is no cure for PTSD, it can be effectively treated through a variety of therapies and medications. It is important for people with PTSD to seek help from a mental health professional."
+    - text: "PTSD is typically treated with therapy, such as Cognitive Behavioral Therapy or Eye Movement Desensitization and Reprocessing, and medication, such as antidepressants. It is important to find the right treatment plan for each individual's needs."
+    - text: "There are many resources available for people with PTSD, such as support groups, therapy programs, and online resources. It is important to find the right resources for each individual's needs."
+
+  utter_long_term_effects_PSTD:
+    - text: "The long-term effects of PTSD can include ongoing mental health issues, such as depression and anxiety, and physical health problems, such as chronic pain and sleep disorders. It can also impact relationships and overall quality of life."
+
+  utter_helping_loved_one_PSTD:
+    - text: "To help someone with PTSD, it is important to listen to them without judgment, encourage them to seek professional help, and be patient and supportive throughout their healing process."
+    - text: "Some coping mechanisms for dealing with PTSD include mindfulness and relaxation techniques, exercise, creative outlets, and connecting with supportive people."
+
+  utter_misconception_PSTD:
+    - text: "Common misconceptions about PTSD include that it only affects military veterans or that it can be easily overcome by willpower alone. It is a complex and serious mental health condition that requires professional help."
+
+  utter_how_coommon_PTSD:
+    - text: "PTSD is more common than people may think, affecting millions of people around the world. It affects about 3.5% of U.S. adults every year, and about one in 11 people will experience PTSD at some point in their lives."
+
+  utter_prevent_PTSD:
+    - text: "There is no surefire way to prevent PTSD, but seeking support after a traumatic event and receiving prompt treatment if PTSD symptoms develop can help reduce the risk of long-term effects."
+
+  utter_Types_PTSD:
+    - text: "There are four main types of PTSD: normal stress response, acute stress disorder, uncomplicated PTSD, and complex PTSD. Normal stress response and acute stress disorder are considered short-term responses to trauma, while uncomplicated PTSD and complex PTSD are considered long-term responses."
+
+  utter_complex_PTSD:
+    - text: "Complex PTSD (C-PTSD) is a type of PTSD that results from long-term exposure to trauma, particularly interpersonal trauma. It is often associated with feelings of shame, guilt, and emotional dysregulation, and can involve symptoms such as dissociation, self-harm, and difficulty forming relationships."
+
+  utter_self_Care_PTSD:
+    - text: "Some self-help strategies for managing PTSD include: practicing relaxation techniques such as deep breathing and progressive muscle relaxation, engaging in physical exercise, avoiding drugs and alcohol, connecting with others and seeking support from friends and family, and engaging in activities that promote positive feelings and a sense of accomplishment. It is important to seek professional help if symptoms persist or worsen."
+
+  utter_define_Schizophrenia:
+    - text: "Schizophrenia is a mental illness that affects a person's ability to think, feel, and behave clearly."
+
+  utter_symptom_Schizophrenia:
+    - text: "The symptoms of schizophrenia can include hallucinations, delusions, disordered thinking and speech, lack of motivation, and difficulty expressing emotions."
+
+  utter_cause_Schizophrenia:
+    - text: "The exact cause of schizophrenia is unknown, but it is believed to be a combination of genetic, environmental, and neurological factors."
+
+  utter_genetic_Schizophrenia:
+    - text: "Research has shown that there is a genetic component to schizophrenia, but it is not the only factor. Environmental factors such as exposure to stress, drug abuse, and social isolation can also contribute to the development of the disorder."
+
+  utter_treatment_Schizophrenia:
+    - text: "While there is no cure for schizophrenia, it can be managed with a combination of medication, therapy, and support from family and friends."
+    - text: "The treatment for schizophrenia typically involves antipsychotic medication, therapy, and support from family and friends. It is important to work with a mental health professional to develop a treatment plan that is tailored to the individual's needs."
+    - text: "Medications are an important part of treating schizophrenia and can help manage symptoms such as hallucinations and delusions."
+
+  utter_types_Schizophrenia:
+    - text: "There are several different types of schizophrenia, including paranoid, disorganized, catatonic, undifferentiated, and residual."
+
+  utter_Negetive_symptoms_Schizophrenia:
+    - text: "Negative symptoms of schizophrenia include social withdrawal, apathy, lack of motivation, and a decrease in emotional expression."
+
+  utter_positive_symptom_Schizophrenia:
+    - text: "Positive symptoms of schizophrenia include hallucinations, delusions, disordered thinking and speech, and heightened sensory experiences."
+
+  utter_social_effect_Schizophrenia:
+    - text: "Schizophrenia can affect a person's social behavior by causing them to withdraw from social situations, have difficulty communicating, and have trouble forming and maintaining relationships."
+
+  utter_love_one_Schizophrenia:
+    - text: "Supporting someone with schizophrenia can involve providing emotional support, helping them manage their medication and appointments, and encouraging them to participate in social activities."
+    - text: "Families and loved ones can support someone with schizophrenia by providing emotional support, helping them navigate treatment options, and encouraging them to stick with their treatment plan."
+
+  utter_misconception_schizophrenia:
+    - text: "Common misconceptions about schizophrenia include that it means having multiple personalities or that people with schizophrenia are violent or dangerous."
+
+  utter_Schizophrenia_affects:
+    - text: "Schizophrenia affects brain function by causing changes in the structure and function of certain brain regions."
+
+  utter_Schizophrenia_and_multiple_personality_disorder:
+    - text: "Schizophrenia and multiple personality disorder are different disorders. Schizophrenia affects a person's ability to think, feel, and behave clearly, while multiple personality disorder involves the presence of multiple distinct personalities."
+
+  utter_Signs_of_schizophrenia:
+    - text: "The first signs of schizophrenia may include changes in behavior, mood, and thinking, such as social withdrawal, paranoia, disorganized speech, and hallucinations."
+
+  utter_schizophrenia_in_children:
+    - text: "schizophrenia can be diagnosed in children, although it is rare and often difficult to diagnose due to the overlap with other childhood conditions."
+
+  utter_therapy_schizophrenia:
+    - text: "Alternative treatments for schizophrenia may include therapy, such as cognitive-behavioral therapy and family therapy, as well as complementary therapies like yoga and acupuncture."
+
+  utter_long_term_effect_schizophrenia:
+    - text: "The long-term outlook for people with schizophrenia varies, but with proper treatment and support, many people are able to manage their symptoms and lead fulfilling lives."
+
+  utter_link_between_trauma_schizophrenia:
+    - text: "There may be a link between trauma and the development of schizophrenia, as experiencing traumatic events may increase the risk of developing the condition."
+
+  utter_define_eating_disorder:
+    - text: "An eating disorder is a mental health condition that is characterized by unhealthy eating habits and a preoccupation with body weight and shape."
+
+  utter_types_eating_disorder:
+    - text: "There are several types of eating disorders, including anorexia nervosa, bulimia nervosa, binge-eating disorder, and others."
+
+  utter_symptoms__eating_disorder:
+    - text: "The symptoms of an eating disorder vary depending on the type of disorder, but common symptoms include a distorted body image, obsession with food and calories, and restrictive or binge eating behaviors."
+
+  utter_cause_eating_disorder:
+    - text: "The causes of eating disorders are complex and can involve genetic, environmental, and psychological factors."
+
+  utter_affecting_age_group_eating_disorder:
+    - text: "eating disorders can affect anyone, regardless of gender or age."
+
+  utter_treatment_eating_disorder:
+    - text: "The treatment for an eating disorder typically involves a combination of therapy, medication, and nutritional counseling."
+
+  utter_therapy_eating_disorder:
+    - text: "Alternative treatments for eating disorders may include mindfulness-based interventions, yoga, and other holistic approaches."
+
+  utter_long_term_effect_eating_disorder:
+    - text: "The long-term outlook for someone with an eating disorder varies depending on the severity of the disorder and the individual's response to treatment."
+
+  utter_social_life_affect_eating_disorder:
+    - text: "Having an eating disorder can have significant social effects, including isolation, shame, and difficulty participating in social activities that involve food."
+
+  utter_love_one_eating_disorder:
+    - text: "If you suspect that a loved one has an eating disorder, it's important to approach them with compassion and encourage them to seek professional help."
+
+  utter_having_eating_disorder:
+    - text: "If you suspect that you have an eating disorder, it's important to reach out to a mental health professional for an evaluation and treatment options."
+
+  utter_misconception__eating_disorder:
+    - text: "Common misconceptions about eating disorders include the belief that they only affect young, white women, and that they are a choice rather than a mental health condition."
+
+  utter_self_help_eating_disorder:
+    - text: "Self-help strategies for managing an eating disorder may include developing a positive body image, practicing self-compassion, and developing healthy coping mechanisms."
+
+  utter_coping_mechanism:
+    - text: "Coping mechanisms for dealing with triggers may include practicing mindfulness, engaging in self-care activities, and reaching out for support from loved ones."
+
+  utter_define_Disruptive_behavior:
+    - text: "Disruptive behavior disorders and dissocial personality traits are characterized by persistent patterns of behavior that violate the rights of others and societal norms."
+    - text: "Disruptive behavior disorders include oppositional defiant disorder and conduct disorder, which have different symptom criteria and severity levels."
+
+  utter_symptom_Disruptive_behavior:
+    - text: "Symptoms of conduct disorder include aggression, destruction of property, deceitfulness, and violation of rules."
+
+  utter_cause_Disruptive_behavior:
+    - text: "The causes of disruptive behavior and dissocial disorders may include genetic, environmental, and social factors."
+
+  utter_treatment_Disruptive_behavior:
+    - text: "Treatment options may include therapy, medication, and behavior management techniques."
+
+  utter_social_Disruptive_behavior:
+    - text: "Disruptive behavior and dissocial disorders can have negative impacts on social relationships, including difficulty making and maintaining friendships, problems in school or work, and legal problems."
+    - text: "Substance abuse can be a common issue in individuals with disruptive behavior disorders, as they may use drugs or alcohol to cope with their symptoms."
+
+  utter_prevention_Disruptive_behavior:
+    - text: "Prevention measures may include early intervention and support for at-risk individuals, such as therapy and education for parents and caregivers."
+
+  utter_oppositional_defiant_disorder:
+    - text: "Symptoms of oppositional defiant disorder may include frequent temper tantrums, arguing with adults, refusing to follow rules, and intentionally annoying others."
+
+  utter_Conduct_disorder:
+    - text: "Conduct disorder involves more severe behaviors, such as physical aggression, destruction of property, and violation of others' rights."
+
+  utter_triggers_disruptive:
+    - text: "Common triggers for disruptive behavior may include stress, lack of structure or routine, and difficult home or school environments."
+
+  utter_define_Neurodevelopmental:
+    - text: "Neurodevelopmental disorders are a group of conditions that affect the development of the brain and nervous system."
+
+  utter_Symptoms_autism_spectrum:
+    - text: "Symptoms of autism spectrum disorder may include difficulty with social interaction, repetitive behaviors or interests, and communication difficulties."
+
+  utter_cause_neurodevelopmental:
+    - text: "Causes of neurodevelopmental disorders may include genetic factors, environmental factors, and brain development abnormalities."
+
+  utter_treatment_neurodevelopmental:
+    - text: "Treatment options may include therapy, medication, and education or behavioral interventions."
+
+  utter_socail_life_effect_neurodevelopmental:
+    - text: "Neurodevelopmental disorders can have significant impacts on social relationships and daily functioning, such as difficulty with communication, motor skills, and academic or work performance."
+
+  utter_prevention_neurodevelopmental:
+    - text: "Prevention measures may include early identification and intervention, education and support for parents and caregivers, and reducing exposure to environmental risk factors."
+
+  utter_deine_ADHD:
+    - text: "ADHD is a neurodevelopmental disorder characterized by symptoms such as inattention, hyperactivity, and impulsivity."
+
+  utter_Symptoms_ADHD:
+    - text: "Symptoms of ADHD may include difficulty focusing, forgetfulness, impulsivity, restlessness, and excessive talking or interrupting others."
+
+  utter_ADHD_diagnosed:
+    - text: "ADHD is typically diagnosed through a combination of medical evaluations, behavioral assessments, and interviews with caregivers and teachers."
+
+  utter_treatment_ADHD:
+    - text: "Treatment options for ADHD may include medication, behavioral therapy, and education or accommodations."
+
+  utter_define_dyslexia:
+    - text: "Dyslexia is a learning disorder that affects reading and language processing abilities."
+
+  utter_symptoms_dyslexia:
+    - text: "Symptoms of dyslexia may include difficulty with reading, spelling, writing, and oral language skills."
+
+  utter_dyslexia_diagnosed:
+    - text: "Dyslexia is typically diagnosed through a combination of medical evaluations and standardized testing."
+
+  utter_treatment_dyslexia:
+    - text: "Treatment options for dyslexia may include educational interventions, accommodations, and assistive technologies."
+
+  utter_ADHD_fullform:
+    - text: "ADHD stands for Attention-Deficit/Hyperactivity Disorder, a neurodevelopmental disorder that affects both children and adults. It is characterized by symptoms such as inattention, hyperactivity, and impulsivity, which can lead to difficulties in daily life, including academic or work performance, social relationships, and emotional regulation. ADHD can be diagnosed and treated with a combination of medication, therapy, and behavioral interventions."
+
+  utter_ask_rephrase:
+    - text: I'm sorry, I didn't quite understand that. Could you rephrase?
+
+  utter_telljoke:
+    - text: "Why did the tomato turn red? A: Because it saw the salad dressing!"
+    - text: "What's the best time to go to the dentist? A: Tooth hurty! (2:30)"
+    - text: "Why couldn't the bicycle stand up by itself? A: Because it was two-tired."
+    - text: "What do you call a fake noodle? A: An impasta."
+    - text: "Why don't scientists trust atoms? A: Because they make up everything."
+    - text: "Why did the chicken cross the playground? A: To get to the other slide."
+    - text: "What do you get when you cross a snowman and a shark? Frostbite!"
+    - text: "Why don't scientists trust atoms? Because they make up everything!"
+    - text: "Why did the scarecrow win an award? Because he was outstanding in his field!"
+    - text: "Why don't seagulls fly by the bay? Because then they'd be bagels!"
+
+  utter_expressing_themselves:
+    - text: "I see you are introvert. You have your own created environment around you which is awesome. You are not wired , it is just that you are not a social butterfly. I am too an introvert unless people come and talk to me i dont speak with them. But you know being social is also imortant. Try pushing up yo limits who knows what person may be your help ^_~"
+
+  utter_pressure_enduring:
+    - text: "I see , There is alot to cover up and you are tired. Humans have to sleep eat well in order to funtion properly. I hope you are doing this well. Let's just rest for a little while listen to music and then come back doing what we were doing before. My developer says it works."
+
+  utter_referring_therapist:
+    - text: "The best Psychiatrist here in Nepal are: Dr. Nirmal Lamichhane,Dr. Kenison Shrestha, Dr. Surendra Sherchan, Dr. Saroj Ojha, Dr. Umakant Yadav, Dr. Ananta Adhikari, Dr. Rashmi Mishra"
+
+  utter_help_suicide:
+    - text: "You might be going through somthing difficult to conclude like this. Life is just unpredictable that i can say you can win this situation and live your life overcomming everything."
+
+  utter_default:
+    - text: "I could not understand you could you paraphrase it?"
+# actions:
+#   - action_get_joke
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
