@@ -1,0 +1,1066 @@
+[
+  {
+    "text": "good morning",
+    "intent": "greet_user",
+    "intent_prediction": {
+      "name": "smalltalk_greetings_goodmorning",
+      "confidence": 0.5706034898757935
+    }
+  },
+  {
+    "text": "good evening",
+    "intent": "greet_user",
+    "intent_prediction": {
+      "name": "smalltalk_greetings_goodevening",
+      "confidence": 0.5280167460441589
+    }
+  },
+  {
+    "text": "are you crazy",
+    "intent": "bot_feelings",
+    "intent_prediction": {
+      "name": "smalltalk_agent_crazy",
+      "confidence": 0.6476307511329651
+    }
+  },
+  {
+    "text": "stupid",
+    "intent": "sentiment_bot",
+    "intent_prediction": {
+      "name": "handleinsult",
+      "confidence": 0.6258803606033325
+    }
+  },
+  {
+    "text": "you are stupid",
+    "intent": "sentiment_bot",
+    "intent_prediction": {
+      "name": "handleinsult",
+      "confidence": 0.7189871072769165
+    }
+  },
+  {
+    "text": "idiot",
+    "intent": "sentiment_bot",
+    "intent_prediction": {
+      "name": "handleinsult",
+      "confidence": 0.639674961566925
+    }
+  },
+  {
+    "text": "are idiot",
+    "intent": "sentiment_bot",
+    "intent_prediction": {
+      "name": "handleinsult",
+      "confidence": 0.5396991968154907
+    }
+  },
+  {
+    "text": "good night",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "smalltalk_greetings_goodnight",
+      "confidence": 0.7208910584449768
+    }
+  },
+  {
+    "text": "okay",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_yes",
+      "confidence": 0.5784538984298706
+    }
+  },
+  {
+    "text": "okay then",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_yes",
+      "confidence": 0.4812402129173279
+    }
+  },
+  {
+    "text": "stop",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_cancel",
+      "confidence": 0.6585051417350769
+    }
+  },
+  {
+    "text": "go to bed",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "smalltalk_user_going_to_bed",
+      "confidence": 0.4770088493824005
+    }
+  },
+  {
+    "text": "perfect",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_good",
+      "confidence": 0.7471112012863159
+    }
+  },
+  {
+    "text": "amazing",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_good",
+      "confidence": 0.5777744054794312
+    }
+  },
+  {
+    "text": "wonderful",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_good",
+      "confidence": 0.7660732865333557
+    }
+  },
+  {
+    "text": "so good",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_good",
+      "confidence": 0.7394025325775146
+    }
+  },
+  {
+    "text": "unhappy",
+    "intent": "sad",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5243645310401917
+    }
+  },
+  {
+    "text": "not good",
+    "intent": "sad",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.28718799352645874
+    }
+  },
+  {
+    "text": "struggle find motive any sad",
+    "intent": "sad",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.45045793056488037
+    }
+  },
+  {
+    "text": "not good",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.28718799352645874
+    }
+  },
+  {
+    "text": "not very good",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "sad",
+      "confidence": 0.4799308180809021
+    }
+  },
+  {
+    "text": "feel really sad today",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "sad",
+      "confidence": 0.5963363647460938
+    }
+  },
+  {
+    "text": "ca it seem shake feel sad",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "sad",
+      "confidence": 0.543695330619812
+    }
+  },
+  {
+    "text": "feel like stuck rut sad despair",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "sad",
+      "confidence": 0.648868978023529
+    }
+  },
+  {
+    "text": "it know snap sad",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "sad",
+      "confidence": 0.5307563543319702
+    }
+  },
+  {
+    "text": "any advice",
+    "intent": "help",
+    "intent_prediction": {
+      "name": "smalltalk_user_needs_advice",
+      "confidence": 0.7065972089767456
+    }
+  },
+  {
+    "text": "thank you for your help",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_thank_you",
+      "confidence": 0.7154625058174133
+    }
+  },
+  {
+    "text": "wow",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "smalltalk_emotions_wow",
+      "confidence": 0.5098263025283813
+    }
+  },
+  {
+    "text": "your birthdate",
+    "intent": "smalltalk_agent_birth_date",
+    "intent_prediction": {
+      "name": "smalltalk_agent_age",
+      "confidence": 0.5707991123199463
+    }
+  },
+  {
+    "text": "when is your birthday",
+    "intent": "smalltalk_agent_birth_date",
+    "intent_prediction": {
+      "name": "smalltalk_agent_age",
+      "confidence": 0.6445956230163574
+    }
+  },
+  {
+    "text": "when do you celebrate your birthday",
+    "intent": "smalltalk_agent_birth_date",
+    "intent_prediction": {
+      "name": "smalltalk_agent_age",
+      "confidence": 0.6273357272148132
+    }
+  },
+  {
+    "text": "when were you born",
+    "intent": "smalltalk_agent_birth_date",
+    "intent_prediction": {
+      "name": "smalltalk_agent_age",
+      "confidence": 0.5519022345542908
+    }
+  },
+  {
+    "text": "what's your birthday",
+    "intent": "smalltalk_agent_birth_date",
+    "intent_prediction": {
+      "name": "smalltalk_agent_age",
+      "confidence": 0.5954073667526245
+    }
+  },
+  {
+    "text": "you are a bot",
+    "intent": "smalltalk_agent_chatbot",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6314455270767212
+    }
+  },
+  {
+    "text": "are you a bot",
+    "intent": "smalltalk_agent_chatbot",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6303635835647583
+    }
+  },
+  {
+    "text": "are you just a bot",
+    "intent": "smalltalk_agent_chatbot",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5376155972480774
+    }
+  },
+  {
+    "text": "you're not wrong",
+    "intent": "smalltalk_agent_right",
+    "intent_prediction": {
+      "name": "smalltalk_dialog_wrong",
+      "confidence": 0.289299875497818
+    }
+  },
+  {
+    "text": "that is correct",
+    "intent": "smalltalk_agent_right",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_yes",
+      "confidence": 0.6318647265434265
+    }
+  },
+  {
+    "text": "it's fine",
+    "intent": "smalltalk_confirmation_yes",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_good",
+      "confidence": 0.5397013425827026
+    }
+  },
+  {
+    "text": "never",
+    "intent": "smalltalk_appraisal_bad",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_no",
+      "confidence": 0.46424078941345215
+    }
+  },
+  {
+    "text": "don t have a sense",
+    "intent": "smalltalk_appraisal_bad",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_no",
+      "confidence": 0.5328576564788818
+    }
+  },
+  {
+    "text": "I disagree",
+    "intent": "smalltalk_appraisal_bad",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_no",
+      "confidence": 0.5341300964355469
+    }
+  },
+  {
+    "text": "disagree",
+    "intent": "smalltalk_appraisal_bad",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_no",
+      "confidence": 0.5024852752685547
+    }
+  },
+  {
+    "text": "not interested",
+    "intent": "smalltalk_appraisal_bad",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_no",
+      "confidence": 0.6081037521362305
+    }
+  },
+  {
+    "text": "na",
+    "intent": "smalltalk_appraisal_bad",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_no",
+      "confidence": 0.5839574337005615
+    }
+  },
+  {
+    "text": "of course not",
+    "intent": "smalltalk_appraisal_bad",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_no",
+      "confidence": 0.5193544626235962
+    }
+  },
+  {
+    "text": "nah",
+    "intent": "smalltalk_appraisal_bad",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_no",
+      "confidence": 0.4903496205806732
+    }
+  },
+  {
+    "text": "no need",
+    "intent": "smalltalk_appraisal_bad",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_no",
+      "confidence": 0.4869111180305481
+    }
+  },
+  {
+    "text": "no thanks",
+    "intent": "smalltalk_appraisal_bad",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_no",
+      "confidence": 0.4887075126171112
+    }
+  },
+  {
+    "text": "do not",
+    "intent": "smalltalk_appraisal_bad",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_no",
+      "confidence": 0.4794873297214508
+    }
+  },
+  {
+    "text": "nope",
+    "intent": "smalltalk_appraisal_bad",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_no",
+      "confidence": 0.5826340317726135
+    }
+  },
+  {
+    "text": "let 's not",
+    "intent": "smalltalk_appraisal_bad",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_no",
+      "confidence": 0.4824853539466858
+    }
+  },
+  {
+    "text": "not this time",
+    "intent": "smalltalk_appraisal_bad",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_no",
+      "confidence": 0.5167655944824219
+    }
+  },
+  {
+    "text": "not at this time",
+    "intent": "smalltalk_appraisal_bad",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_no",
+      "confidence": 0.49116915464401245
+    }
+  },
+  {
+    "text": "not exactly",
+    "intent": "smalltalk_appraisal_bad",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_no",
+      "confidence": 0.5066151022911072
+    }
+  },
+  {
+    "text": "no thank you not right now",
+    "intent": "smalltalk_appraisal_bad",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_no",
+      "confidence": 0.4996638298034668
+    }
+  },
+  {
+    "text": "apparently not",
+    "intent": "smalltalk_appraisal_bad",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_no",
+      "confidence": 0.4946501553058624
+    }
+  },
+  {
+    "text": "no just no",
+    "intent": "smalltalk_appraisal_bad",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_no",
+      "confidence": 0.4717513620853424
+    }
+  },
+  {
+    "text": "no need thanks",
+    "intent": "smalltalk_appraisal_bad",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_no",
+      "confidence": 0.5089587569236755
+    }
+  },
+  {
+    "text": "no thank you very much",
+    "intent": "smalltalk_appraisal_bad",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_no",
+      "confidence": 0.6159191131591797
+    }
+  },
+  {
+    "text": "great",
+    "intent": "smalltalk_appraisal_good",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.48026812076568604
+    }
+  },
+  {
+    "text": "not bad",
+    "intent": "smalltalk_appraisal_good",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.7177441120147705
+    }
+  },
+  {
+    "text": "not too bad",
+    "intent": "smalltalk_appraisal_good",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.718877375125885
+    }
+  },
+  {
+    "text": "that's not bad",
+    "intent": "smalltalk_appraisal_good",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.756466269493103
+    }
+  },
+  {
+    "text": "how about no",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.5041176080703735
+    }
+  },
+  {
+    "text": "no",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.474045991897583
+    }
+  },
+  {
+    "text": "don't",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.4830688238143921
+    }
+  },
+  {
+    "text": "I don't want that",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.6974395513534546
+    }
+  },
+  {
+    "text": "I don't want",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.5937401652336121
+    }
+  },
+  {
+    "text": "no way",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.4926990866661072
+    }
+  },
+  {
+    "text": "no it isn't",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.49688634276390076
+    }
+  },
+  {
+    "text": "no I don't",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.4929867386817932
+    }
+  },
+  {
+    "text": "I'm not",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.5277166962623596
+    }
+  },
+  {
+    "text": "no that's fine thank you",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.5050528645515442
+    }
+  },
+  {
+    "text": "I said no",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.48562029004096985
+    }
+  },
+  {
+    "text": "actually no",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.5068718791007996
+    }
+  },
+  {
+    "text": "no tanks",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.4865451753139496
+    }
+  },
+  {
+    "text": "no never",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.49286773800849915
+    }
+  },
+  {
+    "text": "no sorry",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.6187941431999207
+    }
+  },
+  {
+    "text": "not today",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.4713926315307617
+    }
+  },
+  {
+    "text": "no it's not",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.5562378764152527
+    }
+  },
+  {
+    "text": "absolutely not",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.5111032128334045
+    }
+  },
+  {
+    "text": "not that",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.5273005366325378
+    }
+  },
+  {
+    "text": "nooo",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.5631206631660461
+    }
+  },
+  {
+    "text": "I don't want to",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.6440854072570801
+    }
+  },
+  {
+    "text": "no I would not",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.5064197778701782
+    }
+  },
+  {
+    "text": "not needed",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.4961533844470978
+    }
+  },
+  {
+    "text": "no don't do that",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.5394513010978699
+    }
+  },
+  {
+    "text": "thanks but no thanks",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.5047786831855774
+    }
+  },
+  {
+    "text": "no that's wrong",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.5070803165435791
+    }
+  },
+  {
+    "text": "not this",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.513368546962738
+    }
+  },
+  {
+    "text": "definitely not",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.539537787437439
+    }
+  },
+  {
+    "text": "no don't",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.4963311553001404
+    }
+  },
+  {
+    "text": "not really no",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.5551100969314575
+    }
+  },
+  {
+    "text": "no leave it",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.50020432472229
+    }
+  },
+  {
+    "text": "sorry no",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.6369048357009888
+    }
+  },
+  {
+    "text": "no incorrect",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.5407273769378662
+    }
+  },
+  {
+    "text": "nope sorry",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.497475802898407
+    }
+  },
+  {
+    "text": "I say no",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.5091401934623718
+    }
+  },
+  {
+    "text": "not really",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.5256559252738953
+    }
+  },
+  {
+    "text": "not right now thanks",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.47696441411972046
+    }
+  },
+  {
+    "text": "I think no",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.5724601149559021
+    }
+  },
+  {
+    "text": "absolutely no",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.5201635360717773
+    }
+  },
+  {
+    "text": "no actually",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.4984312653541565
+    }
+  },
+  {
+    "text": "no do not",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.4536449909210205
+    }
+  },
+  {
+    "text": "no but thank you",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.5050549507141113
+    }
+  },
+  {
+    "text": "no thank you though",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.6119849681854248
+    }
+  },
+  {
+    "text": "no thanks not right now",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.506770133972168
+    }
+  },
+  {
+    "text": "no forget",
+    "intent": "smalltalk_confirmation_no",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.5673825144767761
+    }
+  },
+  {
+    "text": "don't rush",
+    "intent": "smalltalk_dialog_hold_on",
+    "intent_prediction": {
+      "name": "smalltalk_user_waits",
+      "confidence": 0.37166449427604675
+    }
+  },
+  {
+    "text": "you are so funny",
+    "intent": "smalltalk_emotions_ha_ha",
+    "intent_prediction": {
+      "name": "smalltalk_agent_funny",
+      "confidence": 0.6966375708580017
+    }
+  },
+  {
+    "text": "how do you feel",
+    "intent": "smalltalk_greetings_how_are_you",
+    "intent_prediction": {
+      "name": "bot_feelings",
+      "confidence": 0.3928678333759308
+    }
+  },
+  {
+    "text": "I don't want to talk to you",
+    "intent": "smalltalk_user_does_not_want_to_talk",
+    "intent_prediction": {
+      "name": "smalltalk_user_wants_to_talk",
+      "confidence": 0.32947126030921936
+    }
+  },
+  {
+    "text": "what should I do",
+    "intent": "smalltalk_user_needs_advice",
+    "intent_prediction": {
+      "name": "help",
+      "confidence": 0.4356285035610199
+    }
+  },
+  {
+    "text": "I want to sleep",
+    "intent": "smalltalk_user_sleepy",
+    "intent_prediction": {
+      "name": "smalltalk_user_can_not_sleep",
+      "confidence": 0.4130011796951294
+    }
+  },
+  {
+    "text": "would be nice to see you again",
+    "intent": "smalltalk_user_wants_to_see_agent_again",
+    "intent_prediction": {
+      "name": "smalltalk_greetings_nice_to_see_you",
+      "confidence": 0.5119065046310425
+    }
+  },
+  {
+    "text": "that'd be great to see you again",
+    "intent": "smalltalk_user_wants_to_see_agent_again",
+    "intent_prediction": {
+      "name": "smalltalk_greetings_nice_to_see_you",
+      "confidence": 0.4225895404815674
+    }
+  },
+  {
+    "text": "I want to speak with you",
+    "intent": "smalltalk_user_wants_to_talk",
+    "intent_prediction": {
+      "name": "smalltalk_agent_talk_to_me",
+      "confidence": 0.5018873810768127
+    }
+  },
+  {
+    "text": "i need counseling",
+    "intent": "need_of_therapist",
+    "intent_prediction": {
+      "name": "counseling_recoomendation",
+      "confidence": 0.428860604763031
+    }
+  },
+  {
+    "text": "i need therapist",
+    "intent": "need_of_therapist",
+    "intent_prediction": {
+      "name": "asking_help_for_depression",
+      "confidence": 0.4805220067501068
+    }
+  },
+  {
+    "text": "spiritual treatment depression",
+    "intent": "spiritual_treatment_depression",
+    "intent_prediction": {
+      "name": "treatment_depression",
+      "confidence": 0.42214423418045044
+    }
+  },
+  {
+    "text": "can't sleep",
+    "intent": "oversleepong_cause_Depression",
+    "intent_prediction": {
+      "name": "smalltalk_user_can_not_sleep",
+      "confidence": 0.591870129108429
+    }
+  },
+  {
+    "text": "how long do anxiety last",
+    "intent": "Anxiety_attacking_time",
+    "intent_prediction": {
+      "name": "duration_of_anxiety",
+      "confidence": 0.39087262749671936
+    }
+  },
+  {
+    "text": "anxiety last",
+    "intent": "Anxiety_attacking_time",
+    "intent_prediction": {
+      "name": "duration_of_anxiety",
+      "confidence": 0.3687452971935272
+    }
+  },
+  {
+    "text": "treatment anxiety",
+    "intent": "treatment_anxiety",
+    "intent_prediction": {
+      "name": "natural_treatment_anxiety",
+      "confidence": 0.3788934648036957
+    }
+  },
+  {
+    "text": "can anxiety cause",
+    "intent": "risk_factor_anxiety",
+    "intent_prediction": {
+      "name": "anxiety_cause",
+      "confidence": 0.30485379695892334
+    }
+  },
+  {
+    "text": "better mental health",
+    "intent": "make_mental_health_better",
+    "intent_prediction": {
+      "name": "mental_health_defination",
+      "confidence": 0.4299076795578003
+    }
+  },
+  {
+    "text": "solution to bipolar disorder",
+    "intent": "biploar_treatment",
+    "intent_prediction": {
+      "name": "therapist_for_bipolar",
+      "confidence": 0.4009579122066498
+    }
+  },
+  {
+    "text": "cause of Disruptive behavior",
+    "intent": "triggers_disruptive",
+    "intent_prediction": {
+      "name": "cause_Disruptive_behavior",
+      "confidence": 0.422658234834671
+    }
+  },
+  {
+    "text": "what does ADHD standfor",
+    "intent": "ADHD_fullform",
+    "intent_prediction": {
+      "name": "deine_ADHD",
+      "confidence": 0.43513795733451843
+    }
+  },
+  {
+    "text": "full form of adhd",
+    "intent": "ADHD_fullform",
+    "intent_prediction": {
+      "name": "deine_ADHD",
+      "confidence": 0.4332796633243561
+    }
+  },
+  {
+    "text": "explain adhd",
+    "intent": "ADHD_fullform",
+    "intent_prediction": {
+      "name": "deine_ADHD",
+      "confidence": 0.4508531391620636
+    }
+  },
+  {
+    "text": "define adhd",
+    "intent": "ADHD_fullform",
+    "intent_prediction": {
+      "name": "deine_ADHD",
+      "confidence": 0.4736076593399048
+    }
+  }
+]

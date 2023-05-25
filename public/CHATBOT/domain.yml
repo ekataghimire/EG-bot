@@ -66,7 +66,6 @@ intents:
   - smalltalk_dialog_wrong
   - smalltalk_emotions_ha_ha
   - smalltalk_emotions_wow
-  - smalltalk_greetings_bye
   - smalltalk_greetings_goodevening
   - smalltalk_greetings_goodmorning
   - smalltalk_greetings_goodnight
@@ -309,6 +308,10 @@ responses:
 
   utter_goodbye:
     - text: "Bye"
+    - text: "See you soon!"
+    - text: "Bye-bye!"
+    - text: "Till next time!"
+    - text: "Bye."
 
   utter_help:
     - text: "How can I help You? Are you having trouble with something?"
@@ -592,12 +595,6 @@ responses:
 
   utter_smalltalk_emotions_wow:
     - text: "Wow indeed!"
-
-  utter_smalltalk_greetings_bye:
-    - text: "See you soon!"
-    - text: "Bye-bye!"
-    - text: "Till next time!"
-    - text: "Bye."
 
   utter_smalltalk_greetings_goodevening:
     - text: "How is your day going?"

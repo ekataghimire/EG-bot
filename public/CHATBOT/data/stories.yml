@@ -305,10 +305,6 @@ stories:
       - intent: smalltalk_emotions_wow
       - action: utter_smalltalk_emotions_wow
 
-  - story: smalltalk_greetings_bye
-    steps:
-      - intent: smalltalk_greetings_bye
-      - action: utter_smalltalk_greetings_bye
 
   - story: smalltalk_greetings_goodevening
     steps:

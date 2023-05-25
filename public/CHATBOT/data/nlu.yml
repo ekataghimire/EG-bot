@@ -83,42 +83,42 @@ nlu:
       - have a good day
       - end
       - stop
-      -  see you later
-      -  till we meet again
-      -  until nex time
-      -  see ya
-      -  talk to you later
-      -  ttyl
-      -  meet you again soon
-      -  okay see you later
-      -  hope to see you later
-      -  bye for now
-      -  till next time
-      -  I must go
-      -  see you
-      -  see you soon
-      -  bye-bye
-      -  good bye
-      -  bye bye see you
-      -  bye bye see you soon
-      -  bye bye take care
-      -  I said bye
-      -  never mind bye
-      -  now bye
-      -  that's all goodbye
-      -  that's it goodbye
-      -  leave me alone
-      -  go to bed
-      -  goodbye for now
-      -  you can go now
-      -  get lost
-      -  goodbye see you later
-      -  alright bye
-      -  thanks bye bye
-      -  okay bye
-      -  okay thank you bye
-      -  see you tomorrow
-      -  ok bye
+      - see you later
+      - till we meet again
+      - until nex time
+      - see ya
+      - talk to you later
+      - ttyl
+      - meet you again soon
+      - okay see you later
+      - hope to see you later
+      - bye for now
+      - till next time
+      - I must go
+      - see you
+      - see you soon
+      - bye-bye
+      - good bye
+      - bye bye see you
+      - bye bye see you soon
+      - bye bye take care
+      - I said bye
+      - never mind bye
+      - now bye
+      - that's all goodbye
+      - that's it goodbye
+      - leave me alone
+      - go to bed
+      - goodbye for now
+      - you can go now
+      - get lost
+      - goodbye see you later
+      - alright bye
+      - thanks bye bye
+      - okay bye
+      - okay thank you bye
+      - see you tomorrow
+      - ok bye
 
   - intent: mood_great
     examples: |
@@ -1521,97 +1521,6 @@ nlu:
       - wooow
       - woah
 
-  - intent: smalltalk_greetings_bye
-    examples: |
-      - okay see you later
-      - hope to see you later
-      - bye for now
-      - till next time
-      - I must go
-      - bye
-      - goodbye
-      - see you
-      - see you soon
-      - bye-bye
-      - good bye
-      - bye bye see you
-      - bye bye see you soon
-      - bye bye take care
-      - I said bye
-      - never mind bye
-      - now bye
-      - that's all goodbye
-      - that's it goodbye
-      - leave me alone
-      - go to bed
-      - goodbye for now
-      - talk to you later
-      - you can go now
-      - get lost
-      - goodbye see you later
-      - alright bye
-      - see ya
-      - thanks bye bye
-      - okay bye
-      - okay thank you bye
-      - see you tomorrow
-      - ok bye
-      - cu
-      - good by
-      - cee you later
-      - good night
-      - bye
-      - goodbye
-      - have a nice day
-      - see you around
-      - bye bye
-      - see you later
-      - talk to you soon 
-      - take care
-      - nice talk
-      - it was quite good
-      - okay
-      - okay then
-      - have a good day
-      - end
-      - stop
-      -  see you later
-      -  till we meet again
-      -  until nex time
-      -  see ya
-      -  talk to you later
-      -  ttyl
-      -  meet you again soon
-      -  okay see you later
-      -  hope to see you later
-      -  bye for now
-      -  till next time
-      -  I must go
-      -  see you
-      -  see you soon
-      -  bye-bye
-      -  good bye
-      -  bye bye see you
-      -  bye bye see you soon
-      -  bye bye take care
-      -  I said bye
-      -  never mind bye
-      -  now bye
-      -  that's all goodbye
-      -  that's it goodbye
-      -  leave me alone
-      -  go to bed
-      -  goodbye for now
-      -  you can go now
-      -  get lost
-      -  goodbye see you later
-      -  alright bye
-      -  thanks bye bye
-      -  okay bye
-      -  okay thank you bye
-      -  see you tomorrow
-      -  ok bye
-
   - intent: smalltalk_greetings_goodevening
     examples: |
       - good evening
@@ -1643,9 +1552,6 @@ nlu:
       - have a good night
       - good night to you
       - thank you good night
-      - bye good night
-      - good night bye
-      - bye good night
       - good good night
       - good night for now
       - goodnight
